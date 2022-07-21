@@ -1,0 +1,65 @@
+¡RUNNING A REAL FLIGHT TEST!
+
+NOTE: This setup only applies to the file in the 3D directory. This code has the new flight procedure. Please see the running a flight test file
+in the 2D directory for how to run a flight test using those files. 
+
+THINGS YOU NEED IN THE FIELD:
+-Batterires (usually we swap the battery out after 2 5min flight tests)
+-Battery level testers (which stay on the drones and beep if the battery is low)
+-Drones
+-Propellers (make sure they are the right type, 2 left 2 right per drone)
+-Saftey kit with fire extinguisher
+-Controllers (make sure you grab the one for the right drone, and the battery is charged)
+-A Laptop with everything installed, from our git (make sure it has some charge)
+-A USB GPS module for the drones to track
+-A USB RF module for QGroundControl
+-Optional a second laptop for QGround control (it can get pretty busy with all the terminals open and its usefull to have a second person monitoring QGroundcontrol)
+-Optional picnic table because standing sucks (and its a useful sun shade for the laptop)
+-The IP addresses of the drones and target server laptop (on the NAVI1 network, not eduroam)
+-Aviators, of course, because you're flying stuff. Sunglasses are accually quite usefull for the pilots since they are allways looking up at the sky.
+
+PROCESS:
+0) Make sure you have the IP addresses input in to flight_parameters.json in the lab. The drones IPs and the controllers IPs
+    should be there. Make sure you have pulled the latest version on all the drones.
+
+1) Place the drone(s) in its(their) approximate swarm formation, with the battery (securely) in, turn on the NUC.
+
+2) SSH into the drones(s), start the ROS environment by running below from the PX4_Autopilot directory
+        'source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default'
+    then:
+        'roslaunch launch/insect_tracking_mavros.launch'
+
+3) Start the simulated GAZEBO/ROS environment on the laptop by running below from the PX4_Autopilot directory:
+        'source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default'
+    then:
+        'roslaunch launch/uav_ABCD.launch' where A, B, C, D are the IDs of the drones you are simulating
+
+4) Start the python script on the real drone by running 'python3 rx.py -f A' where A is the ID of the drones you are flying IRL. 
+    If you are flying more than one drone run the same command on the other drone but update A with the new drone number, B.
+
+5) Start the python scripts on the simulated drones by running 'run_drones.py -f -u CDE' where C, D, and E are the IDs of the drones
+    you are simulating f means field test and should only be on the real drone. Now all the simulated drones are running in that terminal.
+
+6) Start server_gps.py on the laptop by running 'python3 server_gps.py' (At this point you should have atleast three terminals open!
+    More if you are flying more than one drone)
+
+7) All the drones, including the real one should have a input statment telling you to move them Xm North and Ym East. This only matters for
+    the real drone(s). Move the real drone(s) on the ground until both values are less than 0.5m. You can push enter to update the position and see
+    how close you are.
+
+8) Once all the real drones are in position, push 'y' then enter on each of them. It should say waiting for offboard. Also push 'y' then enter in the
+    simulated drones terminal. Do it once for each simulated drone. Then push enter once again for all the simulated drones. This will move all
+    the simulated drones into their start positions in the air.
+
+9) Now for the flying! Take the real drones off to their intended altitudes (specified in the flight_parameters file). QGrould control is useful
+    for this as it tells you the relative altitude (to ground) for each drone. Once the drone is at the correct altitude, switch it(them) to offboard.
+    It will move a little but not by much if you placed the drone on the ground accurately in step 7.
+
+10) In the terminal running the simulated drones (including the tx drone) there should be an input asking you to start tracking! 
+    Push enter to do this, the drones are in your hands now. Hopefully your code works! The drone will hopefully not move much initially 
+    but you can start walking to see if they track you. 
+
+MAKE SURE THE PILOTS ARE READY TO TAKE CONTROL IF THE DRONES GET TOO LOW. They can handle very quick and aggressive movemnts, and as long as they 
+stay at a constant altitude this is OK. Also if they run away maybe take control.
+
+We tried to make the setup simple yet safe. Thats why theres so many steps. The contoller should be incorporated to make this easier.

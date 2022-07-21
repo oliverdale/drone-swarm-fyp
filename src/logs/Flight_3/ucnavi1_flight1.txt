@@ -1,0 +1,604 @@
+Script started on 2021-07-28 15:29:14+12:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="96" LINES="24"]
+]0;ucnavi1@ucnavi1: ~/drone-swarm-fyp/src/LastYear[01;32mucnavi1@ucnavi1[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ roslaunch launch/insect_tracking_mavros.launch [30Pcd PX4-Autopilot/drone-swarm-fypls[Kcd /dev[1Pdev[2P/devsudo usermod -a -G dialout ucnavi1[4Ptty[C[C[C[C[C[C[C[Cnautilus[Kcd /99-pixhawk.rules[7Psudo nautilususermod -a -G tty ucnavi1[4@dialout[C[C[C[C[C[C[C[C/dev[Kcd dev/devls[Kcd drone-swarm-fyp[1PPX4-Autopilot/roslaunch launch/insect_tracking_mavros.launch [Kpython3 rx.py -sf 1
+[INFO] [1627442967.646034]: waiting for ROS services
+[INFO] [1627442967.655086]: ROS services are up
+[INFO] [1627442967.679329]: UAV -1 setting up
+[INFO] [1627442967.681637]: waiting for subscribed topics to be ready
+[INFO] [1627442967.684393]: connected changed from False to True
+[INFO] [1627442967.686325]: mode changed from  to ALTCTL
+[INFO] [1627442967.687966]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627442967.709724]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627442968.685021]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627442968.688057]: attempting to reach position x: -43.522505, y: 172.577163, z: 36.759686 | current position x: -43.522505, y: 172.577163, z: 28.191536
+
+UAV 1: Move to formation start position?
+
+Receiving desired centre position from server...
+
+[INFO] [1627442970.270711]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.186536
+Receiving desired centre position from server...
+
+[INFO] [1627442971.292327]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.185536
+Receiving desired centre position from server...
+
+[INFO] [1627442972.321817]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.177536
+Receiving desired centre position from server...
+
+[INFO] [1627442973.272691]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.166536
+Receiving desired centre position from server...
+
+[INFO] [1627442974.296337]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.165536
+Receiving desired centre position from server...
+
+[INFO] [1627442975.270704]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.162536
+Receiving desired centre position from server...
+
+[INFO] [1627442976.308354]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.172537
+Receiving desired centre position from server...
+
+[INFO] [1627442977.291858]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.176537
+Receiving desired centre position from server...
+
+[INFO] [1627442978.271151]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.173538
+Receiving desired centre position from server...
+
+[INFO] [1627442979.270593]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.157538
+Receiving desired centre position from server...
+
+[INFO] [1627442980.270759]: attempting to reach position x: -43.522522, y: 172.577170, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.134538
+Receiving desired centre position from server...
+
+[INFO] [1627442981.272425]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.142538
+Receiving desired centre position from server...
+
+[INFO] [1627442982.308887]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.134538
+Receiving desired centre position from server...
+
+[INFO] [1627442983.269945]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.128538
+Receiving desired centre position from server...
+
+[INFO] [1627442984.279420]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.125538
+Receiving desired centre position from server...
+
+[INFO] [1627442985.273220]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.121538
+Receiving desired centre position from server...
+
+[INFO] [1627442986.272147]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.101538
+Receiving desired centre position from server...
+
+[INFO] [1627442987.270096]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522504, y: 172.577164, z: 28.086537
+Receiving desired centre position from server...
+
+[INFO] [1627442988.271295]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522505, y: 172.577164, z: 28.099537
+Receiving desired centre position from server...
+
+[INFO] [1627442989.273388]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522505, y: 172.577165, z: 28.107537
+Receiving desired centre position from server...
+
+[INFO] [1627442990.270584]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522505, y: 172.577165, z: 28.097536
+Receiving desired centre position from server...
+
+[INFO] [1627442990.880791]: mode changed from ALTCTL to POSCTL
+[INFO] [1627442991.269804]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522506, y: 172.577165, z: 28.102536
+Receiving desired centre position from server...
+
+[INFO] [1627442992.344696]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522506, y: 172.577166, z: 28.091535
+Receiving desired centre position from server...
+
+[INFO] [1627442993.271808]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522506, y: 172.577166, z: 28.086535
+Receiving desired centre position from server...
+
+[INFO] [1627442994.270156]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522507, y: 172.577166, z: 28.073534
+Receiving desired centre position from server...
+
+[INFO] [1627442994.874533]: mode changed from POSCTL to ALTCTL
+[INFO] [1627442995.349220]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522507, y: 172.577166, z: 28.080533
+Receiving desired centre position from server...
+
+[INFO] [1627442996.874783]: mode changed from ALTCTL to POSCTL
+[INFO] [1627442997.211384]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522508, y: 172.577166, z: 28.063532
+Receiving desired centre position from server...
+
+[INFO] [1627442997.271212]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522508, y: 172.577166, z: 28.063532
+Receiving desired centre position from server...
+
+[INFO] [1627442999.907569]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522509, y: 172.577166, z: 28.031530
+Receiving desired centre position from server...
+
+[INFO] [1627442999.911731]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522509, y: 172.577166, z: 28.031530
+Receiving desired centre position from server...
+
+[INFO] [1627443000.313632]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522509, y: 172.577166, z: 28.034530
+Receiving desired centre position from server...
+
+[INFO] [1627443001.276521]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522509, y: 172.577166, z: 28.030529
+Receiving desired centre position from server...
+
+[INFO] [1627443002.272130]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522510, y: 172.577165, z: 28.044529
+Receiving desired centre position from server...
+
+[INFO] [1627443003.271915]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522510, y: 172.577165, z: 28.029528
+Receiving desired centre position from server...
+
+[INFO] [1627443004.619796]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522510, y: 172.577164, z: 28.020528
+Receiving desired centre position from server...
+
+[INFO] [1627443005.318183]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 28.017527
+Receiving desired centre position from server...
+
+[INFO] [1627443006.311354]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 28.007527
+Receiving desired centre position from server...
+
+[INFO] [1627443007.299249]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 27.995527
+Receiving desired centre position from server...
+
+[INFO] [1627443008.293594]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 27.985526
+Receiving desired centre position from server...
+
+[INFO] [1627443009.270498]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 27.988526
+Receiving desired centre position from server...
+
+[INFO] [1627443010.272054]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577164, z: 27.982526
+Receiving desired centre position from server...
+
+[INFO] [1627443011.292575]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 27.982526
+Receiving desired centre position from server...
+
+[INFO] [1627443012.271887]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 27.982526
+Receiving desired centre position from server...
+
+[INFO] [1627443013.277514]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 27.992526
+Receiving desired centre position from server...
+
+[INFO] [1627443014.491001]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 27.995526
+Receiving desired centre position from server...
+
+[INFO] [1627443015.272072]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 27.994526
+Receiving desired centre position from server...
+
+^CException in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ucnavi1/drone-swarm-fyp/src/LastYear/mavros_offboard_posctl.py", line 158, in send_pos
+    self.pos_setpoint_pub.publish(self.pos)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+[INFO] [1627443016.295523]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 28.000526
+Receiving desired centre position from server...
+
+[INFO] [1627443017.442001]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 28.000526
+Receiving desired centre position from server...
+
+^C[INFO] [1627443018.274017]: attempting to reach position x: -43.522522, y: 172.577171, z: 36.759686 | current position x: -43.522511, y: 172.577165, z: 28.000526
+Receiving desired centre position from server...
+
+^\Quit (core dumped)
+]0;ucnavi1@ucnavi1: ~/drone-swarm-fyp/src/LastYear[01;32mucnavi1@ucnavi1[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ python3 rx.py -sf 1
+[INFO] [1627443176.816245]: waiting for ROS services
+[INFO] [1627443176.826952]: ROS services are up
+[INFO] [1627443176.853472]: UAV -1 setting up
+[INFO] [1627443176.855937]: waiting for subscribed topics to be ready
+[INFO] [1627443176.857557]: connected changed from False to True
+[INFO] [1627443176.858838]: mode changed from  to POSCTL
+[INFO] [1627443176.860084]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627443176.903852]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443182.858804]: simulation topics ready | seconds: 6.0 of 10
+[INFO] [1627443182.862522]: attempting to reach position x: -43.522515, y: 172.577169, z: 35.905975 | current position x: -43.522515, y: 172.577169, z: 27.338522
+
+UAV 1: Move to formation start position?
+
+Receiving desired centre position from server...
+
+[INFO] [1627443188.334975]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522512, y: 172.577170, z: 27.307527
+Receiving desired centre position from server...
+
+[INFO] [1627443189.395864]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522511, y: 172.577169, z: 27.302527
+Receiving desired centre position from server...
+
+[INFO] [1627443190.634389]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522511, y: 172.577169, z: 27.279528
+Receiving desired centre position from server...
+
+[INFO] [1627443191.345932]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522510, y: 172.577169, z: 27.263529
+Receiving desired centre position from server...
+
+[INFO] [1627443192.316306]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522510, y: 172.577169, z: 27.226529
+Receiving desired centre position from server...
+
+[INFO] [1627443193.278061]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522510, y: 172.577168, z: 27.222530
+Receiving desired centre position from server...
+
+[INFO] [1627443194.278486]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522509, y: 172.577168, z: 27.236531
+Receiving desired centre position from server...
+
+[INFO] [1627443195.276186]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522509, y: 172.577168, z: 27.232531
+Receiving desired centre position from server...
+
+[INFO] [1627443196.302728]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577167, z: 27.232532
+Receiving desired centre position from server...
+
+[INFO] [1627443197.276252]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577167, z: 27.229532
+Receiving desired centre position from server...
+
+[INFO] [1627443197.887765]: armed state changed from False to True
+[INFO] [1627443197.891798]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627443198.277765]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 27.233533
+Receiving desired centre position from server...
+
+[INFO] [1627443199.978189]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 27.259533
+Receiving desired centre position from server...
+
+[INFO] [1627443200.276141]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 27.266533
+Receiving desired centre position from server...
+
+[INFO] [1627443200.705776]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627443201.287850]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 27.281533
+Receiving desired centre position from server...
+
+[INFO] [1627443202.324089]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522506, y: 172.577165, z: 27.750534
+Receiving desired centre position from server...
+
+[INFO] [1627443203.276403]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522506, y: 172.577165, z: 28.638535
+Receiving desired centre position from server...
+
+[INFO] [1627443204.291362]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522506, y: 172.577166, z: 29.694535
+Receiving desired centre position from server...
+
+[INFO] [1627443205.278138]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 30.772534
+Receiving desired centre position from server...
+
+[INFO] [1627443206.285068]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 31.879533
+Receiving desired centre position from server...
+
+[INFO] [1627443207.298147]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 32.960533
+Receiving desired centre position from server...
+
+[INFO] [1627443208.275686]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 33.918532
+Receiving desired centre position from server...
+
+[INFO] [1627443209.277670]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 35.101532
+Receiving desired centre position from server...
+
+[INFO] [1627443210.302139]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 36.374533
+Receiving desired centre position from server...
+
+[INFO] [1627443211.277396]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 37.461534
+Receiving desired centre position from server...
+
+[INFO] [1627443212.277652]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 38.563533
+Receiving desired centre position from server...
+
+[INFO] [1627443213.301467]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 39.677533
+Receiving desired centre position from server...
+
+[INFO] [1627443214.277527]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 40.708533
+Receiving desired centre position from server...
+
+[INFO] [1627443215.277915]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 41.612534
+Receiving desired centre position from server...
+
+[INFO] [1627443216.276834]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 42.452534
+Receiving desired centre position from server...
+
+[INFO] [1627443217.279392]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 43.330533
+Receiving desired centre position from server...
+
+[INFO] [1627443218.283649]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 44.253533
+Receiving desired centre position from server...
+
+[INFO] [1627443220.179589]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 45.929533
+Receiving desired centre position from server...
+
+[INFO] [1627443220.277071]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 46.018533
+Receiving desired centre position from server...
+
+[INFO] [1627443221.336496]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 46.973533
+Receiving desired centre position from server...
+
+[INFO] [1627443222.317713]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 47.507533
+Receiving desired centre position from server...
+
+[INFO] [1627443223.316129]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 47.925534
+Receiving desired centre position from server...
+
+[INFO] [1627443224.931749]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 48.532533
+Receiving desired centre position from server...
+
+[INFO] [1627443225.277337]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 48.644533
+Receiving desired centre position from server...
+
+[INFO] [1627443226.278379]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 48.953533
+Receiving desired centre position from server...
+
+[INFO] [1627443227.276908]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 49.223532
+Receiving desired centre position from server...
+
+[INFO] [1627443228.278363]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 49.395532
+Receiving desired centre position from server...
+
+[INFO] [1627443229.278663]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577164, z: 49.538533
+Receiving desired centre position from server...
+
+[INFO] [1627443230.279986]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 49.709533
+Receiving desired centre position from server...
+
+[INFO] [1627443231.277866]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 49.877533
+Receiving desired centre position from server...
+
+[INFO] [1627443232.276707]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 50.013533
+Receiving desired centre position from server...
+
+[INFO] [1627443233.277458]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.125532
+Receiving desired centre position from server...
+
+[INFO] [1627443234.277696]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577167, z: 50.282532
+Receiving desired centre position from server...
+
+[INFO] [1627443235.495428]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.479532
+Receiving desired centre position from server...
+
+[INFO] [1627443236.306493]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.625532
+Receiving desired centre position from server...
+
+[INFO] [1627443237.384639]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 50.763533
+Receiving desired centre position from server...
+
+[INFO] [1627443238.300846]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.844532
+Receiving desired centre position from server...
+
+[INFO] [1627443239.278425]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.893532
+Receiving desired centre position from server...
+
+[INFO] [1627443240.277563]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 50.912532
+Receiving desired centre position from server...
+
+[INFO] [1627443241.278986]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 50.933532
+Receiving desired centre position from server...
+
+[INFO] [1627443242.315287]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 50.947533
+Receiving desired centre position from server...
+
+[INFO] [1627443243.277785]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 50.941533
+Receiving desired centre position from server...
+
+[INFO] [1627443244.410800]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 50.875534
+Receiving desired centre position from server...
+
+[INFO] [1627443245.277841]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 50.744533
+Receiving desired centre position from server...
+
+[INFO] [1627443246.314553]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 50.537533
+Receiving desired centre position from server...
+
+[INFO] [1627443247.280684]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.324533
+Receiving desired centre position from server...
+
+[INFO] [1627443248.276788]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 50.087532
+Receiving desired centre position from server...
+
+[INFO] [1627443249.277250]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 49.761532
+Receiving desired centre position from server...
+
+[INFO] [1627443250.278556]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 49.269532
+Receiving desired centre position from server...
+
+[INFO] [1627443251.276051]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 48.778533
+Receiving desired centre position from server...
+
+[INFO] [1627443252.316850]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577165, z: 48.266533
+Receiving desired centre position from server...
+
+[INFO] [1627443253.280073]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 47.888533
+Receiving desired centre position from server...
+
+[INFO] [1627443254.279037]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 47.515532
+Receiving desired centre position from server...
+
+[INFO] [1627443255.299853]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 47.179532
+Receiving desired centre position from server...
+
+[INFO] [1627443256.375963]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 46.926533
+Receiving desired centre position from server...
+
+[INFO] [1627443257.402444]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 46.733533
+Receiving desired centre position from server...
+
+[INFO] [1627443258.278059]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577165, z: 46.597533
+Receiving desired centre position from server...
+
+[INFO] [1627443259.448076]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 46.443533
+Receiving desired centre position from server...
+
+[INFO] [1627443260.326274]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 46.317533
+Receiving desired centre position from server...
+
+[INFO] [1627443261.277268]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 46.188533
+Receiving desired centre position from server...
+
+[INFO] [1627443262.280677]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 46.061532
+Receiving desired centre position from server...
+
+[INFO] [1627443263.284970]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 45.929532
+Receiving desired centre position from server...
+
+[INFO] [1627443264.277429]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 45.797532
+Receiving desired centre position from server...
+
+[INFO] [1627443265.294747]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 45.650533
+Receiving desired centre position from server...
+
+[INFO] [1627443266.277751]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522507, y: 172.577166, z: 45.488533
+Receiving desired centre position from server...
+
+[INFO] [1627443267.277096]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522508, y: 172.577166, z: 45.393533
+Receiving desired centre position from server...
+
+[INFO] [1627443267.868522]: mode changed from POSCTL to OFFBOARD
+[INFO] [1627443268.276571]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522514, y: 172.577170, z: 46.534523
+Receiving desired centre position from server...
+
+[INFO] [1627443269.278227]: attempting to reach position x: -43.522525, y: 172.577178, z: 35.905975 | current position x: -43.522523, y: 172.577179, z: 47.183510
+
+UAV 1: In formation
+Waiting for ready message from Tx...
+Tx ready.
+Receiving start position from target position server...
+[INFO] [1627443272.465581]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522525, y: 172.577174, z: 47.256506
+[INFO] [1627443273.399967]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522521, y: 172.577174, z: 47.271512
+[INFO] [1627443274.643514]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522520, y: 172.577175, z: 47.304513
+[INFO] [1627443275.494105]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522523, y: 172.577176, z: 47.303510
+[INFO] [1627443276.495311]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522525, y: 172.577175, z: 47.291507
+[INFO] [1627443277.402785]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522525, y: 172.577174, z: 47.290506
+[INFO] [1627443278.433736]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522524, y: 172.577172, z: 47.313507
+[INFO] [1627443279.440733]: attempting to reach position x: -43.522524, y: 172.577173, z: 35.905975 | current position x: -43.522523, y: 172.577172, z: 47.334509
+[INFO] [1627443280.508961]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522523, y: 172.577173, z: 47.322509
+[INFO] [1627443281.394307]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522519, y: 172.577177, z: 47.345517
+[INFO] [1627443282.539475]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577183, z: 47.484538
+[INFO] [1627443283.457898]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522502, y: 172.577186, z: 47.438546
+[INFO] [1627443284.391850]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522503, y: 172.577188, z: 47.304545
+[INFO] [1627443285.445302]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522507, y: 172.577189, z: 47.216538
+[INFO] [1627443286.498698]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522509, y: 172.577186, z: 47.227534
+[INFO] [1627443287.388427]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522508, y: 172.577183, z: 47.293535
+[INFO] [1627443288.586190]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577183, z: 47.373539
+[INFO] [1627443289.527165]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577184, z: 47.413541
+[INFO] [1627443290.395897]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577185, z: 47.391542
+[INFO] [1627443291.417859]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577186, z: 47.310540
+[INFO] [1627443292.423115]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577186, z: 47.258540
+[INFO] [1627443293.472944]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577185, z: 47.266539
+[INFO] [1627443294.537510]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577185, z: 47.281540
+[INFO] [1627443295.391929]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577185, z: 47.283540
+[INFO] [1627443296.542466]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577186, z: 47.329541
+[INFO] [1627443297.500267]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577186, z: 47.311541
+[INFO] [1627443298.461278]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577186, z: 47.275541
+[INFO] [1627443299.508198]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522505, y: 172.577187, z: 47.273541
+[INFO] [1627443300.426666]: attempting to reach position x: -43.522506, y: 172.577186, z: 35.905975 | current position x: -43.522506, y: 172.577186, z: 47.295540
+[INFO] [1627443301.433310]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522505, y: 172.577186, z: 47.291541
+[INFO] [1627443302.477648]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522499, y: 172.577185, z: 47.317550
+[INFO] [1627443303.437700]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522490, y: 172.577182, z: 47.342565
+[INFO] [1627443304.491778]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522484, y: 172.577183, z: 47.351574
+[INFO] [1627443305.419080]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522485, y: 172.577186, z: 47.325573
+[INFO] [1627443306.415682]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577187, z: 47.283568
+[INFO] [1627443307.571084]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522490, y: 172.577186, z: 47.345565
+[INFO] [1627443308.591290]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522489, y: 172.577184, z: 47.329567
+[INFO] [1627443309.505292]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577183, z: 47.300569
+[INFO] [1627443310.519390]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522487, y: 172.577183, z: 47.275569
+[INFO] [1627443311.417414]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522487, y: 172.577185, z: 47.305570
+[INFO] [1627443312.574385]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522487, y: 172.577186, z: 47.323570
+[INFO] [1627443313.536079]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577186, z: 47.317568
+[INFO] [1627443314.539778]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522489, y: 172.577185, z: 47.319567
+[INFO] [1627443315.563852]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522489, y: 172.577184, z: 47.329567
+[INFO] [1627443316.421469]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577183, z: 47.305568
+[INFO] [1627443317.429856]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577184, z: 47.293568
+[INFO] [1627443318.499614]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522488, y: 172.577185, z: 47.275569
+[INFO] [1627443319.414006]: attempting to reach position x: -43.522488, y: 172.577184, z: 35.905975 | current position x: -43.522487, y: 172.577185, z: 47.263570
+[INFO] [1627443320.496938]: attempting to reach position x: -43.522488, y: 172.577210, z: 35.905975 | current position x: -43.522487, y: 172.577185, z: 47.273571
+[INFO] [1627443321.389180]: attempting to reach position x: -43.522488, y: 172.577210, z: 35.905975 | current position x: -43.522487, y: 172.577191, z: 47.320571
+[INFO] [1627443322.497435]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522487, y: 172.577206, z: 47.372575
+[INFO] [1627443323.466320]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522483, y: 172.577212, z: 47.329583
+[INFO] [1627443324.415605]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522475, y: 172.577208, z: 47.331595
+[INFO] [1627443325.452763]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522469, y: 172.577202, z: 47.235603
+[INFO] [1627443326.412843]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522468, y: 172.577203, z: 47.219605
+[INFO] [1627443327.675582]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522469, y: 172.577207, z: 47.262604
+[INFO] [1627443328.488979]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522470, y: 172.577208, z: 47.292603
+[INFO] [1627443329.545483]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522471, y: 172.577206, z: 47.322601
+[INFO] [1627443330.538480]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522471, y: 172.577204, z: 47.331601
+[INFO] [1627443331.566141]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522470, y: 172.577203, z: 47.337601
+[INFO] [1627443332.564982]: attempting to reach position x: -43.522470, y: 172.577205, z: 35.905975 | current position x: -43.522469, y: 172.577203, z: 47.360603
+[INFO] [1627443333.595248]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522469, y: 172.577203, z: 47.364603
+[INFO] [1627443334.409296]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522466, y: 172.577206, z: 47.388609
+[INFO] [1627443335.412187]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522455, y: 172.577212, z: 47.525628
+[INFO] [1627443336.396675]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522448, y: 172.577217, z: 47.554640
+[INFO] [1627443337.504055]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522449, y: 172.577220, z: 47.376639
+[INFO] [1627443338.528141]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522453, y: 172.577221, z: 47.268633
+[INFO] [1627443339.404465]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522455, y: 172.577220, z: 47.250630
+[INFO] [1627443340.374904]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522454, y: 172.577217, z: 47.293631
+[INFO] [1627443341.435856]: attempting to reach position x: -43.522452, y: 172.577217, z: 35.905975 | current position x: -43.522452, y: 172.577215, z: 47.329633
+[INFO] [1627443342.551218]: attempting to reach position x: -43.522434, y: 172.577230, z: 35.905975 | current position x: -43.522451, y: 172.577216, z: 47.292635
+[INFO] [1627443343.408999]: attempting to reach position x: -43.522434, y: 172.577230, z: 35.905975 | current position x: -43.522447, y: 172.577220, z: 47.312643
+[INFO] [1627443344.465273]: attempting to reach position x: -43.522420, y: 172.577226, z: 35.905975 | current position x: -43.522435, y: 172.577226, z: 47.391664
+[INFO] [1627443345.424107]: attempting to reach position x: -43.522420, y: 172.577226, z: 35.905975 | current position x: -43.522427, y: 172.577228, z: 47.393678
+[INFO] [1627443346.471041]: attempting to reach position x: -43.522420, y: 172.577226, z: 35.905975 | current position x: -43.522420, y: 172.577226, z: 47.342688
+[INFO] [1627443347.632994]: attempting to reach position x: -43.522401, y: 172.577226, z: 35.905975 | current position x: -43.522419, y: 172.577225, z: 47.261690
+[INFO] [1627443348.391259]: attempting to reach position x: -43.522401, y: 172.577226, z: 35.905975 | current position x: -43.522416, y: 172.577226, z: 47.255694
+[INFO] [1627443349.594085]: attempting to reach position x: -43.522388, y: 172.577238, z: 35.905975 | current position x: -43.522404, y: 172.577225, z: 47.306714
+[INFO] [1627443350.510041]: attempting to reach position x: -43.522388, y: 172.577238, z: 35.905975 | current position x: -43.522395, y: 172.577228, z: 47.335730
+[INFO] [1627443351.403210]: attempting to reach position x: -43.522388, y: 172.577238, z: 35.905975 | current position x: -43.522387, y: 172.577234, z: 47.311744
+[INFO] [1627443352.503623]: attempting to reach position x: -43.522388, y: 172.577238, z: 35.905975 | current position x: -43.522385, y: 172.577241, z: 47.248748
+[INFO] [1627443353.412958]: attempting to reach position x: -43.522388, y: 172.577238, z: 35.905975 | current position x: -43.522387, y: 172.577242, z: 47.226745
+[INFO] [1627443354.424826]: attempting to reach position x: -43.522369, y: 172.577238, z: 35.905975 | current position x: -43.522390, y: 172.577240, z: 47.257740
+[INFO] [1627443355.599594]: attempting to reach position x: -43.522369, y: 172.577238, z: 35.905975 | current position x: -43.522382, y: 172.577236, z: 47.290752
+[INFO] [1627443356.400803]: attempting to reach position x: -43.522355, y: 172.577238, z: 35.905975 | current position x: -43.522373, y: 172.577234, z: 47.344767
+[INFO] [1627443357.388462]: attempting to reach position x: -43.522355, y: 172.577238, z: 35.905975 | current position x: -43.522361, y: 172.577233, z: 47.315785
+[INFO] [1627443358.384940]: attempting to reach position x: -43.522355, y: 172.577238, z: 35.905975 | current position x: -43.522353, y: 172.577235, z: 47.337800
+[INFO] [1627443359.480344]: attempting to reach position x: -43.522344, y: 172.577250, z: 35.905975 | current position x: -43.522351, y: 172.577238, z: 47.312803
+[INFO] [1627443360.399884]: attempting to reach position x: -43.522344, y: 172.577250, z: 35.905975 | current position x: -43.522351, y: 172.577244, z: 47.296805
+[INFO] [1627443361.439511]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522346, y: 172.577251, z: 47.318813
+[INFO] [1627443362.492987]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522338, y: 172.577251, z: 47.330827
+[INFO] [1627443363.692589]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522327, y: 172.577248, z: 47.359844
+[INFO] [1627443364.513047]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522325, y: 172.577247, z: 47.309847
+[INFO] [1627443365.480710]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522326, y: 172.577248, z: 47.264845
+[INFO] [1627443366.494480]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522328, y: 172.577251, z: 47.252843
+[INFO] [1627443367.488906]: attempting to reach position x: -43.522328, y: 172.577249, z: 35.905975 | current position x: -43.522329, y: 172.577251, z: 47.288842
+[INFO] [1627443367.868198]: mode changed from OFFBOARD to POSCTL
+[INFO] [1627443368.398610]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577250, z: 47.197842
+[INFO] [1627443369.373570]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577250, z: 47.057842
+[INFO] [1627443370.417490]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577250, z: 46.889842
+[INFO] [1627443371.388901]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577249, z: 46.733842
+[INFO] [1627443372.434793]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577249, z: 46.555841
+[INFO] [1627443373.524413]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522329, y: 172.577249, z: 46.362841
+[INFO] [1627443374.453273]: attempting to reach position x: -43.522346, y: 172.577237, z: 35.905975 | current position x: -43.522332, y: 172.577249, z: 46.198836
+[INFO] [1627443375.479420]: attempting to reach position x: -43.522363, y: 172.577236, z: 35.905975 | current position x: -43.522343, y: 172.577250, z: 46.046819
+[INFO] [1627443376.443046]: attempting to reach position x: -43.522377, y: 172.577237, z: 35.905975 | current position x: -43.522350, y: 172.577251, z: 45.882808
+[INFO] [1627443377.382318]: attempting to reach position x: -43.522391, y: 172.577237, z: 35.905975 | current position x: -43.522358, y: 172.577252, z: 45.699794
+[INFO] [1627443378.395968]: attempting to reach position x: -43.522391, y: 172.577237, z: 35.905975 | current position x: -43.522370, y: 172.577252, z: 45.381775
+[INFO] [1627443379.530131]: attempting to reach position x: -43.522409, y: 172.577238, z: 35.905975 | current position x: -43.522381, y: 172.577253, z: 44.980757
+[INFO] [1627443380.401493]: attempting to reach position x: -43.522409, y: 172.577238, z: 35.905975 | current position x: -43.522384, y: 172.577252, z: 44.672752
+[INFO] [1627443381.505497]: attempting to reach position x: -43.522409, y: 172.577238, z: 35.905975 | current position x: -43.522388, y: 172.577249, z: 44.317746
+[INFO] [1627443382.544114]: attempting to reach position x: -43.522428, y: 172.577237, z: 35.905975 | current position x: -43.522397, y: 172.577249, z: 43.949731
+[INFO] [1627443383.561131]: attempting to reach position x: -43.522428, y: 172.577237, z: 35.905975 | current position x: -43.522411, y: 172.577251, z: 43.642707
+[INFO] [1627443384.582693]: attempting to reach position x: -43.522452, y: 172.577224, z: 35.905975 | current position x: -43.522429, y: 172.577253, z: 43.312679
+[INFO] [1627443385.606798]: attempting to reach position x: -43.522452, y: 172.577224, z: 35.905975 | current position x: -43.522446, y: 172.577254, z: 42.926652
+[INFO] [1627443386.375366]: attempting to reach position x: -43.522475, y: 172.577227, z: 35.905975 | current position x: -43.522459, y: 172.577254, z: 42.693631
+[INFO] [1627443387.507127]: attempting to reach position x: -43.522475, y: 172.577227, z: 35.905975 | current position x: -43.522469, y: 172.577253, z: 42.281613
+[INFO] [1627443388.426697]: attempting to reach position x: -43.522491, y: 172.577213, z: 35.905975 | current position x: -43.522471, y: 172.577250, z: 41.597610
+[INFO] [1627443389.383719]: attempting to reach position x: -43.522491, y: 172.577213, z: 35.905975 | current position x: -43.522471, y: 172.577249, z: 40.743610
+[INFO] [1627443390.402642]: attempting to reach position x: -43.522516, y: 172.577216, z: 35.905975 | current position x: -43.522470, y: 172.577249, z: 39.828611
+[INFO] [1627443391.437296]: attempting to reach position x: -43.522493, y: 172.577220, z: 35.905975 | current position x: -43.522470, y: 172.577247, z: 38.918611
+[INFO] [1627443392.419384]: attempting to reach position x: -43.522500, y: 172.577221, z: 35.905975 | current position x: -43.522471, y: 172.577242, z: 38.006609
+[INFO] [1627443393.558816]: attempting to reach position x: -43.522496, y: 172.577222, z: 35.905975 | current position x: -43.522473, y: 172.577238, z: 37.031605
+[INFO] [1627443394.460588]: attempting to reach position x: -43.522494, y: 172.577224, z: 35.905975 | current position x: -43.522477, y: 172.577239, z: 36.224598
+[INFO] [1627443395.519544]: attempting to reach position x: -43.522493, y: 172.577225, z: 35.905975 | current position x: -43.522482, y: 172.577238, z: 35.303590
+[INFO] [1627443396.496849]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522485, y: 172.577230, z: 34.506583
+[INFO] [1627443397.444762]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522490, y: 172.577220, z: 33.711572
+[INFO] [1627443398.470930]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 32.909567
+[INFO] [1627443399.466050]: attempting to reach position x: -43.522524, y: 172.577223, z: 35.905975 | current position x: -43.522493, y: 172.577213, z: 32.187567
+[INFO] [1627443400.471561]: attempting to reach position x: -43.522524, y: 172.577221, z: 35.905975 | current position x: -43.522492, y: 172.577214, z: 31.477568
+[INFO] [1627443401.457477]: attempting to reach position x: -43.522520, y: 172.577220, z: 35.905975 | current position x: -43.522492, y: 172.577215, z: 30.785569
+[INFO] [1627443402.615546]: attempting to reach position x: -43.522517, y: 172.577219, z: 35.905975 | current position x: -43.522492, y: 172.577215, z: 29.982568
+[INFO] [1627443403.478596]: attempting to reach position x: -43.522514, y: 172.577219, z: 35.905975 | current position x: -43.522493, y: 172.577215, z: 29.371566
+[INFO] [1627443404.457018]: attempting to reach position x: -43.522512, y: 172.577218, z: 35.905975 | current position x: -43.522494, y: 172.577214, z: 28.696566
+[INFO] [1627443405.459007]: attempting to reach position x: -43.522510, y: 172.577218, z: 35.905975 | current position x: -43.522494, y: 172.577214, z: 27.979566
+[INFO] [1627443406.563562]: attempting to reach position x: -43.522508, y: 172.577217, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 27.198566
+[INFO] [1627443407.459103]: attempting to reach position x: -43.522507, y: 172.577217, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 26.538567
+[INFO] [1627443408.422099]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522493, y: 172.577215, z: 26.185567
+[INFO] [1627443409.448466]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 26.224567
+[INFO] [1627443409.500655]: landed state changed from MAV_LANDED_STATE_IN_AIR to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443410.446708]: attempting to reach position x: -43.522530, y: 172.577224, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 26.244566
+[INFO] [1627443411.431041]: attempting to reach position x: -43.522524, y: 172.577222, z: 35.905975 | current position x: -43.522493, y: 172.577214, z: 26.251566
+[INFO] [1627443411.867783]: armed state changed from True to False
+[INFO] [1627443411.870827]: system_status changed from MAV_STATE_ACTIVE to MAV_STATE_STANDBY
+[INFO] [1627443412.500619]: attempting to reach position x: -43.522523, y: 172.577221, z: 35.905975 | current position x: -43.522494, y: 172.577213, z: 26.236565
+[INFO] [1627443413.461073]: attempting to reach position x: -43.522519, y: 172.577220, z: 35.905975 | current position x: -43.522494, y: 172.577213, z: 26.226565
+[INFO] [1627443414.484446]: attempting to reach position x: -43.522517, y: 172.577219, z: 35.905975 | current position x: -43.522494, y: 172.577213, z: 26.212565
+[INFO] [1627443415.513610]: attempting to reach position x: -43.522514, y: 172.577218, z: 35.905975 | current position x: -43.522494, y: 172.577213, z: 26.217565
+[INFO] [1627443416.439795]: attempting to reach position x: -43.522512, y: 172.577217, z: 35.905975 | current position x: -43.522494, y: 172.577213, z: 26.232565
+^CExiting...
+]0;ucnavi1@ucnavi1: ~/drone-swarm-fyp/src/LastYear[01;32mucnavi1@ucnavi1[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ exit
+exit
+
+Script done on 2021-07-28 15:37:00+12:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,233 @@
+Script started on 2021-07-21 15:34:18+12:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+]0;oli@oli: ~/drone-swarm-fyp/src/LastYear[01;32moli@oli[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ script > navi1_2.txtource Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;oli@oli: ~/drone-swarm-fyp/src/LastYear[01;32moli@oli[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[15Psh ucnavi1@192.168.43.86
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Ppython3 server_gps.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.pyr.pyu.pyn.py_.pyd.pyr.pyo.pyn.pye.pys.py[C[C[C -sa -u 0234
+[INFO] [1626838477.313292, 0.000000]: waiting for ROS services
+[INFO] [1626838477.356564, 35.268000]: ROS services are up
+[INFO] [1626838477.449939, 35.344000]: waiting for subscribed topics to be ready
+[INFO] [1626838477.515536, 35.396000]: connected changed from False to True
+[INFO] [1626838477.527398, 35.404000]: mode changed from  to AUTO.LOITER
+[INFO] [1626838477.560890, 35.444000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626838477.634838, 35.516000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626838478.377665, 0.000000]: waiting for ROS services
+[INFO] [1626838478.413655, 36.260000]: ROS services are up
+[INFO] [1626838478.460050, 0.000000]: waiting for ROS services
+[INFO] [1626838478.519214, 36.352000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626838478.520487, 36.344000]: ROS services are up
+[INFO] [1626838478.526280, 36.352000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626838478.533092, 36.360000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626838478.543519, 36.372000]: UAV 2 taking off
+[INFO] [1626838478.550600, 36.376000]: setting FCU mode: OFFBOARD
+[INFO] [1626838478.607345, 36.424000]: waiting for subscribed topics to be ready
+[INFO] [1626838478.634965, 36.424000]: connected changed from False to True
+[INFO] [1626838478.639925, 36.444000]: mode changed from  to AUTO.LOITER
+[INFO] [1626838478.647311, 36.444000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626838478.678448, 36.472000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626838478.699481, 36.480000]: waiting for subscribed topics to be ready
+[INFO] [1626838478.733636, 36.512000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626838478.761009, 36.536000]: connected changed from False to True
+[INFO] [1626838478.780901, 36.552000]: mode changed from  to AUTO.LOITER
+[INFO] [1626838478.785732, 36.552000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626838478.951569, 36.716000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626838479.634813, 37.384000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626838479.636955, 37.384000]: setting FCU arm: True
+[INFO] [1626838479.690957, 37.424000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626838479.694556, 37.424000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626838479.701441, 37.428000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626838479.713403, 37.436000]: UAV 4 taking off
+[INFO] [1626838479.717817, 37.436000]: setting FCU mode: OFFBOARD
+[INFO] [1626838479.746270, 0.000000]: waiting for ROS services
+[INFO] [1626838479.784519, 37.500000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626838479.794276, 37.500000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626838479.806731, 37.500000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626838479.813984, 37.524000]: UAV 3 taking off
+[INFO] [1626838479.831743, 37.536000]: setting FCU mode: OFFBOARD
+[INFO] [1626838479.894200, 37.588000]: ROS services are up
+[INFO] [1626838479.951086, 37.616000]: waiting for subscribed topics to be ready
+[INFO] [1626838479.971205, 37.616000]: connected changed from False to True
+[INFO] [1626838479.976002, 37.616000]: mode changed from  to AUTO.LOITER
+[INFO] [1626838479.977681, 37.616000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626838480.123686, 37.716000]: armed state changed from False to True
+[INFO] [1626838480.127184, 37.720000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626838480.145987, 37.736000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626838480.299925, 37.868000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626838480.765581, 38.312000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626838480.855936, 38.384000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626838480.858511, 38.384000]: attempting to reach position x: -43.522430, y: 172.577487, z: 19.931711 | current position x: -43.522430, y: 172.577487, z: 11.363728
+
+UAV 2: Move to formation start position?
+[INFO] [1626838480.922216, 38.436000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626838480.924516, 38.436000]: setting FCU arm: True
+[INFO] [1626838481.056800, 38.544000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626838481.059488, 38.544000]: setting FCU arm: True
+[INFO] [1626838481.143597, 38.616000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626838481.145806, 38.616000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626838481.151888, 38.616000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626838481.155765, 38.616000]: UAV 0 taking off
+[INFO] [1626838481.158919, 38.616000]: setting FCU mode: OFFBOARD
+[INFO] [1626838481.492615, 38.872000]: armed state changed from False to True
+[INFO] [1626838481.495833, 38.872000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626838482.110340, 39.312000]: armed state changed from False to True
+[INFO] [1626838482.112936, 39.312000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626838482.125815, 39.316000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626838482.278274, 39.436000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626838482.280827, 39.436000]: attempting to reach position x: -43.522520, y: 172.577487, z: 19.909255 | current position x: -43.522520, y: 172.577487, z: 11.340581
+
+UAV 4: Move to formation start position?
+[INFO] [1626838482.400615, 39.536000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626838482.414937, 39.548000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626838482.420285, 39.548000]: attempting to reach position x: -43.522520, y: 172.577362, z: 19.943978 | current position x: -43.522520, y: 172.577362, z: 11.376555
+
+UAV 3: Move to formation start position?
+[INFO] [1626838482.506887, 39.616000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626838482.511005, 39.616000]: setting FCU arm: True
+[INFO] [1626838483.241296, 40.268000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626838483.316897, 40.312000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626838483.668448, 40.536000]: armed state changed from False to True
+[INFO] [1626838483.670532, 40.540000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626838483.793586, 40.620000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626838483.795818, 40.620000]: attempting to reach position x: -43.522475, y: 172.577425, z: 19.886929 | current position x: -43.522475, y: 172.577425, z: 11.316641
+
+UAV 0: Move to formation start position?
+[INFO] [1626838485.167034, 41.536000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+[INFO] [1626838517.364729, 63.916000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522430, y: 172.577487, z: 31.457727
+[INFO] [1626838517.365851, 63.916000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522520, y: 172.577487, z: 31.433580
+[INFO] [1626838517.366712, 63.916000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522520, y: 172.577362, z: 31.485554
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+[INFO] [1626838518.357232, 64.320000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522521, y: 172.577485, z: 31.487578
+[INFO] [1626838518.358048, 64.320000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522431, y: 172.577485, z: 31.514725
+[INFO] [1626838518.358721, 64.320000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522521, y: 172.577361, z: 31.518553
+[INFO] [1626838518.359513, 64.320000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522475, y: 172.577425, z: 31.417641
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+
+
+
+[INFO] [1626838519.391499, 64.820000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522442, y: 172.577467, z: 31.607704
+[INFO] [1626838519.391489, 64.820000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522532, y: 172.577467, z: 31.579557
+[INFO] [1626838519.392200, 64.820000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522531, y: 172.577345, z: 31.618533
+[INFO] [1626838519.393055, 64.820000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522476, y: 172.577423, z: 31.478638
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626838520.358343, 65.148000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522455, y: 172.577448, z: 31.617679
+[INFO] [1626838520.358387, 65.148000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522546, y: 172.577446, z: 31.588530
+[INFO] [1626838520.359922, 65.148000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522543, y: 172.577326, z: 31.632509
+[INFO] [1626838520.360516, 65.148000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522483, y: 172.577412, z: 31.551626
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626838521.392804, 65.620000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522570, y: 172.577410, z: 31.497483
+[INFO] [1626838521.392885, 65.620000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522479, y: 172.577410, z: 31.524631
+[INFO] [1626838521.392957, 65.620000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522499, y: 172.577387, z: 31.574594
+[INFO] [1626838521.393631, 65.620000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522567, y: 172.577289, z: 31.545462
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626838522.357868, 66.080000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522593, y: 172.577374, z: 31.408438
+[INFO] [1626838522.358551, 66.080000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522503, y: 172.577375, z: 31.423585
+[INFO] [1626838522.359260, 66.080000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522591, y: 172.577253, z: 31.445416
+Receiving desired centre position from server...
+
+[INFO] [1626838522.366855, 66.080000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522522, y: 172.577351, z: 31.483548
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626838523.360522, 66.524000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522609, y: 172.577347, z: 31.325406
+[INFO] [1626838523.360624, 66.524000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522519, y: 172.577348, z: 31.343552
+[INFO] [1626838523.361157, 66.524000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522608, y: 172.577225, z: 31.367382
+[INFO] [1626838523.361276, 66.524000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522545, y: 172.577316, z: 31.383504
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626838524.362376, 67.088000]: attempting to reach position x: -43.522530, y: 172.577320, z: 19.931711 | current position x: -43.522530, y: 172.577326, z: 31.337530
+[INFO] [1626838524.363616, 67.088000]: attempting to reach position x: -43.522620, y: 172.577196, z: 19.943978 | current position x: -43.522620, y: 172.577202, z: 31.345358
+[INFO] [1626838524.365401, 67.088000]: attempting to reach position x: -43.522620, y: 172.577320, z: 19.909255 | current position x: -43.522620, y: 172.577325, z: 31.312383
+[INFO] [1626838524.371445, 67.088000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522566, y: 172.577281, z: 31.274462
+
+UAV 3: In formation
+Waiting for ready message from Tx...
+
+UAV 4: In formation
+Waiting for ready message from Tx...
+Receiving desired centre position from server...
+
+
+UAV 2: In formation
+Waiting for ready message from Tx...
+[INFO] [1626838525.362619, 67.496000]: attempting to reach position x: -43.522575, y: 172.577258, z: 19.886929 | current position x: -43.522574, y: 172.577265, z: 31.266445
+
+UAV 0: In formation
+Waiting for ready messages from Rxs...
+Rx 4 ready.
+Rx 3 ready.
+Rx 2 ready.
+Rx 1 ready.
+All Rxs ready.
+Tx ready.
+Tx ready.
+Receiving start position from target position server...
+Receiving start position from target position server...
+Tx ready.
+Receiving start position from target position server...
+ERROR: Timeout occurred. Times since last update:
+Rx 1: 2.999 s
+Rx 2: 0.141 s
+Rx 3: 0.138 s
+Rx 4: 0.138 s
+
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+]0;oli@oli: ~/drone-swarm-fyp/src/LastYear[01;32moli@oli[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ 
+]0;oli@oli: ~/drone-swarm-fyp/src/LastYear[01;32moli@oli[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ exit
+exit
+
+Script done on 2021-07-21 15:38:23+12:00 [COMMAND_EXIT_CODE="0"]

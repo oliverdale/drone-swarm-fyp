@@ -1,0 +1,253 @@
+oli@oli:~/drone-swarm-fyp/src/LastYear$ python3 run_drones.py -sa -u0234
+[INFO] [1626230665.549845, 0.000000]: waiting for ROS services
+[INFO] [1626230665.809002, 40.384000]: ROS services are up
+[INFO] [1626230666.207133, 40.448000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230666.514876, 40.476000]: waiting for subscribed topics to be ready
+[INFO] [1626230666.795383, 40.524000]: connected changed from False to True
+[INFO] [1626230666.864371, 40.532000]: mode changed from  to AUTO.LOITER
+[INFO] [1626230666.887715, 40.540000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626230670.002670, 0.000000]: waiting for ROS services
+[INFO] [1626230670.122670, 41.124000]: ROS services are up
+[INFO] [1626230670.605238, 41.200000]: waiting for subscribed topics to be ready
+[INFO] [1626230670.769031, 41.232000]: connected changed from False to True
+[INFO] [1626230670.871931, 41.248000]: mode changed from  to AUTO.LOITER
+[INFO] [1626230670.956934, 41.268000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626230671.716050, 41.436000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230671.928259, 41.484000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626230671.975809, 41.488000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626230672.024545, 41.488000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626230672.034930, 41.496000]: UAV 4 taking off
+[INFO] [1626230672.055885, 41.500000]: setting FCU mode: OFFBOARD
+[INFO] [1626230672.819489, 0.000000]: waiting for ROS services
+[INFO] [1626230673.016295, 41.652000]: ROS services are up
+[INFO] [1626230673.462334, 41.712000]: waiting for subscribed topics to be ready
+[INFO] [1626230673.645827, 41.744000]: connected changed from False to True
+[INFO] [1626230673.737933, 41.752000]: mode changed from  to AUTO.LOITER
+[INFO] [1626230673.762124, 41.756000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626230674.613166, 41.892000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230676.941361, 0.000000]: waiting for ROS services
+[INFO] [1626230677.188394, 42.200000]: ROS services are up
+[INFO] [1626230677.267993, 42.220000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626230677.311304, 42.228000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626230677.328790, 42.228000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626230677.351952, 42.236000]: UAV 3 taking off
+[INFO] [1626230677.415663, 42.244000]: setting FCU mode: OFFBOARD
+[INFO] [1626230677.448752, 42.252000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230677.722954, 42.308000]: waiting for subscribed topics to be ready
+[INFO] [1626230677.845609, 42.332000]: connected changed from False to True
+[INFO] [1626230677.890958, 42.344000]: mode changed from  to AUTO.LOITER
+[INFO] [1626230677.974235, 42.372000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626230678.541718, 42.452000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626230678.882463, 42.508000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626230678.891770, 42.508000]: setting FCU arm: True
+[INFO] [1626230679.510961, 42.636000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626230680.024248, 42.732000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626230680.049192, 42.740000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626230680.080747, 42.748000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626230680.101369, 42.752000]: UAV 2 taking off
+[INFO] [1626230680.134656, 42.756000]: setting FCU mode: OFFBOARD
+[INFO] [1626230682.924898, 43.252000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626230682.932934, 43.252000]: setting FCU arm: True
+[INFO] [1626230683.340778, 43.312000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626230683.355601, 43.312000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1626230683.377264, 43.320000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1626230683.408052, 43.324000]: UAV 0 taking off
+[INFO] [1626230683.415257, 43.328000]: setting FCU mode: OFFBOARD
+[INFO] [1626230684.024196, 43.452000]: armed state changed from False to True
+[INFO] [1626230684.039098, 43.452000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230684.424304, 43.508000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626230684.437651, 43.512000]: attempting to reach position x: -43.522545, y: 172.577362, z: 20.000000 | current position x: -43.522545, y: 172.577362, z: 11.289513
+
+UAV 4: Move to formation start position?
+[INFO] [1626230685.321114, 43.636000]: armed state changed from False to True
+[INFO] [1626230685.330013, 43.636000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230685.803739, 43.692000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626230686.355308, 43.760000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626230686.361339, 43.760000]: setting FCU arm: True
+[INFO] [1626230687.898443, 44.048000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1626230689.001606, 44.252000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626230689.005654, 44.252000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626230689.009829, 44.252000]: attempting to reach position x: -43.522545, y: 172.577237, z: 20.000000 | current position x: -43.522545, y: 172.577237, z: 11.277487
+
+UAV 3: Move to formation start position?
+[INFO] [1626230689.501988, 44.332000]: set mode success | seconds: 1.0 of 5
+[INFO] [1626230689.537346, 44.332000]: setting FCU arm: True
+[INFO] [1626230691.575095, 44.692000]: armed state changed from False to True
+[INFO] [1626230691.592680, 44.696000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230691.962016, 44.760000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626230691.968720, 44.760000]: attempting to reach position x: -43.522455, y: 172.577362, z: 20.000000 | current position x: -43.522455, y: 172.577362, z: 11.286660
+
+UAV 2: Move to formation start position?
+[INFO] [1626230693.166104, 45.036000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626230693.218346, 45.048000]: armed state changed from False to True
+[INFO] [1626230693.224506, 45.052000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230694.934471, 45.332000]: set arm success | seconds: 1.0 of 5
+[INFO] [1626230694.942208, 45.332000]: attempting to reach position x: -43.522500, y: 172.577300, z: 20.000000 | current position x: -43.522500, y: 172.577300, z: 11.271574
+
+UAV 0: Move to formation start position?
+[INFO] [1626230695.950377, 45.492000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626230700.537162, 46.248000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+[INFO] [1626230984.347894, 91.900000]: attempting to reach position x: -43.522483, y: 172.577404, z: 20.000000 | current position x: -43.522455, y: 172.577362, z: 31.478660
+[INFO] [1626230984.348278, 91.900000]: attempting to reach position x: -43.522573, y: 172.577280, z: 20.000000 | current position x: -43.522545, y: 172.577237, z: 31.481486
+[INFO] [1626230984.349904, 91.900000]: attempting to reach position x: -43.522528, y: 172.577342, z: 20.000000 | current position x: -43.522500, y: 172.577300, z: 31.489574
+Receiving desired centre position from server...
+
+[INFO] [1626230984.382473, 91.896000]: attempting to reach position x: -43.522573, y: 172.577404, z: 20.000000 | current position x: -43.522545, y: 172.577362, z: 31.487513
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+
+[INFO] [1626230985.347479, 92.084000]: attempting to reach position x: -43.522573, y: 172.577404, z: 20.000000 | current position x: -43.522545, y: 172.577362, z: 31.484513
+[INFO] [1626230985.347799, 92.084000]: attempting to reach position x: -43.522573, y: 172.577280, z: 20.000000 | current position x: -43.522545, y: 172.577237, z: 31.482486
+[INFO] [1626230985.349388, 92.084000]: attempting to reach position x: -43.522483, y: 172.577404, z: 20.000000 | current position x: -43.522455, y: 172.577362, z: 31.471660
+Receiving desired centre position from server...
+
+[INFO] [1626230985.367375, 92.088000]: attempting to reach position x: -43.522528, y: 172.577342, z: 20.000000 | current position x: -43.522500, y: 172.577300, z: 31.483573
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230986.348670, 92.244000]: attempting to reach position x: -43.522573, y: 172.577404, z: 20.000000 | current position x: -43.522545, y: 172.577362, z: 31.497513
+[INFO] [1626230986.349235, 92.244000]: attempting to reach position x: -43.522528, y: 172.577342, z: 20.000000 | current position x: -43.522500, y: 172.577301, z: 31.528573
+[INFO] [1626230986.350406, 92.244000]: attempting to reach position x: -43.522573, y: 172.577280, z: 20.000000 | current position x: -43.522545, y: 172.577237, z: 31.491486
+Receiving desired centre position from server...
+
+[INFO] [1626230986.362391, 92.244000]: attempting to reach position x: -43.522483, y: 172.577404, z: 20.000000 | current position x: -43.522456, y: 172.577363, z: 31.517659
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230987.376071, 92.404000]: attempting to reach position x: -43.522573, y: 172.577280, z: 20.000000 | current position x: -43.522546, y: 172.577239, z: 31.532485
+[INFO] [1626230987.379892, 92.408000]: attempting to reach position x: -43.522483, y: 172.577404, z: 20.000000 | current position x: -43.522457, y: 172.577365, z: 31.538657
+[INFO] [1626230987.382487, 92.404000]: attempting to reach position x: -43.522573, y: 172.577404, z: 20.000000 | current position x: -43.522546, y: 172.577364, z: 31.536511
+[INFO] [1626230987.384963, 92.408000]: attempting to reach position x: -43.522528, y: 172.577342, z: 20.000000 | current position x: -43.522502, y: 172.577303, z: 31.549571
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230988.346638, 92.548000]: attempting to reach position x: -43.522527, y: 172.577342, z: 20.000000 | current position x: -43.522504, y: 172.577306, z: 31.551569
+[INFO] [1626230988.346759, 92.548000]: attempting to reach position x: -43.522572, y: 172.577404, z: 20.000000 | current position x: -43.522548, y: 172.577366, z: 31.544509
+[INFO] [1626230988.348178, 92.548000]: attempting to reach position x: -43.522572, y: 172.577280, z: 20.000000 | current position x: -43.522548, y: 172.577242, z: 31.536483
+[INFO] [1626230988.350084, 92.548000]: attempting to reach position x: -43.522482, y: 172.577404, z: 20.000000 | current position x: -43.522459, y: 172.577368, z: 31.541655
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230989.350208, 92.684000]: attempting to reach position x: -43.522570, y: 172.577404, z: 20.000000 | current position x: -43.522550, y: 172.577369, z: 31.540507
+[INFO] [1626230989.351899, 92.684000]: attempting to reach position x: -43.522570, y: 172.577280, z: 20.000000 | current position x: -43.522550, y: 172.577244, z: 31.530481
+[INFO] [1626230989.360209, 92.684000]: attempting to reach position x: -43.522525, y: 172.577342, z: 20.000000 | current position x: -43.522506, y: 172.577309, z: 31.545566
+[INFO] [1626230989.359297, 92.684000]: attempting to reach position x: -43.522480, y: 172.577404, z: 20.000000 | current position x: -43.522461, y: 172.577371, z: 31.536652
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230990.346527, 92.856000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522552, y: 172.577248, z: 31.518477
+[INFO] [1626230990.346867, 92.856000]: attempting to reach position x: -43.522565, y: 172.577402, z: 20.000000 | current position x: -43.522553, y: 172.577373, z: 31.526503
+[INFO] [1626230990.348518, 92.860000]: attempting to reach position x: -43.522475, y: 172.577402, z: 20.000000 | current position x: -43.522464, y: 172.577375, z: 31.527649
+[INFO] [1626230990.378116, 92.860000]: attempting to reach position x: -43.522520, y: 172.577340, z: 20.000000 | current position x: -43.522509, y: 172.577313, z: 31.534562
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230991.346036, 92.996000]: attempting to reach position x: -43.522520, y: 172.577340, z: 20.000000 | current position x: -43.522511, y: 172.577317, z: 31.525560
+[INFO] [1626230991.346036, 92.996000]: attempting to reach position x: -43.522565, y: 172.577402, z: 20.000000 | current position x: -43.522555, y: 172.577377, z: 31.512501
+[INFO] [1626230991.347337, 92.996000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522555, y: 172.577252, z: 31.508474
+[INFO] [1626230991.348655, 92.996000]: attempting to reach position x: -43.522475, y: 172.577402, z: 20.000000 | current position x: -43.522466, y: 172.577379, z: 31.519646
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+
+
+[INFO] [1626230992.370594, 93.240000]: attempting to reach position x: -43.522565, y: 172.577402, z: 20.000000 | current position x: -43.522558, y: 172.577383, z: 31.490496
+[INFO] [1626230992.371961, 93.240000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522558, y: 172.577258, z: 31.490470
+[INFO] [1626230992.375312, 93.244000]: attempting to reach position x: -43.522475, y: 172.577402, z: 20.000000 | current position x: -43.522470, y: 172.577385, z: 31.501641
+[INFO] [1626230992.376250, 93.244000]: attempting to reach position x: -43.522520, y: 172.577340, z: 20.000000 | current position x: -43.522514, y: 172.577323, z: 31.507555
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230993.342817, 93.380000]: attempting to reach position x: -43.522565, y: 172.577402, z: 20.000000 | current position x: -43.522560, y: 172.577386, z: 31.475494
+[INFO] [1626230993.343048, 93.380000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522560, y: 172.577261, z: 31.482467
+[INFO] [1626230993.344871, 93.380000]: attempting to reach position x: -43.522475, y: 172.577402, z: 20.000000 | current position x: -43.522471, y: 172.577388, z: 31.488639
+[INFO] [1626230993.347706, 93.380000]: attempting to reach position x: -43.522520, y: 172.577340, z: 20.000000 | current position x: -43.522516, y: 172.577326, z: 31.492553
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1626230994.342773, 93.548000]: attempting to reach position x: -43.522565, y: 172.577402, z: 20.000000 | current position x: -43.522562, y: 172.577390, z: 31.459492
+[INFO] [1626230994.343102, 93.544000]: attempting to reach position x: -43.522520, y: 172.577340, z: 20.000000 | current position x: -43.522518, y: 172.577329, z: 31.477551
+[INFO] [1626230994.344074, 93.548000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522562, y: 172.577266, z: 31.469465
+[INFO] [1626230994.349453, 93.544000]: attempting to reach position x: -43.522475, y: 172.577402, z: 20.000000 | current position x: -43.522473, y: 172.577392, z: 31.474637
+
+UAV 2: In formation
+Waiting for ready message from Tx...
+
+UAV 4: In formation
+Waiting for ready message from Tx...
+
+UAV 0: In formation
+Receiving desired centre position from server...
+
+[INFO] [1626230995.342924, 93.676000]: attempting to reach position x: -43.522565, y: 172.577278, z: 20.000000 | current position x: -43.522563, y: 172.577268, z: 31.462464
+
+UAV 3: In formation
+Waiting for ready message from Tx...
+Traceback (most recent call last):
+  File "tx.py", line 336, in <module>
+    main()
+  File "tx.py", line 318, in main
+    wait_for_rxs(context)
+  File "tx.py", line 260, in wait_for_rxs
+    startup.bind("tcp://*:{}".format(TX_STARTUP_PORT))
+  File "/home/oli/.local/lib/python3.8/site-packages/zmq/sugar/socket.py", line 172, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use

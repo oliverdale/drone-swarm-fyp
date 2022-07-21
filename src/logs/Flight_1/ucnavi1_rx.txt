@@ -1,0 +1,89 @@
+ucnavi1@ucnavi1:~/drone-swarm-fyp/src/LastYear$ python3 rx.py -sf 1
+[INFO] [1626230424.438965]: waiting for ROS services
+[INFO] [1626230424.448401]: ROS services are up
+[INFO] [1626230424.467163]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230424.475471]: UAV -1 setting up
+[INFO] [1626230424.477214]: waiting for subscribed topics to be ready
+[INFO] [1626230424.480328]: connected changed from False to True
+[INFO] [1626230424.482121]: mode changed from  to STABILIZED
+[INFO] [1626230424.483735]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1626230425.479144]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1626230425.481479]: attempting to reach position x: -43.522572, y: 172.577272, z: 20.000000 | current position x: -43.522572, y: 172.577272, z: 29.022450
+
+UAV 1: Move to formation start position?
+[INFO] [1626230714.041044]: armed state changed from False to True
+[INFO] [1626230714.045002]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230718.344044]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626230725.016092]: mode changed from STABILIZED to POSCTL
+[INFO] [1626230755.979752]: mode changed from POSCTL to OFFBOARD
+[INFO] [1626230803.949873]: mode changed from OFFBOARD to POSCTL
+[INFO] [1626230809.671202]: landed state changed from MAV_LANDED_STATE_IN_AIR to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626230811.950707]: armed state changed from True to False
+[INFO] [1626230811.954123]: system_status changed from MAV_STATE_ACTIVE to MAV_STATE_STANDBY
+[INFO] [1626230814.952652]: mode changed from POSCTL to STABILIZED
+[INFO] [1626230936.918808]: armed state changed from False to True
+[INFO] [1626230936.922678]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1626230938.638454]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1626230943.917212]: mode changed from STABILIZED to POSCTL
+[INFO] [1626230965.909254]: mode changed from POSCTL to OFFBOARD
+
+Receiving desired centre position from server...
+
+[INFO] [1626230974.320944]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522572, y: 172.577270, z: 42.776450
+Receiving desired centre position from server...
+
+[INFO] [1626230975.244762]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522555, y: 172.577272, z: 42.037479
+Receiving desired centre position from server...
+
+[INFO] [1626230975.910366]: mode changed from OFFBOARD to STABILIZED
+[INFO] [1626230976.157888]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522509, y: 172.577273, z: 41.003554
+Receiving desired centre position from server...
+
+[INFO] [1626230977.181217]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522459, y: 172.577267, z: 39.461634
+Receiving desired centre position from server...
+
+[INFO] [1626230978.621916]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522416, y: 172.577254, z: 36.179701
+Receiving desired centre position from server...
+
+[INFO] [1626230979.228686]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522408, y: 172.577250, z: 35.094713
+Receiving desired centre position from server...
+
+[INFO] [1626230980.253623]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522401, y: 172.577246, z: 34.345724
+Receiving desired centre position from server...
+
+[INFO] [1626230981.379061]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522400, y: 172.577246, z: 34.303725
+Receiving desired centre position from server...
+
+[INFO] [1626230981.910744]: mode changed from STABILIZED to POSCTL
+[INFO] [1626230982.405989]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522398, y: 172.577247, z: 34.562729
+Receiving desired centre position from server...
+
+[INFO] [1626230983.327857]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522394, y: 172.577247, z: 34.778734
+Receiving desired centre position from server...
+
+[INFO] [1626230985.064453]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522396, y: 172.577248, z: 34.886731
+Receiving desired centre position from server...
+
+[INFO] [1626230985.120072]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522397, y: 172.577248, z: 34.884730
+Receiving desired centre position from server...
+
+[INFO] [1626230986.189357]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522408, y: 172.577249, z: 34.781713
+Receiving desired centre position from server...
+
+[INFO] [1626230987.422772]: attempting to reach position x: -43.522483, y: 172.577280, z: 20.000000 | current position x: -43.522424, y: 172.577255, z: 34.873687
+Receiving desired centre position from server...
+
+[INFO] [1626230988.286749]: attempting to reach position x: -43.522482, y: 172.577280, z: 20.000000 | current position x: -43.522437, y: 172.577262, z: 34.933667
+Receiving desired centre position from server...
+
+[INFO] [1626230989.190013]: attempting to reach position x: -43.522480, y: 172.577280, z: 20.000000 | current position x: -43.522454, y: 172.577269, z: 34.911641
+Receiving desired centre position from server...
+
+[INFO] [1626230990.288795]: attempting to reach position x: -43.522475, y: 172.577278, z: 20.000000 | current position x: -43.522476, y: 172.577276, z: 34.901607
+
+UAV 1: In formation
+Waiting for ready message from Tx...
+[INFO] [1626231003.214281]: landed state changed from MAV_LANDED_STATE_IN_AIR to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1626231005.893153]: armed state changed from True to False
+[INFO] [1626231005.897062]: mode changed from POSCTL to STABILIZED
+[INFO] [1626231005.900661]: system_status changed from MAV_STATE_ACTIVE to MAV_STATE_STANDBY

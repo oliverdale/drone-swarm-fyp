@@ -1,0 +1,21 @@
+Read me for landing_function
+
+landing_function is a computer vision program which is capable of mapping a stable landing surface for the drone to
+land. It can also map the area the drone will land on. The calculating the distance between obstacles and the drone's
+landing area still needs to be successfully implemented. The program will also need to have its image resolution and
+frame rate reduced to run on an Intel NUC
+
+This runs on a Python 3.7 environment and uses the following libraries:
+opencv
+pyrealsense2
+numpy
+math
+tkinter
+pyransac3d
+IntEnum
+datetime
+open3d
+
+Important: This was developed on the side and is not a nessecary portion of the project. It was put on hold because other
+aspects of the project have a much higher priority. It is strongly recommended to focus on having the drone swarm flying 
+reliably with tracking before further development on this.

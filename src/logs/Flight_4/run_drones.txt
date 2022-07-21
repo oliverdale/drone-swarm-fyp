@@ -1,0 +1,697 @@
+Script started on 2021-07-30 12:28:18+12:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="80" LINES="24"]
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ roslaunch px4 uav_034.launchsource Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [2Proslaunch px4 uav_034.launch
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfull_swarm_simulated.launch[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [13Pcd PX4-Autopilot/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdrone-swarm-fyp/source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [8Ppython3 server_data.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd drone-swarm-fyp/src/LastYear/[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ python3 run_drones.py -sa -u034[K[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ cd drone-swarm-fyp/src/LastYear/[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[11Pat > ipaddress.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Croslaunch px4 full_swarm_simulated.launch[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Puav_0234.launch
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P34.launchsource Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ DONT_RUN=1 make px4_sitl_default gazebo[K[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [2Proslaunch px4 uav_034.launch
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C234.launchfull_swarm_simulated.launch[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 run_drones -u[Ksa -u 023[K[K34
+python3: can't open file 'run_drones': [Errno 2] No such file or directory
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ python3 run_drones -sa -u 034. -sa -u 034 [A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -sa -u 034[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy -sa -u 034[A]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[INFO] [1627606065.145461, 0.000000]: waiting for ROS services
+[INFO] [1627606065.154549, 0.000000]: waiting for ROS services
+[INFO] [1627606065.183560, 85.060000]: ROS services are up
+[INFO] [1627606065.206785, 85.084000]: ROS services are up
+[INFO] [1627606065.267232, 85.140000]: waiting for subscribed topics to be ready
+[INFO] [1627606065.281599, 85.156000]: waiting for subscribed topics to be ready
+[INFO] [1627606065.287532, 85.156000]: connected changed from False to True
+[INFO] [1627606065.290445, 85.164000]: mode changed from  to AUTO.LOITER
+[INFO] [1627606065.295508, 85.168000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627606065.303638, 85.176000]: connected changed from False to True
+[INFO] [1627606065.310852, 85.184000]: mode changed from  to AUTO.LOITER
+[INFO] [1627606065.314302, 85.188000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627606065.389300, 85.264000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627606065.476495, 85.348000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627606065.800864, 0.000000]: waiting for ROS services
+[INFO] [1627606065.824047, 85.700000]: ROS services are up
+[INFO] [1627606065.876906, 85.752000]: waiting for subscribed topics to be ready
+[INFO] [1627606065.888836, 85.764000]: connected changed from False to True
+[INFO] [1627606065.891344, 85.768000]: mode changed from  to AUTO.LOITER
+[INFO] [1627606065.892715, 85.768000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627606065.949632, 85.824000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627606066.269702, 86.148000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627606066.272032, 86.148000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627606066.276854, 86.152000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627606066.281112, 86.156000]: UAV 3 taking off
+[INFO] [1627606066.283815, 86.160000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627606066.285350, 86.156000]: setting FCU mode: OFFBOARD
+[INFO] [1627606066.287092, 86.164000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627606066.289543, 86.164000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627606066.292262, 86.168000]: UAV 4 taking off
+[INFO] [1627606066.295800, 86.172000]: setting FCU mode: OFFBOARD
+[INFO] [1627606066.674089, 86.552000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627606066.880417, 86.756000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627606066.882020, 86.756000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627606066.883624, 86.756000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627606066.886303, 86.760000]: UAV 0 taking off
+[INFO] [1627606066.891910, 86.764000]: setting FCU mode: OFFBOARD
+[INFO] [1627606066.949082, 86.824000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627606067.188490, 87.064000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627606067.287835, 87.164000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627606067.290879, 87.164000]: setting FCU arm: True
+[INFO] [1627606067.300948, 87.176000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627606067.302961, 87.176000]: setting FCU arm: True
+[INFO] [1627606067.678066, 87.552000]: armed state changed from False to True
+[INFO] [1627606067.679899, 87.552000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627606067.897352, 87.772000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627606067.899746, 87.772000]: setting FCU arm: True
+[INFO] [1627606067.951197, 87.824000]: armed state changed from False to True
+[INFO] [1627606067.953527, 87.824000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627606068.190030, 88.064000]: armed state changed from False to True
+[INFO] [1627606068.192558, 88.064000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627606068.293190, 88.168000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627606068.295783, 88.168000]: attempting to reach position x: -43.522545, y: 172.577201, z: 20.004036 | current position x: -43.522545, y: 172.577201, z: 11.436479
+
+UAV 3: Move to formation start position?
+[INFO] [1627606068.307584, 88.180000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627606068.311075, 88.184000]: attempting to reach position x: -43.522545, y: 172.577325, z: 20.007065 | current position x: -43.522545, y: 172.577325, z: 11.438506
+
+UAV 4: Move to formation start position?
+[INFO] [1627606068.911363, 88.776000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627606068.914306, 88.776000]: attempting to reach position x: -43.522500, y: 172.577263, z: 19.980413 | current position x: -43.522500, y: 172.577263, z: 11.412566
+
+UAV 0: Move to formation start position?
+[INFO] [1627606069.201272, 89.064000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627606069.290824, 89.152000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627606069.761943, 89.624000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+
+[INFO] [1627606085.216537, 104.908000]: attempting to reach position x: -43.522630, y: 172.577196, z: 20.004036 | current position x: -43.522544, y: 172.577201, z: 31.443480
+[INFO] [1627606085.216616, 104.908000]: attempting to reach position x: -43.522585, y: 172.577258, z: 19.980413 | current position x: -43.522499, y: 172.577263, z: 31.441567
+[INFO] [1627606085.218750, 104.908000]: attempting to reach position x: -43.522630, y: 172.577320, z: 20.007065 | current position x: -43.522544, y: 172.577325, z: 31.449506
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1627606086.215992, 105.908000]: attempting to reach position x: -43.522585, y: 172.577258, z: 19.980413 | current position x: -43.522518, y: 172.577262, z: 31.559535
+[INFO] [1627606086.216020, 105.908000]: attempting to reach position x: -43.522630, y: 172.577320, z: 20.007065 | current position x: -43.522564, y: 172.577325, z: 31.565474
+[INFO] [1627606086.216041, 105.908000]: attempting to reach position x: -43.522630, y: 172.577196, z: 20.004036 | current position x: -43.522565, y: 172.577200, z: 31.571447
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1627606087.216716, 106.908000]: attempting to reach position x: -43.522630, y: 172.577320, z: 20.007065 | current position x: -43.522610, y: 172.577324, z: 31.398400
+[INFO] [1627606087.216716, 106.908000]: attempting to reach position x: -43.522585, y: 172.577258, z: 19.980413 | current position x: -43.522564, y: 172.577262, z: 31.374461
+[INFO] [1627606087.216727, 106.908000]: attempting to reach position x: -43.522630, y: 172.577196, z: 20.004036 | current position x: -43.522610, y: 172.577200, z: 31.386373
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+[INFO] [1627606088.217126, 107.904000]: attempting to reach position x: -43.522585, y: 172.577258, z: 19.980413 | current position x: -43.522586, y: 172.577260, z: 31.343424
+[INFO] [1627606088.217126, 107.904000]: attempting to reach position x: -43.522630, y: 172.577196, z: 20.004036 | current position x: -43.522631, y: 172.577198, z: 31.360338
+[INFO] [1627606088.217144, 107.904000]: attempting to reach position x: -43.522630, y: 172.577320, z: 20.007065 | current position x: -43.522631, y: 172.577322, z: 31.359364
+
+UAV 3: In formation
+Waiting for ready message from Tx...
+
+UAV 4: In formation
+Waiting for ready message from Tx...
+
+UAV 0: In formation
+Waiting for ready messages from Rxs...
+Rx 1 ready.
+Rx 2 ready.
+Rx 3 ready.
+Rx 4 ready.
+All Rxs ready.
+Tx ready.
+Tx ready.
+Receiving start position from target position server...
+Receiving start position from target position server...
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.168714946779604
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.622508520365542
+Drone 0 Drone 3 = 7.130770304118974
+Drone 0 Drone 4 = 7.081851871318313
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.62825399207423
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.422152152142074
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.249562174913052
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.21516238075558
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.905864281175768
+Drone 3 Drone 4 = 10.01396820645764
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.19 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.18
+[INFO] [1627606091.683807, 111.356000]: attempting to reach position x: -43.522584, y: 172.577258, z: 19.980413 | current position x: -43.522584, y: 172.577258, z: 31.365428
+[INFO] [1627606091.684034, 111.368000]: attempting to reach position x: -43.522629, y: 172.577195, z: 20.004036 | current position x: -43.522629, y: 172.577195, z: 31.395341
+[INFO] [1627606091.684117, 111.368000]: attempting to reach position x: -43.522629, y: 172.577320, z: 20.007065 | current position x: -43.522629, y: 172.577320, z: 31.396368
+
+WARNING: DRONE 1 IS 5M OUT OF POSITION
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.249553348822099
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.471223169528994
+Drone 0 Drone 3 = 7.1101830218415625
+Drone 0 Drone 4 = 7.0931704224477
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.67200817928154
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.456131374937781
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.342289567987947
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.016368182155237
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.703401935439873
+Drone 3 Drone 4 = 9.989773742140349
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.13 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.19
+[INFO] [1627606092.692585, 112.372000]: attempting to reach position x: -43.522583, y: 172.577258, z: 19.980413 | current position x: -43.522583, y: 172.577258, z: 31.359429
+[INFO] [1627606092.692618, 112.376000]: attempting to reach position x: -43.522629, y: 172.577320, z: 20.007065 | current position x: -43.522629, y: 172.577320, z: 31.393368
+[INFO] [1627606092.694820, 112.376000]: attempting to reach position x: -43.522629, y: 172.577196, z: 20.004036 | current position x: -43.522629, y: 172.577196, z: 31.393342
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.167925074005394
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.337590387591675
+Drone 0 Drone 3 = 7.115863146474924
+Drone 0 Drone 4 = 7.090933509293371
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.5259918473172
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.379252451274928
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.258368757451162
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.880746626595684
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.537369243963264
+Drone 3 Drone 4 = 10.005905541806762
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.04 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.23
+[INFO] [1627606093.693035, 113.372000]: attempting to reach position x: -43.522583, y: 172.577258, z: 19.980413 | current position x: -43.522583, y: 172.577258, z: 31.363429
+[INFO] [1627606093.693187, 113.372000]: attempting to reach position x: -43.522628, y: 172.577196, z: 20.004036 | current position x: -43.522628, y: 172.577196, z: 31.398342
+[INFO] [1627606093.693333, 113.376000]: attempting to reach position x: -43.522628, y: 172.577320, z: 20.007065 | current position x: -43.522628, y: 172.577320, z: 31.404369
+
+WARNING: DRONE 0 IS 5M OUT OF POSITION
+WARNING: DRONE 1 IS 5M OUT OF POSITION
+WARNING: DRONE 3 IS 5M OUT OF POSITION
+WARNING: DRONE 4 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 16.275911533814458
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.286077254671113
+Drone 0 Drone 3 = 7.121547860891373
+Drone 0 Drone 4 = 7.071685844790751
+ERROR: DRONES WITHIN 3M OF EACH OTHER
+Drone 1 Drone 2 = 0.05062969537716095
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 22.806038155956543
+Drone 1 Drone 4 = 14.423570848995835
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.808777261751583
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.41119904496727
+Drone 3 Drone 4 = 9.997861381920746
+Drone 1 longitude overlap
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 14.34 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.26
+[INFO] [1627606094.703474, 114.376000]: attempting to reach position x: -43.522628, y: 172.577320, z: 20.007065 | current position x: -43.522628, y: 172.577320, z: 31.409370
+[INFO] [1627606094.704549, 114.376000]: attempting to reach position x: -43.522583, y: 172.577258, z: 19.980413 | current position x: -43.522583, y: 172.577258, z: 31.378430
+[INFO] [1627606094.704976, 114.380000]: attempting to reach position x: -43.522628, y: 172.577196, z: 20.004036 | current position x: -43.522628, y: 172.577196, z: 31.414343
+
+WARNING: DRONE 1 IS 5M OUT OF POSITION
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.206641789275553
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.373299007575422
+Drone 0 Drone 3 = 7.100103337678353
+Drone 0 Drone 4 = 7.0537095793767115
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.64162849935983
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.46275954771826
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.258286358244003
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.85890479027791
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.405075211624855
+Drone 3 Drone 4 = 9.997892357269599
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.15 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.28
+[INFO] [1627606095.397246, 115.072000]: attempting to reach position x: -43.522627, y: 172.577320, z: 20.007065 | current position x: -43.522627, y: 172.577320, z: 31.415370
+[INFO] [1627606095.397671, 115.076000]: attempting to reach position x: -43.522582, y: 172.577258, z: 19.980413 | current position x: -43.522582, y: 172.577258, z: 31.387430
+[INFO] [1627606095.397997, 115.076000]: attempting to reach position x: -43.522628, y: 172.577196, z: 20.004036 | current position x: -43.522628, y: 172.577196, z: 31.418343
+
+WARNING: DRONE 1 IS 5M OUT OF POSITION
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.242355429315328
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.443189064672826
+Drone 0 Drone 3 = 7.0979400752300545
+Drone 0 Drone 4 = 7.040143887270116
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.730685688510956
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.469151309972426
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.280646833155238
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.936159178600814
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.482793986856258
+Drone 3 Drone 4 = 9.997892421503654
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.20 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.31
+[INFO] [1627606096.668506, 116.344000]: attempting to reach position x: -43.522582, y: 172.577258, z: 19.980413 | current position x: -43.522582, y: 172.577258, z: 31.423431
+[INFO] [1627606096.668603, 116.344000]: attempting to reach position x: -43.522627, y: 172.577320, z: 20.007065 | current position x: -43.522627, y: 172.577320, z: 31.441371
+[INFO] [1627606096.668645, 116.344000]: attempting to reach position x: -43.522627, y: 172.577196, z: 20.004036 | current position x: -43.522627, y: 172.577196, z: 31.445344
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.195614722585665
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.345926337717817
+Drone 0 Drone 3 = 7.107978951778102
+Drone 0 Drone 4 = 7.0615844091494875
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.56791386355178
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.470495763549174
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.255141766683654
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.848098178712767
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.421316790096808
+Drone 3 Drone 4 = 9.997892421503654
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.10 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.33
+[INFO] [1627606097.431698, 117.108000]: attempting to reach position x: -43.522582, y: 172.577258, z: 19.980413 | current position x: -43.522582, y: 172.577258, z: 31.436431
+[INFO] [1627606097.431824, 117.108000]: attempting to reach position x: -43.522627, y: 172.577320, z: 20.007065 | current position x: -43.522627, y: 172.577320, z: 31.461371
+[INFO] [1627606097.431826, 117.108000]: attempting to reach position x: -43.522627, y: 172.577196, z: 20.004036 | current position x: -43.522627, y: 172.577196, z: 31.465344
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.106332112490074
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.15191767640735
+Drone 0 Drone 3 = 7.131657575040903
+Drone 0 Drone 4 = 7.069467950401034
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.467178127288125
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.323178706702421
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.17548387789322
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.661753317743216
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.228751624267105
+Drone 3 Drone 4 = 9.997991389504133
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 8.99 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.38
+[INFO] [1627606098.498671, 118.104000]: attempting to reach position x: -43.522582, y: 172.577258, z: 19.980413 | current position x: -43.522582, y: 172.577258, z: 31.437431
+[INFO] [1627606098.498746, 118.104000]: attempting to reach position x: -43.522627, y: 172.577320, z: 20.007065 | current position x: -43.522627, y: 172.577320, z: 31.473371
+[INFO] [1627606098.499025, 118.104000]: attempting to reach position x: -43.522627, y: 172.577196, z: 20.004036 | current position x: -43.522627, y: 172.577196, z: 31.478344
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.020036140071916
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 15.933321263601169
+Drone 0 Drone 3 = 7.112413119115041
+Drone 0 Drone 4 = 7.08872256620742
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.3076265091978
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.179191697687527
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.10875092704255
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.413145351264216
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 13.989982619684003
+Drone 3 Drone 4 = 9.997892487791587
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 8.85 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.4
+[INFO] [1627606099.819115, 119.380000]: attempting to reach position x: -43.522581, y: 172.577258, z: 19.980413 | current position x: -43.522581, y: 172.577258, z: 31.425432
+[INFO] [1627606099.819150, 119.392000]: attempting to reach position x: -43.522627, y: 172.577320, z: 20.007065 | current position x: -43.522627, y: 172.577320, z: 31.471371
+[INFO] [1627606099.819304, 119.392000]: attempting to reach position x: -43.522627, y: 172.577196, z: 20.004036 | current position x: -43.522627, y: 172.577196, z: 31.465345
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.880893143021778
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.192322168971614
+Drone 0 Drone 3 = 7.110183146521421
+Drone 0 Drone 4 = 7.088722577893933
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.34021054918759
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.091900147191405
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.96944098437164
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 22.688374194539936
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.270671625532714
+Drone 3 Drone 4 = 10.005924367555401
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 8.98 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.42
+[INFO] [1627606100.487491, 120.060000]: attempting to reach position x: -43.522626, y: 172.577319, z: 20.007065 | current position x: -43.522626, y: 172.577319, z: 31.471372
+[INFO] [1627606100.487553, 120.060000]: attempting to reach position x: -43.522627, y: 172.577195, z: 20.004036 | current position x: -43.522627, y: 172.577195, z: 31.465345
+[INFO] [1627606100.488003, 120.056000]: attempting to reach position x: -43.522581, y: 172.577258, z: 19.980413 | current position x: -43.522581, y: 172.577258, z: 31.433432
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.831960085546465
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.600606835000434
+Drone 0 Drone 3 = 7.118082337873311
+Drone 0 Drone 4 = 7.077360197778675
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.572621640306316
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.115183455842773
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.9087388729023
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.11141049881004
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.69314249874078
+Drone 3 Drone 4 = 9.989829846081953
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.24 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.46
+[INFO] [1627606101.677155, 121.236000]: attempting to reach position x: -43.522581, y: 172.577258, z: 19.980413 | current position x: -43.522581, y: 172.577258, z: 31.429432
+[INFO] [1627606101.677172, 121.248000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.463345
+[INFO] [1627606101.677229, 121.248000]: attempting to reach position x: -43.522626, y: 172.577319, z: 20.007065 | current position x: -43.522626, y: 172.577319, z: 31.467372
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.88710863797211
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.553644133165623
+Drone 0 Drone 3 = 7.123756150786899
+Drone 0 Drone 4 = 7.0875089761903185
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.60660762746612
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.146278489879185
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.97435134832773
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.06580072441305
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.652832455124212
+Drone 3 Drone 4 = 9.98978035492091
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.23 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.48
+[INFO] [1627606102.702663, 122.272000]: attempting to reach position x: -43.522626, y: 172.577319, z: 20.007065 | current position x: -43.522626, y: 172.577319, z: 31.457372
+[INFO] [1627606102.702706, 122.272000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.456345
+[INFO] [1627606102.703460, 122.264000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.431433
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.897071682987095
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.593241264717484
+Drone 0 Drone 3 = 7.1294345627732625
+Drone 0 Drone 4 = 7.0875089805381855
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.821967211639624
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.035262789960418
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.984417245570175
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.09849836979147
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.648903772928668
+Drone 3 Drone 4 = 9.99784313805352
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.32 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.49
+[INFO] [1627606103.422987, 122.992000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.449345
+[INFO] [1627606103.423239, 122.984000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.439433
+[INFO] [1627606103.424598, 122.992000]: attempting to reach position x: -43.522626, y: 172.577319, z: 20.007065 | current position x: -43.522626, y: 172.577319, z: 31.459372
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.816304938217824
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.81611756336354
+Drone 0 Drone 3 = 7.123756161046834
+Drone 0 Drone 4 = 7.081852045968063
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.93299134883594
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.031027492561112
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.89815536680632
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.296732677475916
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.81463851652775
+Drone 3 Drone 4 = 9.981717621459095
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.49 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.51
+[INFO] [1627606104.626209, 124.192000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.428433
+[INFO] [1627606104.626418, 124.192000]: attempting to reach position x: -43.522626, y: 172.577319, z: 20.007065 | current position x: -43.522626, y: 172.577319, z: 31.443372
+[INFO] [1627606104.626730, 124.192000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.438346
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.843129231759926
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.827108522568725
+Drone 0 Drone 3 = 7.112413172467935
+Drone 0 Drone 4 = 7.079593165420961
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.91193840660984
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.119799839382914
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.92233244067596
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.285547130989126
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.790482989257232
+Drone 3 Drone 4 = 9.973673456543425
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.49 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.51
+[INFO] [1627606105.746791, 125.292000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.408433
+[INFO] [1627606105.746821, 125.312000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.443372
+[INFO] [1627606105.746869, 125.312000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.425346
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.91190441793272
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.715429908521536
+Drone 0 Drone 3 = 7.096610833552488
+Drone 0 Drone 4 = 7.079593165420961
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.84652827024552
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.143223027576425
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.991220954440745
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.177559399246693
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.722228542275499
+Drone 3 Drone 4 = 9.973648679148468
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.40 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.51
+[INFO] [1627606106.350868, 125.908000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.400433
+[INFO] [1627606106.350913, 125.912000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.426372
+[INFO] [1627606106.352099, 125.912000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.422346
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.847128876101655
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.599288578293233
+Drone 0 Drone 3 = 7.093170585406497
+Drone 0 Drone 4 = 7.090933647591982
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.81447605366463
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.00095828399167
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.93802277135744
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.04910452836334
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.594653703197269
+Drone 3 Drone 4 = 9.973654869370774
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.33 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.52
+[INFO] [1627606107.424196, 126.984000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.421372
+[INFO] [1627606107.424293, 126.984000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.409346
+[INFO] [1627606107.424641, 126.972000]: attempting to reach position x: -43.522581, y: 172.577257, z: 19.980413 | current position x: -43.522581, y: 172.577257, z: 31.381433
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.728651179559153
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.5698879852437
+Drone 0 Drone 3 = 7.089782790727682
+Drone 0 Drone 4 = 7.102292640981634
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.723184191539517
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.89472835759827
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.830859054203735
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.00784008978997
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.549700280052773
+Drone 3 Drone 4 = 9.973673473076941
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.29 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.53
+[INFO] [1627606109.433069, 128.992000]: attempting to reach position x: -43.522580, y: 172.577256, z: 19.980413 | current position x: -43.522580, y: 172.577256, z: 31.368433
+[INFO] [1627606109.433106, 128.992000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.383346
+[INFO] [1627606109.433110, 128.992000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.403372
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.74166002749495
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.610121042974125
+Drone 0 Drone 3 = 7.095433411570638
+Drone 0 Drone 4 = 7.096610839891303
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.711402913329724
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.948635320970645
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.838270383084176
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.058425888981734
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.602001168225797
+Drone 3 Drone 4 = 9.973673473076941
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.31 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.53
+[INFO] [1627606109.636660, 129.192000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.402372
+[INFO] [1627606109.636837, 129.192000]: attempting to reach position x: -43.522580, y: 172.577256, z: 19.980413 | current position x: -43.522580, y: 172.577256, z: 31.364433
+[INFO] [1627606109.637568, 129.196000]: attempting to reach position x: -43.522626, y: 172.577195, z: 20.004036 | current position x: -43.522626, y: 172.577195, z: 31.383346
+
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.791906213039452
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.703049656724115
+Drone 0 Drone 3 = 7.093170591208476
+Drone 0 Drone 4 = 7.088722624639985
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.73740894823885
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.054327030529274
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.880177139722935
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.157594177291354
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.691916964679693
+Drone 3 Drone 4 = 9.981736243243656
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.36 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.52
+[INFO] [1627606110.454639, 130.008000]: attempting to reach position x: -43.522626, y: 172.577194, z: 20.004036 | current position x: -43.522626, y: 172.577194, z: 31.390346
+[INFO] [1627606110.454791, 129.996000]: attempting to reach position x: -43.522580, y: 172.577256, z: 19.980413 | current position x: -43.522580, y: 172.577256, z: 31.368433
+[INFO] [1627606110.455235, 130.012000]: attempting to reach position x: -43.522626, y: 172.577318, z: 20.007065 | current position x: -43.522626, y: 172.577318, z: 31.397372
+
+^CInterrupted, terminating processes...
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ Exiting...
+Exiting...
+WARNING: DRONE 2 IS 5M OUT OF POSITION
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.853717283164304
+WARNING: DRONE 0 and DRONE 2 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 2 = 16.60557112862413
+Drone 0 Drone 3 = 7.093170591208476
+Drone 0 Drone 4 = 7.069468022205949
+WARNING: DRONE 1 and DRONE 2 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 2 = 23.719974352591397
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.071707538946487
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.9230432601564
+WARNING: DRONE 2 and DRONE 3 FURTHER THAN 16M OF EACH OTHER
+Drone 2 Drone 3 = 23.0671846750758
+WARNING: DRONE 2 and DRONE 4 FURTHER THAN 12M OF EACH OTHER
+Drone 2 Drone 4 = 14.625401465456902
+Drone 3 Drone 4 = 9.965641765765987
+ERROR: DRONES TOO FAR OUT OF FORMATION
+Max error in centre estimate of 9.30 m
+ERROR: CRITICAL - STOP THE DRONES
+Multilateration error 0.54
+[INFO] [1627606111.488989, 130.308000]: attempting to reach position x: -43.522580, y: 172.577256, z: 19.980413 | current position x: -43.522580, y: 172.577256, z: 31.367433
+
+Exiting...
+^C
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ exit
+exit
+
+Script done on 2021-07-30 12:49:31+12:00 [COMMAND_EXIT_CODE="130"]

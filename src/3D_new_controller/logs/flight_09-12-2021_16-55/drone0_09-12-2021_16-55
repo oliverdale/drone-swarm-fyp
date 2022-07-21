@@ -1,0 +1,3 @@
+START: 09/12/2021 16:55:31:868402
+TIME,            STATES_LIST,          TARGET_FILT_CART,          TARGET_FILT_GPS,          TARGET_REAL_GPS,          TX_FILT_CART,          TX_FILT_GPS,          TX_REAL_GPS,          MULTILATERATION_ERROR,          MODE,          
+STOP: 09/12/2021 16:55:34:877479

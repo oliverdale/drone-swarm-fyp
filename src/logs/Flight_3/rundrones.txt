@@ -1,0 +1,2743 @@
+Script started on 2021-07-28 15:28:50+12:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ git pullssh ucnavi1@192.168.1.1[15Pifconfigssh ucnavi1@192.168.1.1status[K[2Pifconfigssh statusucnavi1@192.168.1.1[15Pifconfigssh ucnavi1@192.168.1.1[15Pgit pull[Kpython3 run_s[Kdroes[K[Knes.py -sa -u02 34
+[INFO] [1627443069.864844, 0.000000]: waiting for ROS services
+[INFO] [1627443069.872663, 188.472000]: ROS services are up
+[INFO] [1627443069.892442, 188.492000]: waiting for subscribed topics to be ready
+[INFO] [1627443069.898311, 188.496000]: connected changed from False to True
+[INFO] [1627443069.900898, 188.496000]: mode changed from  to AUTO.LOITER
+[INFO] [1627443069.903540, 188.504000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627443069.909576, 0.000000]: waiting for ROS services
+[INFO] [1627443069.909820, 0.000000]: waiting for ROS services
+[INFO] [1627443069.920083, 188.520000]: ROS services are up
+[INFO] [1627443069.920787, 188.520000]: ROS services are up
+[INFO] [1627443069.936160, 188.536000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443069.946264, 188.544000]: waiting for subscribed topics to be ready
+[INFO] [1627443069.951581, 188.552000]: waiting for subscribed topics to be ready
+[INFO] [1627443069.952111, 188.552000]: connected changed from False to True
+[INFO] [1627443069.954005, 188.552000]: mode changed from  to AUTO.LOITER
+[INFO] [1627443069.956807, 188.556000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627443069.957297, 188.556000]: connected changed from False to True
+[INFO] [1627443069.958331, 188.556000]: mode changed from  to AUTO.LOITER
+[INFO] [1627443069.959702, 188.560000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627443069.988650, 188.588000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443070.036640, 188.636000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443070.448903, 0.000000]: waiting for ROS services
+[INFO] [1627443070.488120, 189.084000]: ROS services are up
+[INFO] [1627443070.526204, 189.120000]: waiting for subscribed topics to be ready
+[INFO] [1627443070.534909, 189.128000]: connected changed from False to True
+[INFO] [1627443070.537826, 189.132000]: mode changed from  to AUTO.LOITER
+[INFO] [1627443070.541347, 189.136000]: system_status changed from MAV_STATE_UNINIT to MAV_STATE_STANDBY
+[INFO] [1627443070.550805, 189.148000]: landed state changed from MAV_LANDED_STATE_UNDEFINED to MAV_LANDED_STATE_ON_GROUND
+[INFO] [1627443070.897340, 189.492000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627443070.901299, 189.492000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627443070.906007, 189.500000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627443070.909982, 189.504000]: UAV 3 taking off
+[INFO] [1627443070.914458, 189.508000]: setting FCU mode: OFFBOARD
+[INFO] [1627443070.949259, 189.544000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627443070.952443, 189.544000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627443070.955612, 189.548000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627443070.958248, 189.552000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627443070.961903, 189.552000]: UAV 2 taking off
+[INFO] [1627443070.962698, 189.552000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627443070.967045, 189.560000]: setting FCU mode: OFFBOARD
+[INFO] [1627443070.967054, 189.560000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627443070.970581, 189.564000]: UAV 4 taking off
+[INFO] [1627443070.974453, 189.568000]: setting FCU mode: OFFBOARD
+[INFO] [1627443071.193552, 189.788000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627443071.438905, 190.032000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627443071.530720, 190.124000]: simulation topics ready | seconds: 1.0 of 10
+[INFO] [1627443071.538031, 190.128000]: waiting for landed state | state: MAV_LANDED_STATE_ON_GROUND, index: -1
+[INFO] [1627443071.546863, 190.132000]: landed state confirmed | seconds: 0.0 of 10
+[INFO] [1627443071.556158, 190.136000]: UAV 0 taking off
+[INFO] [1627443071.563661, 190.144000]: setting FCU mode: OFFBOARD
+[INFO] [1627443071.750496, 190.336000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627443072.029431, 190.512000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627443072.037778, 190.520000]: setting FCU arm: True
+[INFO] [1627443072.066984, 190.548000]: mode changed from AUTO.LOITER to OFFBOARD
+[INFO] [1627443072.080887, 190.564000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627443072.083000, 190.564000]: setting FCU arm: True
+[INFO] [1627443072.088707, 190.572000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627443072.091190, 190.572000]: setting FCU arm: True
+[INFO] [1627443072.307333, 190.788000]: armed state changed from False to True
+[INFO] [1627443072.311769, 190.792000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627443072.554348, 191.032000]: armed state changed from False to True
+[INFO] [1627443072.562714, 191.040000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627443072.685070, 191.160000]: set mode success | seconds: 1.0 of 5
+[INFO] [1627443072.690662, 191.164000]: setting FCU arm: True
+[INFO] [1627443072.865692, 191.336000]: armed state changed from False to True
+[INFO] [1627443072.869118, 191.340000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627443073.054740, 191.524000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627443073.062775, 191.532000]: attempting to reach position x: -43.522630, y: 172.577160, z: 19.997329 | current position x: -43.522630, y: 172.577160, z: 11.429332
+
+UAV 3: Move to formation start position?
+[INFO] [1627443073.081832, 191.548000]: armed state changed from False to True
+[INFO] [1627443073.090398, 191.548000]: system_status changed from MAV_STATE_STANDBY to MAV_STATE_ACTIVE
+[INFO] [1627443073.106432, 191.572000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627443073.109719, 191.576000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627443073.113691, 191.576000]: attempting to reach position x: -43.522630, y: 172.577285, z: 19.979981 | current position x: -43.522630, y: 172.577285, z: 11.413358
+[INFO] [1627443073.116646, 191.580000]: attempting to reach position x: -43.522540, y: 172.577285, z: 20.009791 | current position x: -43.522540, y: 172.577285, z: 11.442506
+
+UAV 4: Move to formation start position?
+
+UAV 2: Move to formation start position?
+[INFO] [1627443073.713832, 192.172000]: set arm success | seconds: 1.0 of 5
+[INFO] [1627443073.721485, 192.180000]: attempting to reach position x: -43.522585, y: 172.577223, z: 20.017755 | current position x: -43.522585, y: 172.577223, z: 11.450419
+
+UAV 0: Move to formation start position?
+[INFO] [1627443074.079398, 192.536000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627443074.131557, 192.588000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627443074.180907, 192.636000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+[INFO] [1627443074.697655, 193.148000]: landed state changed from MAV_LANDED_STATE_ON_GROUND to MAV_LANDED_STATE_IN_AIR
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+[INFO] [1627443096.159477, 213.952000]: attempting to reach position x: -43.522612, y: 172.577171, z: 19.997329 | current position x: -43.522630, y: 172.577161, z: 31.465332
+[INFO] [1627443096.159615, 213.952000]: attempting to reach position x: -43.522522, y: 172.577295, z: 20.009791 | current position x: -43.522540, y: 172.577285, z: 31.472506
+[INFO] [1627443096.159614, 213.952000]: attempting to reach position x: -43.522612, y: 172.577295, z: 19.979981 | current position x: -43.522630, y: 172.577285, z: 31.426358
+[INFO] [1627443096.159984, 213.952000]: attempting to reach position x: -43.522567, y: 172.577233, z: 20.017755 | current position x: -43.522585, y: 172.577223, z: 31.474419
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+
+
+[INFO] [1627443097.161651, 214.844000]: attempting to reach position x: -43.522522, y: 172.577295, z: 20.009791 | current position x: -43.522535, y: 172.577288, z: 31.500513
+[INFO] [1627443097.161932, 214.848000]: attempting to reach position x: -43.522612, y: 172.577295, z: 19.979981 | current position x: -43.522626, y: 172.577288, z: 31.450365
+[INFO] [1627443097.162056, 214.848000]: attempting to reach position x: -43.522567, y: 172.577233, z: 20.017755 | current position x: -43.522580, y: 172.577226, z: 31.496427
+[INFO] [1627443097.164507, 214.848000]: attempting to reach position x: -43.522612, y: 172.577171, z: 19.997329 | current position x: -43.522625, y: 172.577164, z: 31.480341
+Receiving desired centre position from server...
+
+Receiving desired centre position from server...
+Receiving desired centre position from server...
+
+
+Receiving desired centre position from server...
+
+[INFO] [1627443098.160109, 215.836000]: attempting to reach position x: -43.522522, y: 172.577295, z: 20.009791 | current position x: -43.522525, y: 172.577293, z: 31.476531
+[INFO] [1627443098.160173, 215.836000]: attempting to reach position x: -43.522612, y: 172.577295, z: 19.979981 | current position x: -43.522615, y: 172.577292, z: 31.449384
+[INFO] [1627443098.160290, 215.836000]: attempting to reach position x: -43.522567, y: 172.577233, z: 20.017755 | current position x: -43.522570, y: 172.577231, z: 31.485444
+[INFO] [1627443098.160321, 215.836000]: attempting to reach position x: -43.522612, y: 172.577171, z: 19.997329 | current position x: -43.522615, y: 172.577169, z: 31.479358
+
+UAV 2: In formation
+Waiting for ready message from Tx...
+
+UAV 0: In formation
+Waiting for ready messages from Rxs...
+
+UAV 3: In formation
+Waiting for ready message from Tx...
+
+UAV 4: In formation
+Waiting for ready message from Tx...
+Rx 3 ready.
+Rx 4 ready.
+Rx 2 ready.
+Rx 1 ready.
+All Rxs ready.
+Tx ready.
+Tx ready.
+Tx ready.
+Receiving start position from target position server...
+Receiving start position from target position server...
+Receiving start position from target position server...
+Drone 0 Drone 1 = 6.6468269334398045
+Drone 0 Drone 2 = 7.070820674667096
+Drone 0 Drone 3 = 7.069468799828167
+Drone 0 Drone 4 = 7.086538309055735
+Drone 1 Drone 2 = 9.787039981390185
+Drone 1 Drone 3 = 9.642879068710872
+Drone 1 Drone 4 = 13.732899642742161
+Drone 2 Drone 3 = 14.140251344162877
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 9.989776490885957
+Max error in centre estimate of 0.34 m
+Multilateration error 0.62
+[INFO] [1627443272.348569, 384.620000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522567, y: 172.577234, z: 31.446450
+[INFO] [1627443272.348710, 384.628000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522522, y: 172.577296, z: 31.455536
+[INFO] [1627443272.348956, 384.628000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522612, y: 172.577172, z: 31.420363
+[INFO] [1627443272.349644, 384.628000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522612, y: 172.577296, z: 31.424390
+
+Drone 0 Drone 1 = 7.070564811520063
+Drone 0 Drone 2 = 7.053713080538244
+Drone 0 Drone 3 = 7.070818012856588
+Drone 0 Drone 4 = 7.061585260027236
+Drone 1 Drone 2 = 9.853627567511332
+Drone 1 Drone 3 = 10.119666630333434
+Drone 1 Drone 4 = 14.131172859143895
+Drone 2 Drone 3 = 14.124520751900135
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 9.989782640022003
+Max error in centre estimate of 0.15 m
+Multilateration error 0.6
+[INFO] [1627443273.262419, 385.524000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522568, y: 172.577234, z: 31.447449
+[INFO] [1627443273.262548, 385.536000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522523, y: 172.577296, z: 31.438536
+[INFO] [1627443273.262662, 385.536000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522613, y: 172.577296, z: 31.413389
+[INFO] [1627443273.263555, 385.536000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522612, y: 172.577172, z: 31.404363
+
+Drone 0 Drone 1 = 7.230808473785736
+Drone 0 Drone 2 = 7.080846432902665
+Drone 0 Drone 3 = 7.049412950189256
+Drone 0 Drone 4 = 7.065110848887741
+Drone 1 Drone 2 = 9.85875214172913
+Drone 1 Drone 3 = 10.331028126605188
+Drone 1 Drone 4 = 14.29143308993059
+Drone 2 Drone 3 = 14.130224355567979
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 9.997863851155095
+Max error in centre estimate of 0.30 m
+Multilateration error 0.5
+[INFO] [1627443274.527127, 386.696000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522523, y: 172.577297, z: 31.424535
+[INFO] [1627443274.527247, 386.688000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522568, y: 172.577235, z: 31.437448
+[INFO] [1627443274.530432, 386.700000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522613, y: 172.577173, z: 31.400362
+[INFO] [1627443274.531713, 386.696000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522613, y: 172.577297, z: 31.409388
+
+Drone 0 Drone 1 = 7.056165359271924
+Drone 0 Drone 2 = 7.062973589106799
+Drone 0 Drone 3 = 7.065110837162172
+Drone 0 Drone 4 = 7.092237266450738
+Drone 1 Drone 2 = 9.822084212720066
+Drone 1 Drone 3 = 10.153790372100081
+Drone 1 Drone 4 = 14.146274284870499
+Drone 2 Drone 3 = 14.128077904271558
+Drone 2 Drone 4 = 9.996427156419966
+Drone 3 Drone 4 = 10.013989289495248
+Max error in centre estimate of 0.20 m
+Multilateration error 0.5
+[INFO] [1627443275.347833, 387.396000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.426448
+[INFO] [1627443275.347908, 387.412000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.415534
+[INFO] [1627443275.347908, 387.412000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522613, y: 172.577173, z: 31.400362
+[INFO] [1627443275.347911, 387.412000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522614, y: 172.577297, z: 31.394388
+
+Drone 0 Drone 1 = 6.892903835179278
+Drone 0 Drone 2 = 7.084381722665704
+Drone 0 Drone 3 = 7.059408306333304
+Drone 0 Drone 4 = 7.078673708999597
+Drone 1 Drone 2 = 9.836906117198492
+Drone 1 Drone 3 = 9.920032552433682
+Drone 1 Drone 4 = 13.971365133516702
+Drone 2 Drone 3 = 14.143787012662017
+Drone 2 Drone 4 = 10.007546645939907
+Drone 3 Drone 4 = 9.997845209561348
+Max error in centre estimate of 0.15 m
+Multilateration error 0.54
+[INFO] [1627443276.375287, 388.428000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.416534
+[INFO] [1627443276.375300, 388.428000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522614, y: 172.577173, z: 31.413361
+[INFO] [1627443276.375121, 388.428000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522614, y: 172.577297, z: 31.397388
+[INFO] [1627443276.376096, 388.420000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.434448
+
+Drone 0 Drone 1 = 6.942609517333691
+Drone 0 Drone 2 = 7.059410936756033
+Drone 0 Drone 3 = 7.097940882971981
+Drone 0 Drone 4 = 7.063788118601999
+Drone 1 Drone 2 = 9.950371830852282
+Drone 1 Drone 3 = 9.874320162943018
+Drone 1 Drone 4 = 14.006047408006022
+Drone 2 Drone 3 = 14.157350059698047
+Drone 2 Drone 4 = 10.007556389839841
+Drone 3 Drone 4 = 9.997839017784612
+Max error in centre estimate of 0.11 m
+Multilateration error 0.42
+[INFO] [1627443277.286175, 389.324000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.437448
+[INFO] [1627443277.286236, 389.332000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522614, y: 172.577297, z: 31.390388
+[INFO] [1627443277.286238, 389.332000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522614, y: 172.577173, z: 31.422361
+[INFO] [1627443277.286238, 389.332000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.423534
+
+Drone 0 Drone 1 = 7.08931188151775
+Drone 0 Drone 2 = 7.061587818487659
+Drone 0 Drone 3 = 7.107246212187952
+Drone 0 Drone 4 = 7.04232843044568
+Drone 1 Drone 2 = 10.070639965471079
+Drone 1 Drone 3 = 9.940908185886832
+Drone 1 Drone 4 = 14.131091435628688
+Drone 2 Drone 3 = 14.168760810474279
+Drone 2 Drone 4 = 9.996436911869171
+Drone 3 Drone 4 = 10.013970762670855
+Max error in centre estimate of 0.07 m
+Multilateration error 0.68
+[INFO] [1627443278.316790, 390.336000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.429448
+[INFO] [1627443278.316965, 390.352000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522613, y: 172.577297, z: 31.396388
+[INFO] [1627443278.317019, 390.352000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.423534
+[INFO] [1627443278.317692, 390.352000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522614, y: 172.577173, z: 31.420361
+
+Drone 0 Drone 1 = 7.2094129086022605
+Drone 0 Drone 2 = 7.061587814107333
+Drone 0 Drone 3 = 7.087966746970913
+Drone 0 Drone 4 = 7.040144679711628
+Drone 1 Drone 2 = 10.118948493721787
+Drone 1 Drone 3 = 10.052567831733466
+Drone 1 Drone 4 = 14.249437865102818
+Drone 2 Drone 3 = 14.149492110467257
+Drone 2 Drone 4 = 9.985307667617048
+Drone 3 Drone 4 = 10.005907994397727
+Max error in centre estimate of 0.10 m
+Multilateration error 0.39
+[INFO] [1627443279.323863, 391.256000]: attempting to reach position x: -43.522613, y: 172.577173, z: 19.997329 | current position x: -43.522614, y: 172.577173, z: 31.409361
+[INFO] [1627443279.323863, 391.256000]: attempting to reach position x: -43.522524, y: 172.577297, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.419534
+[INFO] [1627443279.323868, 391.252000]: attempting to reach position x: -43.522568, y: 172.577235, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.426448
+[INFO] [1627443279.323878, 391.256000]: attempting to reach position x: -43.522613, y: 172.577297, z: 19.979981 | current position x: -43.522613, y: 172.577297, z: 31.389388
+
+Drone 0 Drone 1 = 7.170155548033993
+Drone 0 Drone 2 = 7.067279384576892
+Drone 0 Drone 3 = 7.082245913451113
+Drone 0 Drone 4 = 7.0458443396840975
+Drone 1 Drone 2 = 10.038562071306968
+Drone 1 Drone 3 = 10.085408852452074
+Drone 1 Drone 4 = 14.215962193826217
+Drone 2 Drone 3 = 14.149492109015336
+Drone 2 Drone 4 = 9.985307667613736
+Drone 3 Drone 4 = 10.00590799644925
+Max error in centre estimate of 0.07 m
+Multilateration error 0.25
+[INFO] [1627443280.390502, 392.308000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522569, y: 172.577235, z: 31.418448
+[INFO] [1627443280.391154, 392.316000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522524, y: 172.577297, z: 31.410534
+[INFO] [1627443280.391222, 392.316000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522613, y: 172.577297, z: 31.378388
+[INFO] [1627443280.391590, 392.316000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522614, y: 172.577173, z: 31.398361
+
+Drone 0 Drone 1 = 7.0931741299106825
+Drone 0 Drone 2 = 7.043700540631072
+Drone 0 Drone 3 = 7.138630483889229
+Drone 0 Drone 4 = 7.07515415407356
+Drone 1 Drone 2 = 9.973969934183307
+Drone 1 Drone 3 = 10.096705375375217
+Drone 1 Drone 4 = 14.168298191869466
+Drone 2 Drone 3 = 14.18232284640315
+Drone 2 Drone 4 = 9.985304412411743
+Drone 3 Drone 4 = 10.038208904428291
+Max error in centre estimate of 0.06 m
+Multilateration error 0.61
+[INFO] [1627443281.275980, 393.180000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522564, y: 172.577239, z: 31.428456
+[INFO] [1627443281.276129, 393.196000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522609, y: 172.577176, z: 31.412369
+[INFO] [1627443281.276144, 393.196000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522609, y: 172.577301, z: 31.383396
+[INFO] [1627443281.276206, 393.196000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522519, y: 172.577301, z: 31.408543
+
+Drone 0 Drone 1 = 7.161070919489247
+Drone 0 Drone 2 = 7.057260955444015
+Drone 0 Drone 3 = 7.113671585077738
+Drone 0 Drone 4 = 7.090089867424861
+Drone 1 Drone 2 = 10.022791106353322
+Drone 1 Drone 3 = 10.140977309905264
+Drone 1 Drone 4 = 14.250986202520323
+Drone 2 Drone 3 = 14.170915108740287
+Drone 2 Drone 4 = 9.985333709927495
+Drone 3 Drone 4 = 10.046273413373804
+Max error in centre estimate of 0.10 m
+Multilateration error 0.83
+[INFO] [1627443282.421654, 394.336000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522598, y: 172.577308, z: 31.353416
+[INFO] [1627443282.421884, 394.336000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522598, y: 172.577183, z: 31.393389
+[INFO] [1627443282.423734, 394.340000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522508, y: 172.577308, z: 31.408562
+[INFO] [1627443282.424586, 394.340000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522553, y: 172.577246, z: 31.413476
+
+Drone 0 Drone 1 = 7.3186901274857075
+Drone 0 Drone 2 = 7.070821685958317
+Drone 0 Drone 3 = 7.09223836027758
+Drone 0 Drone 4 = 7.08438018284731
+Drone 1 Drone 2 = 10.043349298733252
+Drone 1 Drone 3 = 10.330021272412901
+Drone 1 Drone 4 = 14.40160204179028
+Drone 2 Drone 3 = 14.163056482283617
+Drone 2 Drone 4 = 9.996427157129304
+Drone 3 Drone 4 = 10.030099391587113
+Max error in centre estimate of 0.26 m
+Multilateration error 0.23
+[INFO] [1627443283.332585, 395.244000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522505, y: 172.577311, z: 31.406568
+[INFO] [1627443283.332587, 395.244000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577186, z: 31.410395
+[INFO] [1627443283.332605, 395.244000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577248, z: 31.412481
+[INFO] [1627443283.332615, 395.244000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577311, z: 31.359421
+
+Drone 0 Drone 1 = 7.162896227180341
+Drone 0 Drone 2 = 7.070821690881983
+Drone 0 Drone 3 = 7.09223836615568
+Drone 0 Drone 4 = 7.096612630772647
+Drone 1 Drone 2 = 9.919722520657437
+Drone 1 Drone 3 = 10.23047021263239
+Drone 1 Drone 4 = 14.258277258121488
+Drone 2 Drone 3 = 14.163056493086767
+Drone 2 Drone 4 = 10.029785623591199
+Drone 3 Drone 4 = 10.013992360262025
+Max error in centre estimate of 0.20 m
+Multilateration error 0.17
+[INFO] [1627443284.268200, 396.164000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577249, z: 31.422481
+[INFO] [1627443284.268304, 396.176000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522505, y: 172.577311, z: 31.418568
+[INFO] [1627443284.268360, 396.176000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577187, z: 31.416395
+[INFO] [1627443284.268398, 396.176000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577311, z: 31.371421
+
+Drone 0 Drone 1 = 6.891781135346395
+Drone 0 Drone 2 = 7.0537140602222665
+Drone 0 Drone 3 = 7.103650135465547
+Drone 0 Drone 4 = 7.075154981781765
+Drone 1 Drone 2 = 9.83711012824261
+Drone 1 Drone 3 = 9.909055734413759
+Drone 1 Drone 4 = 13.966931778941275
+Drone 2 Drone 3 = 14.15735216276693
+Drone 2 Drone 4 = 10.007546645941835
+Drone 3 Drone 4 = 10.02203031104477
+Max error in centre estimate of 0.15 m
+Multilateration error 0.42
+[INFO] [1627443285.328211, 397.120000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577311, z: 31.422566
+[INFO] [1627443285.328224, 397.120000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577311, z: 31.388420
+[INFO] [1627443285.328225, 397.120000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577187, z: 31.408393
+[INFO] [1627443285.328281, 397.120000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577249, z: 31.424480
+
+Drone 0 Drone 1 = 6.835156602186868
+Drone 0 Drone 2 = 7.051552257071679
+Drone 0 Drone 3 = 7.084380105847658
+Drone 0 Drone 4 = 7.065111851923652
+Drone 1 Drone 2 = 9.98658549341374
+Drone 1 Drone 3 = 9.673988857825048
+Drone 1 Drone 4 = 13.898427657857082
+Drone 2 Drone 3 = 14.135932299725479
+Drone 2 Drone 4 = 9.974188179528086
+Drone 3 Drone 4 = 10.013973650859826
+Max error in centre estimate of 0.26 m
+Multilateration error 0.4
+[INFO] [1627443286.381787, 398.168000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577187, z: 31.401393
+[INFO] [1627443286.381809, 398.168000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577311, z: 31.413565
+[INFO] [1627443286.381860, 398.168000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577311, z: 31.390419
+[INFO] [1627443286.382335, 398.164000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577249, z: 31.415479
+
+Drone 0 Drone 1 = 7.047894100056256
+Drone 0 Drone 2 = 7.0651144838130255
+Drone 0 Drone 3 = 7.070818971301178
+Drone 0 Drone 4 = 7.067277778000825
+Drone 1 Drone 2 = 10.210420029724357
+Drone 1 Drone 3 = 9.742760949467387
+Drone 1 Drone 4 = 14.111188798103965
+Drone 2 Drone 3 = 14.135932310965584
+Drone 2 Drone 4 = 9.996427156421841
+Drone 3 Drone 4 = 9.99784810967072
+Max error in centre estimate of 0.26 m
+Multilateration error 0.57
+[INFO] [1627443287.263414, 399.044000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.413479
+[INFO] [1627443287.263533, 399.048000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.409565
+[INFO] [1627443287.263573, 399.048000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.397419
+[INFO] [1627443287.263589, 399.048000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.401393
+
+Drone 0 Drone 1 = 7.215309054869149
+Drone 0 Drone 2 = 7.078677389765916
+Drone 0 Drone 3 = 7.0729739688730255
+Drone 0 Drone 4 = 7.078674748067837
+Drone 1 Drone 2 = 10.247899776507067
+Drone 1 Drone 3 = 9.966001220146458
+Drone 1 Drone 4 = 14.292655022351022
+Drone 2 Drone 3 = 14.151650206837344
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 10.005904724582422
+Max error in centre estimate of 0.20 m
+Multilateration error 0.6
+[INFO] [1627443288.341216, 400.116000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.418479
+[INFO] [1627443288.341383, 400.116000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.422566
+[INFO] [1627443288.341401, 400.116000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.397419
+[INFO] [1627443288.341434, 400.116000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.407393
+
+Drone 0 Drone 1 = 7.25425416367257
+Drone 0 Drone 2 = 7.070821632112375
+Drone 0 Drone 3 = 7.072973982035505
+Drone 0 Drone 4 = 7.067277801369207
+Drone 1 Drone 2 = 10.151786825201134
+Drone 1 Drone 3 = 10.11977904969274
+Drone 1 Drone 4 = 14.321501462222704
+Drone 2 Drone 3 = 14.14378910167568
+Drone 2 Drone 4 = 9.996436911876804
+Drone 3 Drone 4 = 9.989779208564851
+Max error in centre estimate of 0.15 m
+Multilateration error 0.47
+[INFO] [1627443289.408399, 401.072000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.418480
+[INFO] [1627443289.408719, 401.080000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.405393
+[INFO] [1627443289.408740, 401.080000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.420566
+[INFO] [1627443289.408836, 401.080000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.392419
+
+Drone 0 Drone 1 = 7.218788648835757
+Drone 0 Drone 2 = 7.0651145077639885
+Drone 0 Drone 3 = 7.059409353234089
+Drone 0 Drone 4 = 7.061586233291358
+Drone 1 Drone 2 = 10.071459506485466
+Drone 1 Drone 3 = 10.13017868713403
+Drone 1 Drone 4 = 14.28034132642024
+Drone 2 Drone 3 = 14.12452270770195
+Drone 2 Drone 4 = 9.996436911876804
+Drone 3 Drone 4 = 9.973659864076073
+Max error in centre estimate of 0.12 m
+Multilateration error 0.31
+[INFO] [1627443290.277521, 401.936000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.430480
+[INFO] [1627443290.277565, 401.948000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.419566
+[INFO] [1627443290.277576, 401.948000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.377419
+[INFO] [1627443290.277595, 401.948000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.398393
+
+Drone 0 Drone 1 = 7.120331618630051
+Drone 0 Drone 2 = 7.09224095346962
+Drone 0 Drone 3 = 7.0515496510414675
+Drone 0 Drone 4 = 7.070818988932069
+Drone 1 Drone 2 = 10.014136852729361
+Drone 1 Drone 3 = 10.052024601979612
+Drone 1 Drone 4 = 14.191021254571005
+Drone 2 Drone 3 = 14.143789112908985
+Drone 2 Drone 4 = 10.007546645941835
+Drone 3 Drone 4 = 9.997848175959733
+Max error in centre estimate of 0.05 m
+Multilateration error 0.67
+[INFO] [1627443291.301071, 402.968000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.364419
+[INFO] [1627443291.301082, 402.968000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.413566
+[INFO] [1627443291.301073, 402.964000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.416479
+[INFO] [1627443291.301096, 402.968000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.397393
+
+Drone 0 Drone 1 = 7.09224095346962
+Drone 0 Drone 2 = 7.094415122190354
+Drone 0 Drone 3 = 7.055133790100906
+Drone 0 Drone 4 = 7.062971988796933
+Drone 1 Drone 2 = 10.022051438835947
+Drone 1 Drone 3 = 9.985307668324648
+Drone 1 Drone 4 = 14.15520160386245
+Drone 2 Drone 3 = 14.149494223547643
+Drone 2 Drone 4 = 10.007543396555407
+Drone 3 Drone 4 = 10.013973733852966
+Max error in centre estimate of 0.02 m
+Multilateration error 0.71
+[INFO] [1627443292.306486, 403.964000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.410479
+[INFO] [1627443292.306584, 403.968000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.399566
+[INFO] [1627443292.306638, 403.968000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.363420
+[INFO] [1627443292.306648, 403.968000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.389393
+
+Drone 0 Drone 1 = 7.099425784095408
+Drone 0 Drone 2 = 7.090092723898168
+Drone 0 Drone 3 = 7.062971988796933
+Drone 0 Drone 4 = 7.066587132214418
+Drone 1 Drone 2 = 10.070428103800253
+Drone 1 Drone 3 = 9.974266389831678
+Drone 1 Drone 4 = 14.166012864599612
+Drone 2 Drone 3 = 14.153064036302515
+Drone 2 Drone 4 = 9.974184920693574
+Drone 3 Drone 4 = 10.030099275207736
+Max error in centre estimate of 0.05 m
+Multilateration error 0.7
+[INFO] [1627443293.299625, 404.940000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577248, z: 31.414480
+[INFO] [1627443293.299857, 404.956000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.363420
+[INFO] [1627443293.299860, 404.956000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577310, z: 31.401566
+[INFO] [1627443293.299857, 404.956000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577186, z: 31.388393
+
+Drone 0 Drone 1 = 7.095807253819149
+Drone 0 Drone 2 = 7.076533347081998
+Drone 0 Drone 3 = 7.076530701501543
+Drone 0 Drone 4 = 7.082246977408793
+Drone 1 Drone 2 = 10.046239788999719
+Drone 1 Drone 3 = 9.996436911172877
+Drone 1 Drone 4 = 14.17805406169008
+Drone 2 Drone 3 = 14.15306404858384
+Drone 2 Drone 4 = 9.985307668324648
+Drone 3 Drone 4 = 10.038155895562506
+Max error in centre estimate of 0.03 m
+Multilateration error 0.68
+[INFO] [1627443294.420521, 406.076000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577185, z: 31.388393
+[INFO] [1627443294.420561, 406.056000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577247, z: 31.427480
+[INFO] [1627443294.420597, 406.076000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577309, z: 31.410566
+[INFO] [1627443294.421286, 406.076000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577310, z: 31.381420
+
+Drone 0 Drone 1 = 7.090938032515293
+Drone 0 Drone 2 = 7.067280443444583
+Drone 0 Drone 3 = 7.068690050295849
+Drone 0 Drone 4 = 7.065111887100352
+Drone 1 Drone 2 = 9.981787122724828
+Drone 1 Drone 3 = 10.018692090372815
+Drone 1 Drone 4 = 14.15600132344358
+Drone 2 Drone 3 = 14.135932394595935
+Drone 2 Drone 4 = 9.996427157127584
+Drone 3 Drone 4 = 10.013973767052104
+Max error in centre estimate of 0.03 m
+Multilateration error 0.62
+[INFO] [1627443295.260607, 406.908000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577247, z: 31.428480
+[INFO] [1627443295.260690, 406.912000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577309, z: 31.405566
+[INFO] [1627443295.260704, 406.912000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577309, z: 31.373420
+[INFO] [1627443295.260718, 406.912000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577185, z: 31.392394
+
+Drone 0 Drone 1 = 7.073934256004051
+Drone 0 Drone 2 = 7.059412003152788
+Drone 0 Drone 3 = 7.070819016864159
+Drone 0 Drone 4 = 7.065111898825919
+Drone 1 Drone 2 = 9.957642379068874
+Drone 1 Drone 3 = 10.029863403174978
+Drone 1 Drone 4 = 14.138942194770967
+Drone 2 Drone 3 = 14.130226431492892
+Drone 2 Drone 4 = 9.985307668323024
+Drone 3 Drone 4 = 10.005904840680431
+Max error in centre estimate of 0.04 m
+Multilateration error 0.72
+[INFO] [1627443296.382105, 408.020000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577247, z: 31.426480
+[INFO] [1627443296.382553, 408.020000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577185, z: 31.404394
+[INFO] [1627443296.383346, 408.020000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577309, z: 31.379420
+[INFO] [1627443296.383882, 408.020000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522505, y: 172.577309, z: 31.413567
+
+Drone 0 Drone 1 = 7.04677785317632
+Drone 0 Drone 2 = 7.080847481457117
+Drone 0 Drone 3 = 7.076530720129845
+Drone 0 Drone 4 = 7.051549681769104
+Drone 1 Drone 2 = 9.949480255602246
+Drone 1 Drone 3 = 10.007751266762988
+Drone 1 Drone 4 = 14.098231268368838
+Drone 2 Drone 3 = 14.157352223422441
+Drone 2 Drone 4 = 9.996427157129272
+Drone 3 Drone 4 = 10.005911031582354
+Max error in centre estimate of 0.04 m
+Multilateration error 0.82
+[INFO] [1627443297.383747, 409.008000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577247, z: 31.438480
+[INFO] [1627443297.383761, 409.016000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522505, y: 172.577309, z: 31.430567
+[INFO] [1627443297.383766, 409.016000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577309, z: 31.386420
+[INFO] [1627443297.383765, 409.016000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577185, z: 31.430394
+
+Drone 0 Drone 1 = 6.988023141105679
+Drone 0 Drone 2 = 7.082249651527727
+Drone 0 Drone 3 = 7.072974010367287
+Drone 0 Drone 4 = 7.082247000531503
+Drone 1 Drone 2 = 9.901109760908376
+Drone 1 Drone 3 = 10.008274165827675
+Drone 1 Drone 4 = 14.069832828947577
+Drone 2 Drone 3 = 14.155201651408285
+Drone 2 Drone 4 = 9.985304412411743
+Drone 3 Drone 4 = 10.022036570976521
+Max error in centre estimate of 0.09 m
+Multilateration error 0.68
+[INFO] [1627443298.344032, 409.968000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577247, z: 31.443480
+[INFO] [1627443298.344068, 409.976000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522505, y: 172.577309, z: 31.438567
+[INFO] [1627443298.344110, 409.976000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577309, z: 31.400420
+[INFO] [1627443298.344117, 409.976000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577184, z: 31.430394
+
+Drone 0 Drone 1 = 6.975947491347202
+Drone 0 Drone 2 = 7.0729766393299975
+Drone 0 Drone 3 = 7.084380151472338
+Drone 0 Drone 4 = 7.070819018316887
+Drone 1 Drone 2 = 9.83662636080551
+Drone 1 Drone 3 = 10.03135079396535
+Drone 1 Drone 4 = 14.046026883002623
+Drone 2 Drone 3 = 14.157352208279336
+Drone 2 Drone 4 = 9.996427157130917
+Drone 3 Drone 4 = 10.022036554363588
+Max error in centre estimate of 0.13 m
+Multilateration error 0.78
+[INFO] [1627443299.307971, 410.920000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577308, z: 31.445566
+[INFO] [1627443299.308008, 410.920000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522595, y: 172.577184, z: 31.430393
+[INFO] [1627443299.308008, 410.908000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522550, y: 172.577246, z: 31.444480
+[INFO] [1627443299.308024, 410.920000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522595, y: 172.577309, z: 31.408420
+
+Drone 0 Drone 1 = 6.970358528277245
+Drone 0 Drone 2 = 7.086541913920558
+Drone 0 Drone 3 = 7.065111883188969
+Drone 0 Drone 4 = 7.062972000107331
+Drone 1 Drone 2 = 9.836607467576737
+Drone 1 Drone 3 = 10.02009355504828
+Drone 1 Drone 4 = 14.032444673679716
+Drone 2 Drone 3 = 14.151650253744162
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.005910977722255
+Max error in centre estimate of 0.13 m
+Multilateration error 0.79
+[INFO] [1627443300.296525, 411.892000]: attempting to reach position x: -43.522551, y: 172.577248, z: 20.017755 | current position x: -43.522551, y: 172.577246, z: 31.445479
+[INFO] [1627443300.296853, 411.904000]: attempting to reach position x: -43.522506, y: 172.577310, z: 20.009791 | current position x: -43.522506, y: 172.577308, z: 31.453566
+[INFO] [1627443300.296892, 411.904000]: attempting to reach position x: -43.522596, y: 172.577186, z: 19.997329 | current position x: -43.522596, y: 172.577184, z: 31.437393
+[INFO] [1627443300.296893, 411.904000]: attempting to reach position x: -43.522596, y: 172.577310, z: 19.979981 | current position x: -43.522596, y: 172.577308, z: 31.419420
+
+Drone 0 Drone 1 = 7.043967443117143
+Drone 0 Drone 2 = 7.072976604192414
+Drone 0 Drone 3 = 7.067277791133791
+Drone 0 Drone 4 = 7.057258519182568
+Drone 1 Drone 2 = 9.877221802716612
+Drone 1 Drone 3 = 10.086011516747671
+Drone 1 Drone 4 = 14.100358535113129
+Drone 2 Drone 3 = 14.140253240746487
+Drone 2 Drone 4 = 9.985304412411743
+Drone 3 Drone 4 = 9.989803945899926
+Max error in centre estimate of 0.11 m
+Multilateration error 0.6
+[INFO] [1627443301.311325, 412.900000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522551, y: 172.577246, z: 31.457479
+[INFO] [1627443301.311528, 412.916000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522596, y: 172.577308, z: 31.427419
+[INFO] [1627443301.311528, 412.916000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522506, y: 172.577308, z: 31.452565
+[INFO] [1627443301.311545, 412.916000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522596, y: 172.577184, z: 31.441392
+
+Drone 0 Drone 1 = 7.029806192069974
+Drone 0 Drone 2 = 7.035859522443596
+Drone 0 Drone 3 = 7.111309880673783
+Drone 0 Drone 4 = 7.094412740170437
+Drone 1 Drone 2 = 9.917385561727619
+Drone 1 Drone 3 = 10.096615234948494
+Drone 1 Drone 4 = 14.124132223955518
+Drone 2 Drone 3 = 14.146832609472277
+Drone 2 Drone 4 = 9.985317433232739
+Drone 3 Drone 4 = 9.98187192226553
+Max error in centre estimate of 0.07 m
+Multilateration error 0.56
+[INFO] [1627443302.360795, 413.964000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522500, y: 172.577308, z: 31.463576
+[INFO] [1627443302.360844, 413.964000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522544, y: 172.577246, z: 31.477490
+[INFO] [1627443302.360856, 413.964000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522590, y: 172.577184, z: 31.452402
+[INFO] [1627443302.360881, 413.964000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522590, y: 172.577308, z: 31.429429
+
+Drone 0 Drone 1 = 7.15219929495154
+Drone 0 Drone 2 = 7.024430669556003
+Drone 0 Drone 3 = 7.131660212853051
+Drone 0 Drone 4 = 7.060353936434164
+Drone 1 Drone 2 = 10.03060965768944
+Drone 1 Drone 3 = 10.129938036054828
+Drone 1 Drone 4 = 14.212481476074581
+Drone 2 Drone 3 = 14.1560028785409
+Drone 2 Drone 4 = 9.985317433236968
+Drone 3 Drone 4 = 9.973755111957097
+Max error in centre estimate of 0.08 m
+Multilateration error 0.49
+[INFO] [1627443303.317454, 414.920000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522581, y: 172.577183, z: 31.437417
+[INFO] [1627443303.317468, 414.920000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522536, y: 172.577245, z: 31.464504
+[INFO] [1627443303.317488, 414.920000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522491, y: 172.577307, z: 31.442590
+[INFO] [1627443303.317516, 414.920000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522581, y: 172.577307, z: 31.419443
+
+Drone 0 Drone 1 = 7.330389291530101
+Drone 0 Drone 2 = 7.0537151220888035
+Drone 0 Drone 3 = 7.090091154817177
+Drone 0 Drone 4 = 7.030967107572618
+Drone 1 Drone 2 = 10.058781126042138
+Drone 1 Drone 3 = 10.296763850103334
+Drone 1 Drone 4 = 14.360830369883425
+Drone 2 Drone 3 = 14.14379124835523
+Drone 2 Drone 4 = 9.985356496319064
+Drone 3 Drone 4 = 9.97366288737142
+Max error in centre estimate of 0.24 m
+Multilateration error 0.68
+[INFO] [1627443304.372677, 415.968000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522532, y: 172.577246, z: 31.446509
+[INFO] [1627443304.373144, 415.972000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522577, y: 172.577307, z: 31.405449
+[INFO] [1627443304.373165, 415.972000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522487, y: 172.577307, z: 31.440596
+[INFO] [1627443304.374274, 415.972000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522577, y: 172.577183, z: 31.422423
+
+Drone 0 Drone 1 = 7.2142830735487244
+Drone 0 Drone 2 = 7.075158674707132
+Drone 0 Drone 3 = 7.062973073312758
+Drone 0 Drone 4 = 7.032283147836025
+Drone 1 Drone 2 = 9.89694872755579
+Drone 1 Drone 3 = 10.274945858308655
+Drone 1 Drone 4 = 14.243894374990798
+Drone 2 Drone 3 = 14.138088466268941
+Drone 2 Drone 4 = 9.985317433235641
+Drone 3 Drone 4 = 9.981725695579906
+Max error in centre estimate of 0.24 m
+Multilateration error 0.7
+[INFO] [1627443305.299815, 416.892000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.438509
+[INFO] [1627443305.299889, 416.892000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522577, y: 172.577184, z: 31.410423
+[INFO] [1627443305.299887, 416.892000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522487, y: 172.577308, z: 31.426596
+[INFO] [1627443305.299891, 416.892000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522577, y: 172.577308, z: 31.407449
+
+Drone 0 Drone 1 = 6.928358552189647
+Drone 0 Drone 2 = 7.086542944007261
+Drone 0 Drone 3 = 7.057259564418517
+Drone 0 Drone 4 = 7.068691076990903
+Drone 1 Drone 2 = 9.764064260158351
+Drone 1 Drone 3 = 10.02158239825821
+Drone 1 Drone 4 = 13.995264768122142
+Drone 2 Drone 3 = 14.143791190688962
+Drone 2 Drone 4 = 9.99642715783845
+Drone 3 Drone 4 = 10.013970490009758
+Max error in centre estimate of 0.19 m
+Multilateration error 0.68
+[INFO] [1627443306.298555, 417.884000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.426594
+[INFO] [1627443306.298555, 417.884000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.407422
+[INFO] [1627443306.298577, 417.884000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.410448
+[INFO] [1627443306.298583, 417.876000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.431508
+
+Drone 0 Drone 1 = 6.8204624727147
+Drone 0 Drone 2 = 7.10229803011974
+Drone 0 Drone 3 = 7.043699748353713
+Drone 0 Drone 4 = 7.074413659797824
+Drone 1 Drone 2 = 9.806174807402824
+Drone 1 Drone 3 = 9.820418689532477
+Drone 1 Drone 4 = 13.894722198358643
+Drone 2 Drone 3 = 14.145952635920892
+Drone 2 Drone 4 = 10.018675867864433
+Drone 3 Drone 4 = 10.013976588844216
+Max error in centre estimate of 0.21 m
+Multilateration error 0.57
+[INFO] [1627443307.396827, 418.976000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522534, y: 172.577246, z: 31.422507
+[INFO] [1627443307.396878, 418.976000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.407594
+[INFO] [1627443307.396958, 418.976000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.395421
+[INFO] [1627443307.397039, 418.976000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522579, y: 172.577308, z: 31.388447
+
+Drone 0 Drone 1 = 6.979549829377184
+Drone 0 Drone 2 = 7.07515861685261
+Drone 0 Drone 3 = 7.078675776846127
+Drone 0 Drone 4 = 7.0729749951695435
+Drone 1 Drone 2 = 9.95816658012733
+Drone 1 Drone 3 = 9.907549983236066
+Drone 1 Drone 4 = 14.052442019508106
+Drone 2 Drone 3 = 14.153821288301163
+Drone 2 Drone 4 = 10.018666134765995
+Drone 3 Drone 4 = 10.005907631135292
+Max error in centre estimate of 0.08 m
+Multilateration error 0.66
+[INFO] [1627443308.368950, 419.928000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522579, y: 172.577184, z: 31.391421
+[INFO] [1627443308.368949, 419.916000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522534, y: 172.577246, z: 31.421507
+[INFO] [1627443308.368958, 419.928000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522579, y: 172.577308, z: 31.376447
+[INFO] [1627443308.369083, 419.928000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522489, y: 172.577308, z: 31.399594
+
+Drone 0 Drone 1 = 7.144338025689222
+Drone 0 Drone 2 = 7.084383801387966
+Drone 0 Drone 3 = 7.080845837174972
+Drone 0 Drone 4 = 7.078675781265451
+Drone 1 Drone 2 = 10.070523150043925
+Drone 1 Drone 3 = 10.063299131010146
+Drone 1 Drone 4 = 14.223013544741109
+Drone 2 Drone 3 = 14.165216526021979
+Drone 2 Drone 4 = 10.007546645945363
+Drone 3 Drone 4 = 10.00591381588012
+Max error in centre estimate of 0.06 m
+Multilateration error 0.65
+[INFO] [1627443309.385520, 420.944000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.412594
+[INFO] [1627443309.385544, 420.944000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.366447
+[INFO] [1627443309.385554, 420.944000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522579, y: 172.577184, z: 31.397421
+[INFO] [1627443309.386387, 420.944000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.420508
+
+Drone 0 Drone 1 = 7.180309431934182
+Drone 0 Drone 2 = 7.090093756188064
+Drone 0 Drone 3 = 7.059410369441263
+Drone 0 Drone 4 = 7.082247998034418
+Drone 1 Drone 2 = 10.06297655114197
+Drone 1 Drone 3 = 10.10773459993008
+Drone 1 Drone 4 = 14.262360965683632
+Drone 2 Drone 3 = 14.149496255847778
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.013970440213392
+Max error in centre estimate of 0.10 m
+Multilateration error 0.64
+[INFO] [1627443310.320496, 421.856000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.423507
+[INFO] [1627443310.320504, 421.872000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.417594
+[INFO] [1627443310.320529, 421.872000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.403421
+[INFO] [1627443310.320529, 421.872000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.381448
+
+Drone 0 Drone 1 = 7.128749874803026
+Drone 0 Drone 2 = 7.065115534702271
+Drone 0 Drone 3 = 7.087968841525295
+Drone 0 Drone 4 = 7.072975006882075
+Drone 1 Drone 2 = 9.942471242985276
+Drone 1 Drone 3 = 10.130246069549441
+Drone 1 Drone 4 = 14.201095459750457
+Drone 2 Drone 3 = 14.15306609820349
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.030102168047414
+Max error in centre estimate of 0.12 m
+Multilateration error 0.65
+[INFO] [1627443311.292956, 422.824000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.430508
+[INFO] [1627443311.292961, 422.828000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.396448
+[INFO] [1627443311.292976, 422.828000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.423594
+[INFO] [1627443311.292976, 422.828000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577183, z: 31.410421
+
+Drone 0 Drone 1 = 7.037334156535036
+Drone 0 Drone 2 = 7.06728145412657
+Drone 0 Drone 3 = 7.087968841525295
+Drone 0 Drone 4 = 7.059410377240501
+Drone 1 Drone 2 = 9.813178024304031
+Drone 1 Drone 3 = 10.120909594309577
+Drone 1 Drone 4 = 14.095113476658991
+Drone 2 Drone 3 = 14.15520366263845
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.022033234784324
+Max error in centre estimate of 0.18 m
+Multilateration error 0.65
+[INFO] [1627443312.452890, 423.964000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.441508
+[INFO] [1627443312.452959, 423.984000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577183, z: 31.437421
+[INFO] [1627443312.454176, 423.984000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.410448
+[INFO] [1627443312.454258, 423.984000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.439594
+
+Drone 0 Drone 1 = 6.956755462652938
+Drone 0 Drone 2 = 7.0594130144610405
+Drone 0 Drone 3 = 7.090091117970922
+Drone 0 Drone 4 = 7.059410389437956
+Drone 1 Drone 2 = 9.812440857142292
+Drone 1 Drone 3 = 10.02069041550552
+Drone 1 Drone 4 = 14.015501508970955
+Drone 2 Drone 3 = 14.149496279342575
+Drone 2 Drone 4 = 9.985304413119067
+Drone 3 Drone 4 = 10.013976655238544
+Max error in centre estimate of 0.15 m
+Multilateration error 0.66
+[INFO] [1627443313.341245, 424.860000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.460508
+[INFO] [1627443313.341266, 424.872000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577183, z: 31.449421
+[INFO] [1627443313.341343, 424.872000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.454594
+[INFO] [1627443313.341793, 424.872000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.420448
+
+Drone 0 Drone 1 = 6.947362439978983
+Drone 0 Drone 2 = 7.05941301301065
+Drone 0 Drone 3 = 7.082248015292625
+Drone 0 Drone 4 = 7.059410387987566
+Drone 1 Drone 2 = 9.901412222788851
+Drone 1 Drone 3 = 9.908110977131054
+Drone 1 Drone 4 = 14.006772684873924
+Drone 2 Drone 3 = 14.141642705913444
+Drone 2 Drone 4 = 9.985304413119067
+Drone 3 Drone 4 = 10.013970487958229
+Max error in centre estimate of 0.11 m
+Multilateration error 0.67
+[INFO] [1627443314.418221, 425.940000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.465422
+[INFO] [1627443314.418704, 425.940000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.437448
+[INFO] [1627443314.418370, 425.940000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.474508
+[INFO] [1627443314.419326, 425.940000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.468594
+
+Drone 0 Drone 1 = 7.02020265278717
+Drone 0 Drone 2 = 7.078678436155053
+Drone 0 Drone 3 = 7.057259564418517
+Drone 0 Drone 4 = 7.070820028655104
+Drone 1 Drone 2 = 9.998082368768902
+Drone 1 Drone 3 = 9.918590734254916
+Drone 1 Drone 4 = 14.090994678879424
+Drone 2 Drone 3 = 14.135934436358617
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.005913882220993
+Max error in centre estimate of 0.06 m
+Multilateration error 0.66
+[INFO] [1627443315.444259, 426.952000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.464508
+[INFO] [1627443315.444793, 426.968000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.477594
+[INFO] [1627443315.445019, 426.968000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.446448
+[INFO] [1627443315.445691, 426.968000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.463422
+
+Drone 0 Drone 1 = 7.066590828773434
+Drone 0 Drone 2 = 7.076534383923395
+Drone 0 Drone 3 = 7.059410387987566
+Drone 0 Drone 4 = 7.080845855225191
+Drone 1 Drone 2 = 10.03819838362633
+Drone 1 Drone 3 = 9.963117627009435
+Drone 1 Drone 4 = 14.14735324622497
+Drone 2 Drone 3 = 14.135934436358617
+Drone 2 Drone 4 = 10.007556389858438
+Drone 3 Drone 4 = 9.989806893339344
+Max error in centre estimate of 0.03 m
+Multilateration error 0.66
+[INFO] [1627443316.303753, 427.808000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.486508
+[INFO] [1627443316.304241, 427.816000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.477594
+[INFO] [1627443316.304641, 427.820000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.438448
+[INFO] [1627443316.306195, 427.816000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.455422
+
+Drone 0 Drone 1 = 7.061589881573372
+Drone 0 Drone 2 = 7.078678434703936
+Drone 0 Drone 3 = 7.051550689350385
+Drone 0 Drone 4 = 7.067278829577938
+Drone 1 Drone 2 = 9.989797023657948
+Drone 1 Drone 3 = 9.985307668328204
+Drone 1 Drone 4 = 14.128867560160652
+Drone 2 Drone 3 = 14.130228460015342
+Drone 2 Drone 4 = 10.007556389858438
+Drone 3 Drone 4 = 9.981744135348846
+Max error in centre estimate of 0.02 m
+Multilateration error 0.47
+[INFO] [1627443317.312657, 428.828000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.457422
+[INFO] [1627443317.312657, 428.828000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.486594
+[INFO] [1627443317.312688, 428.828000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.449448
+[INFO] [1627443317.312880, 428.824000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.480508
+
+Drone 0 Drone 1 = 7.070557493160869
+Drone 0 Drone 2 = 7.084383813157198
+Drone 0 Drone 3 = 7.059410381138474
+Drone 0 Drone 4 = 7.059410381138474
+Drone 1 Drone 2 = 9.965707944098078
+Drone 1 Drone 3 = 10.040982804510872
+Drone 1 Drone 4 = 14.129805416429605
+Drone 2 Drone 3 = 14.14379117795591
+Drone 2 Drone 4 = 9.996453169083123
+Drone 3 Drone 4 = 9.981719359417411
+Max error in centre estimate of 0.05 m
+Multilateration error 0.21
+[INFO] [1627443318.329963, 429.740000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.476594
+[INFO] [1627443318.329979, 429.740000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.450422
+[INFO] [1627443318.329982, 429.740000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.439448
+[INFO] [1627443318.330145, 429.740000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577246, z: 31.481508
+
+Drone 0 Drone 1 = 7.129569647729983
+Drone 0 Drone 2 = 7.080848486166435
+Drone 0 Drone 3 = 7.070820027202376
+Drone 0 Drone 4 = 7.048019160691502
+Drone 1 Drone 2 = 9.966111214560115
+Drone 1 Drone 3 = 10.107699226296976
+Drone 1 Drone 4 = 14.177293468735703
+Drone 2 Drone 3 = 14.151652305917265
+Drone 2 Drone 4 = 10.007572629690337
+Drone 3 Drone 4 = 9.98171936146894
+Max error in centre estimate of 0.09 m
+Multilateration error 0.41
+[INFO] [1627443319.295246, 430.700000]: attempting to reach position x: -43.522533, y: 172.577246, z: 20.017755 | current position x: -43.522533, y: 172.577247, z: 31.506508
+[INFO] [1627443319.295255, 430.704000]: attempting to reach position x: -43.522488, y: 172.577308, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.466595
+[INFO] [1627443319.295287, 430.704000]: attempting to reach position x: -43.522578, y: 172.577308, z: 19.979981 | current position x: -43.522578, y: 172.577308, z: 31.452448
+[INFO] [1627443319.295287, 430.704000]: attempting to reach position x: -43.522578, y: 172.577184, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.458422
+
+Drone 0 Drone 1 = 7.18074188267324
+Drone 0 Drone 2 = 7.071691330889431
+Drone 0 Drone 3 = 7.074413682947249
+Drone 0 Drone 4 = 7.045846405928975
+Drone 1 Drone 2 = 9.958595170937054
+Drone 1 Drone 3 = 10.152176844485785
+Drone 1 Drone 4 = 14.225972011136669
+Drone 2 Drone 3 = 14.14595266960853
+Drone 2 Drone 4 = 10.007546645945395
+Drone 3 Drone 4 = 10.005907695425464
+Max error in centre estimate of 0.13 m
+Multilateration error 0.83
+[INFO] [1627443320.380069, 431.780000]: attempting to reach position x: -43.522533, y: 172.577272, z: 20.017755 | current position x: -43.522533, y: 172.577247, z: 31.520508
+[INFO] [1627443320.380108, 431.784000]: attempting to reach position x: -43.522488, y: 172.577334, z: 20.009791 | current position x: -43.522488, y: 172.577308, z: 31.488595
+[INFO] [1627443320.380140, 431.784000]: attempting to reach position x: -43.522578, y: 172.577210, z: 19.997329 | current position x: -43.522578, y: 172.577184, z: 31.487422
+[INFO] [1627443320.380233, 431.784000]: attempting to reach position x: -43.522578, y: 172.577334, z: 19.979981 | current position x: -43.522578, y: 172.577309, z: 31.464448
+
+Drone 0 Drone 1 = 7.215399707831295
+Drone 0 Drone 2 = 7.046778838456851
+Drone 0 Drone 3 = 7.036646445704741
+Drone 0 Drone 4 = 7.034451702136731
+Drone 1 Drone 2 = 10.006812369177664
+Drone 1 Drone 3 = 10.141438854367268
+Drone 1 Drone 4 = 14.249748122848064
+Drone 2 Drone 3 = 14.083409072414264
+Drone 2 Drone 4 = 9.996436911177112
+Drone 3 Drone 4 = 9.925286133988273
+Max error in centre estimate of 0.12 m
+Multilateration error 0.69
+[INFO] [1627443321.270329, 432.668000]: attempting to reach position x: -43.522533, y: 172.577272, z: 20.017755 | current position x: -43.522533, y: 172.577254, z: 31.541509
+[INFO] [1627443321.270339, 432.668000]: attempting to reach position x: -43.522488, y: 172.577334, z: 20.009791 | current position x: -43.522488, y: 172.577315, z: 31.521596
+[INFO] [1627443321.270354, 432.668000]: attempting to reach position x: -43.522578, y: 172.577334, z: 19.979981 | current position x: -43.522578, y: 172.577315, z: 31.495449
+[INFO] [1627443321.270416, 432.668000]: attempting to reach position x: -43.522578, y: 172.577210, z: 19.997329 | current position x: -43.522578, y: 172.577192, z: 31.511423
+
+Drone 0 Drone 1 = 7.218789700062535
+Drone 0 Drone 2 = 7.067281470204069
+Drone 0 Drone 3 = 7.03886732467464
+Drone 0 Drone 4 = 7.059410392835686
+Drone 1 Drone 2 = 10.063246945475317
+Drone 1 Drone 3 = 10.141698462790114
+Drone 1 Drone 4 = 14.278130234241111
+Drone 2 Drone 3 = 14.106119784584942
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 9.941411714851135
+Max error in centre estimate of 0.13 m
+Multilateration error 0.62
+[INFO] [1627443322.379654, 433.748000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522533, y: 172.577269, z: 31.515513
+[INFO] [1627443322.379869, 433.772000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522578, y: 172.577331, z: 31.463453
+[INFO] [1627443322.380037, 433.772000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522488, y: 172.577331, z: 31.495600
+[INFO] [1627443322.380079, 433.772000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522578, y: 172.577207, z: 31.502427
+
+Drone 0 Drone 1 = 7.058348925879416
+Drone 0 Drone 2 = 7.059413224060615
+Drone 0 Drone 3 = 7.045222270538259
+Drone 0 Drone 4 = 7.071688930808596
+Drone 1 Drone 2 = 9.901412926416858
+Drone 1 Drone 3 = 10.019211174640324
+Drone 1 Drone 4 = 14.12982697123407
+Drone 2 Drone 3 = 14.104551788086725
+Drone 2 Drone 4 = 10.01867586857339
+Drone 3 Drone 4 = 9.990085991261214
+Max error in centre estimate of 0.10 m
+Multilateration error 0.1
+[INFO] [1627443323.332664, 434.672000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522528, y: 172.577273, z: 31.528522
+[INFO] [1627443323.332852, 434.720000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522572, y: 172.577211, z: 31.520437
+[INFO] [1627443323.332867, 434.720000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522573, y: 172.577334, z: 31.488462
+[INFO] [1627443323.332867, 434.720000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522483, y: 172.577335, z: 31.526609
+
+Drone 0 Drone 1 = 7.051554054094616
+Drone 0 Drone 2 = 7.065116284186316
+Drone 0 Drone 3 = 7.0629737788328635
+Drone 0 Drone 4 = 7.077363716318284
+Drone 1 Drone 2 = 9.989805290237822
+Drone 1 Drone 3 = 9.96307847675006
+Drone 1 Drone 4 = 14.128869018912845
+Drone 2 Drone 3 = 14.128083556178643
+Drone 2 Drone 4 = 10.018675868577262
+Drone 3 Drone 4 = 9.989883241007028
+Max error in centre estimate of 0.03 m
+Multilateration error 0.95
+[INFO] [1627443324.296312, 435.568000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522564, y: 172.577208, z: 31.510449
+[INFO] [1627443324.296350, 435.568000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522565, y: 172.577332, z: 31.484475
+[INFO] [1627443324.296536, 435.568000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522474, y: 172.577332, z: 31.520622
+[INFO] [1627443324.296514, 435.544000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522520, y: 172.577270, z: 31.528535
+
+Drone 0 Drone 1 = 7.2613295605526185
+Drone 0 Drone 2 = 7.070823741940976
+Drone 0 Drone 3 = 7.0765328114868264
+Drone 0 Drone 4 = 7.075157070421696
+Drone 1 Drone 2 = 10.247863720613282
+Drone 1 Drone 3 = 10.021206154806485
+Drone 1 Drone 4 = 14.335512147681701
+Drone 2 Drone 3 = 14.147355412055402
+Drone 2 Drone 4 = 10.007556389866275
+Drone 3 Drone 4 = 10.005935427956345
+Max error in centre estimate of 0.19 m
+Multilateration error 0.65
+[INFO] [1627443325.334181, 436.592000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522514, y: 172.577268, z: 31.528543
+[INFO] [1627443325.334181, 436.604000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577330, z: 31.488483
+[INFO] [1627443325.334195, 436.604000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522559, y: 172.577206, z: 31.504457
+[INFO] [1627443325.334544, 436.604000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577330, z: 31.514629
+
+Drone 0 Drone 1 = 7.340512712773476
+Drone 0 Drone 2 = 7.086544069379801
+Drone 0 Drone 3 = 7.06511403287872
+Drone 0 Drone 4 = 7.072976137141224
+Drone 1 Drone 2 = 10.27248552788309
+Drone 1 Drone 3 = 10.111120251577823
+Drone 1 Drone 4 = 14.413086928184907
+Drone 2 Drone 3 = 14.151654558894442
+Drone 2 Drone 4 = 10.018666134766441
+Drone 3 Drone 4 = 9.99785427447322
+Max error in centre estimate of 0.23 m
+Multilateration error 0.42
+[INFO] [1627443326.293992, 437.560000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522514, y: 172.577268, z: 31.530544
+[INFO] [1627443326.294062, 437.560000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522559, y: 172.577330, z: 31.494484
+[INFO] [1627443326.294142, 437.560000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522469, y: 172.577330, z: 31.514630
+[INFO] [1627443326.294330, 437.560000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522559, y: 172.577206, z: 31.495457
+
+Drone 0 Drone 1 = 7.163355518170377
+Drone 0 Drone 2 = 7.092243087218569
+Drone 0 Drone 3 = 7.0729761005536895
+Drone 0 Drone 4 = 7.074414788467534
+Drone 1 Drone 2 = 10.030613398238174
+Drone 1 Drone 3 = 10.118751173475651
+Drone 1 Drone 4 = 14.237420597303563
+Drone 2 Drone 3 = 14.165218742365791
+Drone 2 Drone 4 = 9.996427156425808
+Drone 3 Drone 4 = 10.022061015477101
+Max error in centre estimate of 0.09 m
+Multilateration error 0.58
+[INFO] [1627443327.351937, 438.616000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577206, z: 31.504456
+[INFO] [1627443327.351946, 438.616000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577330, z: 31.534629
+[INFO] [1627443327.351945, 438.616000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522559, y: 172.577330, z: 31.484483
+[INFO] [1627443327.352150, 438.612000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577268, z: 31.525543
+
+Drone 0 Drone 1 = 6.991989149572309
+Drone 0 Drone 2 = 7.076535450220321
+Drone 0 Drone 3 = 7.067279892839046
+Drone 0 Drone 4 = 7.06869215036874
+Drone 1 Drone 2 = 9.852889451171091
+Drone 1 Drone 3 = 10.053188631933242
+Drone 1 Drone 4 = 14.059613429397658
+Drone 2 Drone 3 = 14.143793301668559
+Drone 2 Drone 4 = 9.97418491998625
+Drone 3 Drone 4 = 10.005935427956345
+Max error in centre estimate of 0.13 m
+Multilateration error 0.18
+[INFO] [1627443328.371228, 439.624000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577268, z: 31.537542
+[INFO] [1627443328.371374, 439.624000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577206, z: 31.518456
+[INFO] [1627443328.371379, 439.624000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577330, z: 31.531628
+[INFO] [1627443328.371383, 439.624000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577330, z: 31.482482
+
+Drone 0 Drone 1 = 6.9732291172197085
+Drone 0 Drone 2 = 7.07653544482821
+Drone 0 Drone 3 = 7.072976072722315
+Drone 0 Drone 4 = 7.051551747176229
+Drone 1 Drone 2 = 9.91729095149492
+Drone 1 Drone 3 = 9.963535213072364
+Drone 1 Drone 4 = 14.024701539155759
+Drone 2 Drone 3 = 14.149498395825761
+Drone 2 Drone 4 = 9.974214249498697
+Drone 3 Drone 4 = 9.989809890456893
+Max error in centre estimate of 0.08 m
+Multilateration error 0.49
+[INFO] [1627443329.342341, 440.596000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577205, z: 31.523455
+[INFO] [1627443329.342350, 440.596000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577330, z: 31.519628
+[INFO] [1627443329.342391, 440.596000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577267, z: 31.531542
+[INFO] [1627443329.342805, 440.596000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577329, z: 31.482482
+
+Drone 0 Drone 1 = 7.031677005951907
+Drone 0 Drone 2 = 7.09009483421471
+Drone 0 Drone 3 = 7.059411441186484
+Drone 0 Drone 4 = 7.055135896776806
+Drone 1 Drone 2 = 10.030335822007622
+Drone 1 Drone 3 = 9.929720042605743
+Drone 1 Drone 4 = 14.086792929501778
+Drone 2 Drone 3 = 14.14949840562152
+Drone 2 Drone 4 = 9.974197955333596
+Drone 3 Drone 4 = 9.997872667469071
+Max error in centre estimate of 0.06 m
+Multilateration error 0.49
+[INFO] [1627443330.377727, 441.628000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577267, z: 31.545542
+[INFO] [1627443330.377867, 441.628000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577329, z: 31.537628
+[INFO] [1627443330.377878, 441.628000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577205, z: 31.522455
+[INFO] [1627443330.377884, 441.628000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577329, z: 31.494482
+
+Drone 0 Drone 1 = 7.13766454879578
+Drone 0 Drone 2 = 7.097946694207343
+Drone 0 Drone 3 = 7.062974095087034
+Drone 0 Drone 4 = 7.07441475890817
+Drone 1 Drone 2 = 10.1349851785331
+Drone 1 Drone 3 = 9.963616770071614
+Drone 1 Drone 4 = 14.211943266771387
+Drone 2 Drone 3 = 14.160915502544665
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.03009905522583
+Max error in centre estimate of 0.10 m
+Multilateration error 0.49
+[INFO] [1627443331.401812, 442.648000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577267, z: 31.540542
+[INFO] [1627443331.401937, 442.648000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577329, z: 31.499482
+[INFO] [1627443331.401958, 442.648000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577329, z: 31.533629
+[INFO] [1627443331.401968, 442.648000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577205, z: 31.508456
+
+Drone 0 Drone 1 = 7.215162319160421
+Drone 0 Drone 2 = 7.088729087277954
+Drone 0 Drone 3 = 7.060860291772866
+Drone 0 Drone 4 = 7.062974096541377
+Drone 1 Drone 2 = 10.14304799455403
+Drone 1 Drone 3 = 10.030611987510406
+Drone 1 Drone 4 = 14.278077367040257
+Drone 2 Drone 3 = 14.149498429616028
+Drone 2 Drone 4 = 10.0075466459457
+Drone 3 Drone 4 = 10.022042451674517
+Max error in centre estimate of 0.12 m
+Multilateration error 0.49
+[INFO] [1627443332.436584, 443.668000]: attempting to reach position x: -43.522515, y: 172.577267, z: 20.017755 | current position x: -43.522515, y: 172.577267, z: 31.528542
+[INFO] [1627443332.436710, 443.668000]: attempting to reach position x: -43.522560, y: 172.577205, z: 19.997329 | current position x: -43.522560, y: 172.577204, z: 31.486456
+[INFO] [1627443332.436728, 443.668000]: attempting to reach position x: -43.522470, y: 172.577329, z: 20.009791 | current position x: -43.522470, y: 172.577329, z: 31.511629
+[INFO] [1627443332.436792, 443.668000]: attempting to reach position x: -43.522560, y: 172.577329, z: 19.979981 | current position x: -43.522560, y: 172.577329, z: 31.490482
+
+Drone 0 Drone 1 = 7.231422483475679
+Drone 0 Drone 2 = 7.0830455616383405
+Drone 0 Drone 3 = 7.0530372748490775
+Drone 0 Drone 4 = 7.045847468981285
+Drone 1 Drone 2 = 10.103070846256538
+Drone 1 Drone 3 = 10.074724954413345
+Drone 1 Drone 4 = 14.277269614424114
+Drone 2 Drone 3 = 14.135936583278955
+Drone 2 Drone 4 = 10.0075466459457
+Drone 3 Drone 4 = 9.997872681989561
+Max error in centre estimate of 0.11 m
+Multilateration error 0.34
+[INFO] [1627443333.476485, 444.652000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522515, y: 172.577267, z: 31.504542
+[INFO] [1627443333.476609, 444.700000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522470, y: 172.577329, z: 31.495629
+[INFO] [1627443333.476824, 444.700000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522560, y: 172.577204, z: 31.468456
+[INFO] [1627443333.478257, 444.700000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522560, y: 172.577329, z: 31.470482
+
+Drone 0 Drone 1 = 7.1614754826641205
+Drone 0 Drone 2 = 7.059414230520536
+Drone 0 Drone 3 = 7.152198038794665
+Drone 0 Drone 4 = 7.075157221645658
+Drone 1 Drone 2 = 10.070581913332532
+Drone 1 Drone 3 = 10.107647774249331
+Drone 1 Drone 4 = 14.23657900237427
+Drone 2 Drone 3 = 14.21161218508708
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 10.04632345794794
+Max error in centre estimate of 0.07 m
+Multilateration error 0.46
+[INFO] [1627443334.288094, 445.508000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522557, y: 172.577207, z: 31.493461
+[INFO] [1627443334.288089, 445.492000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522511, y: 172.577269, z: 31.509549
+[INFO] [1627443334.288099, 445.508000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522556, y: 172.577331, z: 31.480489
+[INFO] [1627443334.288097, 445.508000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522466, y: 172.577331, z: 31.496636
+
+Drone 0 Drone 1 = 7.15320418550407
+Drone 0 Drone 2 = 7.0265861380531
+Drone 0 Drone 3 = 7.195087656283064
+Drone 0 Drone 4 = 7.079597749219999
+Drone 1 Drone 2 = 10.078548192276925
+Drone 1 Drone 3 = 10.107699227793432
+Drone 1 Drone 4 = 14.232293077278333
+Drone 2 Drone 3 = 14.221659811601867
+Drone 2 Drone 4 = 10.007546645947112
+Drone 3 Drone 4 = 10.046448278638962
+Max error in centre estimate of 0.07 m
+Multilateration error 0.8
+[INFO] [1627443335.292236, 446.472000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522501, y: 172.577276, z: 31.478567
+[INFO] [1627443335.292574, 446.508000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522546, y: 172.577337, z: 31.451507
+[INFO] [1627443335.292577, 446.508000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522546, y: 172.577213, z: 31.458480
+[INFO] [1627443335.293257, 446.508000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522456, y: 172.577337, z: 31.472654
+
+Drone 0 Drone 1 = 7.274842309298011
+Drone 0 Drone 2 = 7.037993921108441
+Drone 0 Drone 3 = 7.100108416600618
+Drone 0 Drone 4 = 7.086542471994398
+Drone 1 Drone 2 = 9.97888932220874
+Drone 1 Drone 3 = 10.318917542021666
+Drone 1 Drone 4 = 14.359919742188334
+Drone 2 Drone 3 = 14.138092685123834
+Drone 2 Drone 4 = 9.985333709271632
+Drone 3 Drone 4 = 10.022045539480137
+Max error in centre estimate of 0.25 m
+Multilateration error 0.78
+[INFO] [1627443336.277220, 447.472000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522496, y: 172.577279, z: 31.445576
+[INFO] [1627443336.277649, 447.484000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522541, y: 172.577216, z: 31.438489
+[INFO] [1627443336.277860, 447.484000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522541, y: 172.577341, z: 31.429515
+[INFO] [1627443336.278272, 447.480000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522451, y: 172.577340, z: 31.443662
+
+Drone 0 Drone 1 = 7.126924356587308
+Drone 0 Drone 2 = 7.0537172691590095
+Drone 0 Drone 3 = 7.053714651449739
+Drone 0 Drone 4 = 7.0786779929699675
+Drone 1 Drone 2 = 9.807694168035447
+Drone 1 Drone 3 = 10.242322233328668
+Drone 1 Drone 4 = 14.202367322787023
+Drone 2 Drone 3 = 14.107431920609045
+Drone 2 Drone 4 = 9.99645316910948
+Drone 3 Drone 4 = 9.989794527105413
+Max error in centre estimate of 0.24 m
+Multilateration error 0.22
+[INFO] [1627443337.385838, 448.584000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522451, y: 172.577341, z: 31.435662
+[INFO] [1627443337.385926, 448.580000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522496, y: 172.577279, z: 31.436576
+[INFO] [1627443337.385995, 448.584000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522541, y: 172.577342, z: 31.420516
+[INFO] [1627443337.386095, 448.584000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522541, y: 172.577218, z: 31.426489
+
+Drone 0 Drone 1 = 6.8057977242633925
+Drone 0 Drone 2 = 7.065117686841907
+Drone 0 Drone 3 = 7.02658382254756
+Drone 0 Drone 4 = 7.062975184031614
+Drone 1 Drone 2 = 9.683576423428947
+Drone 1 Drone 3 = 9.911486112214838
+Drone 1 Drone 4 = 13.86733624532606
+Drone 2 Drone 3 = 14.091699729488404
+Drone 2 Drone 4 = 9.974188179532337
+Drone 3 Drone 4 = 9.973668855407125
+Max error in centre estimate of 0.25 m
+Multilateration error 0.49
+[INFO] [1627443338.406682, 449.600000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522497, y: 172.577279, z: 31.433574
+[INFO] [1627443338.406823, 449.600000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522452, y: 172.577341, z: 31.441661
+[INFO] [1627443338.406994, 449.600000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522542, y: 172.577217, z: 31.421488
+[INFO] [1627443338.407121, 449.600000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522542, y: 172.577341, z: 31.417514
+
+Drone 0 Drone 1 = 6.686135108243418
+Drone 0 Drone 2 = 7.057264323924936
+Drone 0 Drone 3 = 7.045848532033399
+Drone 0 Drone 4 = 7.070822161038838
+Drone 1 Drone 2 = 9.74351150917672
+Drone 1 Drone 3 = 9.699214177612825
+Drone 1 Drone 4 = 13.7569541667706
+Drone 2 Drone 3 = 14.103108248712152
+Drone 2 Drone 4 = 9.974188178826628
+Drone 3 Drone 4 = 9.989794344960787
+Max error in centre estimate of 0.31 m
+Multilateration error 0.53
+[INFO] [1627443339.279134, 450.460000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522497, y: 172.577279, z: 31.431574
+[INFO] [1627443339.279309, 450.468000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522542, y: 172.577341, z: 31.408514
+[INFO] [1627443339.279317, 450.468000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522542, y: 172.577217, z: 31.413488
+[INFO] [1627443339.279322, 450.468000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522452, y: 172.577341, z: 31.431660
+
+Drone 0 Drone 1 = 6.8656267074270545
+Drone 0 Drone 2 = 7.060864018294678
+Drone 0 Drone 3 = 7.072977148824939
+Drone 0 Drone 4 = 7.072977150274887
+Drone 1 Drone 2 = 10.00919630802706
+Drone 1 Drone 3 = 9.718439933140512
+Drone 1 Drone 4 = 13.937145400636975
+Drone 2 Drone 3 = 14.133797775313255
+Drone 2 Drone 4 = 9.974197954634096
+Drone 3 Drone 4 = 9.99785094966783
+Max error in centre estimate of 0.22 m
+Multilateration error 0.45
+[INFO] [1627443340.257675, 451.424000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522497, y: 172.577279, z: 31.433574
+[INFO] [1627443340.257723, 451.436000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522542, y: 172.577217, z: 31.415488
+[INFO] [1627443340.257799, 451.436000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522542, y: 172.577341, z: 31.400514
+[INFO] [1627443340.257836, 451.436000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522452, y: 172.577341, z: 31.431660
+
+Drone 0 Drone 1 = 7.083894179193865
+Drone 0 Drone 2 = 7.070824823301299
+Drone 0 Drone 3 = 7.086542450937171
+Drone 0 Drone 4 = 7.0672809736262385
+Drone 1 Drone 2 = 10.151795778019963
+Drone 1 Drone 3 = 9.886179213048406
+Drone 1 Drone 4 = 14.149726435348015
+Drone 2 Drone 3 = 14.157358526322328
+Drone 2 Drone 4 = 9.996436911900217
+Drone 3 Drone 4 = 9.997857158008427
+Max error in centre estimate of 0.15 m
+Multilateration error 0.46
+[INFO] [1627443341.300362, 452.464000]: attempting to reach position x: -43.522497, y: 172.577279, z: 20.017755 | current position x: -43.522497, y: 172.577279, z: 31.440575
+[INFO] [1627443341.300575, 452.468000]: attempting to reach position x: -43.522542, y: 172.577217, z: 19.997329 | current position x: -43.522542, y: 172.577217, z: 31.410488
+[INFO] [1627443341.300611, 452.468000]: attempting to reach position x: -43.522452, y: 172.577341, z: 20.009791 | current position x: -43.522452, y: 172.577341, z: 31.422661
+[INFO] [1627443341.301196, 452.468000]: attempting to reach position x: -43.522542, y: 172.577341, z: 19.979981 | current position x: -43.522542, y: 172.577341, z: 31.393515
+
+Drone 0 Drone 1 = 7.176287222710868
+Drone 0 Drone 2 = 7.075160777466777
+Drone 0 Drone 3 = 7.090093278385335
+Drone 0 Drone 4 = 7.055902444384154
+Drone 1 Drone 2 = 10.134939523378232
+Drone 1 Drone 3 = 10.008274166398913
+Drone 1 Drone 4 = 14.23169153265667
+Drone 2 Drone 3 = 14.165220867734948
+Drone 2 Drone 4 = 10.018675867883651
+Drone 3 Drone 4 = 9.997850982811928
+Max error in centre estimate of 0.10 m
+Multilateration error 0.4
+[INFO] [1627443342.390958, 453.556000]: attempting to reach position x: -43.522479, y: 172.577292, z: 20.017755 | current position x: -43.522497, y: 172.577279, z: 31.440575
+[INFO] [1627443342.391115, 453.556000]: attempting to reach position x: -43.522523, y: 172.577230, z: 19.997329 | current position x: -43.522542, y: 172.577217, z: 31.406488
+[INFO] [1627443342.391138, 453.556000]: attempting to reach position x: -43.522434, y: 172.577354, z: 20.009791 | current position x: -43.522451, y: 172.577341, z: 31.435661
+[INFO] [1627443342.391144, 453.556000]: attempting to reach position x: -43.522523, y: 172.577354, z: 19.979981 | current position x: -43.522542, y: 172.577341, z: 31.381515
+
+Drone 0 Drone 1 = 7.159142347667648
+Drone 0 Drone 2 = 7.049419953230261
+Drone 0 Drone 3 = 7.057261876425575
+Drone 0 Drone 4 = 7.090938700168071
+Drone 1 Drone 2 = 9.975264724437768
+Drone 1 Drone 3 = 10.129886696276815
+Drone 1 Drone 4 = 14.249801343476474
+Drone 2 Drone 3 = 14.106679623956476
+Drone 2 Drone 4 = 10.007546645949594
+Drone 3 Drone 4 = 9.989943345318634
+Max error in centre estimate of 0.13 m
+Multilateration error 0.61
+[INFO] [1627443343.291839, 454.344000]: attempting to reach position x: -43.522479, y: 172.577292, z: 20.017755 | current position x: -43.522493, y: 172.577282, z: 31.456581
+[INFO] [1627443343.291875, 454.352000]: attempting to reach position x: -43.522434, y: 172.577354, z: 20.009791 | current position x: -43.522448, y: 172.577344, z: 31.443667
+[INFO] [1627443343.291884, 454.352000]: attempting to reach position x: -43.522523, y: 172.577354, z: 19.979981 | current position x: -43.522538, y: 172.577344, z: 31.401521
+[INFO] [1627443343.291884, 454.352000]: attempting to reach position x: -43.522523, y: 172.577230, z: 19.997329 | current position x: -43.522537, y: 172.577220, z: 31.416495
+
+Drone 0 Drone 1 = 7.181591088014254
+Drone 0 Drone 2 = 7.032288626243072
+Drone 0 Drone 3 = 7.058774465507153
+Drone 0 Drone 4 = 7.071691612213327
+Drone 1 Drone 2 = 9.983327975303835
+Drone 1 Drone 3 = 10.107631695906415
+Drone 1 Drone 4 = 14.253145094781114
+Drone 2 Drone 3 = 14.09100058199776
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 9.998075789815939
+Max error in centre estimate of 0.12 m
+Multilateration error 0.35
+[INFO] [1627443344.348142, 455.404000]: attempting to reach position x: -43.522510, y: 172.577226, z: 19.997329 | current position x: -43.522526, y: 172.577226, z: 31.407515
+[INFO] [1627443344.348140, 455.388000]: attempting to reach position x: -43.522465, y: 172.577288, z: 20.017755 | current position x: -43.522482, y: 172.577289, z: 31.428601
+[INFO] [1627443344.348155, 455.404000]: attempting to reach position x: -43.522420, y: 172.577350, z: 20.009791 | current position x: -43.522437, y: 172.577350, z: 31.421687
+[INFO] [1627443344.348161, 455.404000]: attempting to reach position x: -43.522510, y: 172.577350, z: 19.979981 | current position x: -43.522527, y: 172.577350, z: 31.391541
+
+Drone 0 Drone 1 = 7.161549883373654
+Drone 0 Drone 2 = 7.074419825380824
+Drone 0 Drone 3 = 7.068277411297654
+Drone 0 Drone 4 = 7.097946446731895
+Drone 1 Drone 2 = 9.991391015803671
+Drone 1 Drone 3 = 10.196577961215734
+Drone 1 Drone 4 = 14.25879384124021
+Drone 2 Drone 3 = 14.142442146016084
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 9.981753845378861
+Max error in centre estimate of 0.14 m
+Multilateration error 0.82
+[INFO] [1627443345.305639, 456.348000]: attempting to reach position x: -43.522420, y: 172.577350, z: 20.009791 | current position x: -43.522428, y: 172.577352, z: 31.417702
+[INFO] [1627443345.305640, 456.348000]: attempting to reach position x: -43.522465, y: 172.577288, z: 20.017755 | current position x: -43.522473, y: 172.577290, z: 31.431616
+[INFO] [1627443345.305651, 456.352000]: attempting to reach position x: -43.522510, y: 172.577226, z: 19.997329 | current position x: -43.522518, y: 172.577228, z: 31.402529
+[INFO] [1627443345.305648, 456.352000]: attempting to reach position x: -43.522510, y: 172.577350, z: 19.979981 | current position x: -43.522518, y: 172.577352, z: 31.387556
+
+Drone 0 Drone 1 = 7.077369520123748
+Drone 0 Drone 2 = 7.060865837789288
+Drone 0 Drone 3 = 7.093177239768263
+Drone 0 Drone 4 = 7.097946935290765
+Drone 1 Drone 2 = 9.99802554600954
+Drone 1 Drone 3 = 10.07426035464498
+Drone 1 Drone 4 = 14.175269728256614
+Drone 2 Drone 3 = 14.153829155242661
+Drone 2 Drone 4 = 9.985307668333776
+Drone 3 Drone 4 = 10.005974405696266
+Max error in centre estimate of 0.04 m
+Multilateration error 0.75
+[INFO] [1627443346.353388, 457.396000]: attempting to reach position x: -43.522420, y: 172.577350, z: 20.009791 | current position x: -43.522420, y: 172.577350, z: 31.412714
+[INFO] [1627443346.353471, 457.392000]: attempting to reach position x: -43.522465, y: 172.577288, z: 20.017755 | current position x: -43.522465, y: 172.577288, z: 31.426628
+[INFO] [1627443346.353728, 457.396000]: attempting to reach position x: -43.522510, y: 172.577226, z: 19.997329 | current position x: -43.522511, y: 172.577226, z: 31.398541
+[INFO] [1627443346.354286, 457.396000]: attempting to reach position x: -43.522510, y: 172.577350, z: 19.979981 | current position x: -43.522510, y: 172.577351, z: 31.379568
+
+Drone 0 Drone 1 = 7.112983295966499
+Drone 0 Drone 2 = 7.059417083637262
+Drone 0 Drone 3 = 7.092243438953741
+Drone 0 Drone 4 = 7.076535839534757
+Drone 1 Drone 2 = 10.046254307669768
+Drone 1 Drone 3 = 10.018744000203816
+Drone 1 Drone 4 = 14.189504301909636
+Drone 2 Drone 3 = 14.151660455972584
+Drone 2 Drone 4 = 9.985333709313428
+Drone 3 Drone 4 = 10.030132255100558
+Max error in centre estimate of 0.04 m
+Multilateration error 0.46
+[INFO] [1627443347.516000, 458.544000]: attempting to reach position x: -43.522490, y: 172.577226, z: 19.997329 | current position x: -43.522509, y: 172.577225, z: 31.395544
+[INFO] [1627443347.516021, 458.548000]: attempting to reach position x: -43.522446, y: 172.577288, z: 20.017755 | current position x: -43.522464, y: 172.577288, z: 31.427630
+[INFO] [1627443347.516137, 458.548000]: attempting to reach position x: -43.522401, y: 172.577350, z: 20.009791 | current position x: -43.522419, y: 172.577349, z: 31.405717
+[INFO] [1627443347.516260, 458.548000]: attempting to reach position x: -43.522490, y: 172.577350, z: 19.979981 | current position x: -43.522508, y: 172.577350, z: 31.387571
+
+Drone 0 Drone 1 = 7.035864486923979
+Drone 0 Drone 2 = 7.059417183563693
+Drone 0 Drone 3 = 7.064515598893635
+Drone 0 Drone 4 = 7.069474930794564
+Drone 1 Drone 2 = 9.981801746630477
+Drone 1 Drone 3 = 9.918669383900147
+Drone 1 Drone 4 = 14.105267566856613
+Drone 2 Drone 3 = 14.123836804573841
+Drone 2 Drone 4 = 10.007546646658732
+Drone 3 Drone 4 = 10.014136668098162
+Max error in centre estimate of 0.05 m
+Multilateration error 0.55
+[INFO] [1627443348.272850, 459.296000]: attempting to reach position x: -43.522401, y: 172.577350, z: 20.009791 | current position x: -43.522416, y: 172.577350, z: 31.429721
+[INFO] [1627443348.272865, 459.296000]: attempting to reach position x: -43.522490, y: 172.577226, z: 19.997329 | current position x: -43.522505, y: 172.577225, z: 31.415549
+[INFO] [1627443348.272884, 459.296000]: attempting to reach position x: -43.522490, y: 172.577350, z: 19.979981 | current position x: -43.522506, y: 172.577349, z: 31.397574
+[INFO] [1627443348.273168, 459.292000]: attempting to reach position x: -43.522446, y: 172.577288, z: 20.017755 | current position x: -43.522461, y: 172.577288, z: 31.440635
+
+Drone 0 Drone 1 = 6.950403636025694
+Drone 0 Drone 2 = 7.05514231885734
+Drone 0 Drone 3 = 7.070260650098758
+Drone 0 Drone 4 = 7.093178115865901
+Drone 1 Drone 2 = 9.966124612504204
+Drone 1 Drone 3 = 9.8299621863788
+Drone 1 Drone 4 = 14.043159697991817
+Drone 2 Drone 3 = 14.125369884743352
+Drone 2 Drone 4 = 10.018692090468841
+Drone 3 Drone 4 = 10.022441703004802
+Max error in centre estimate of 0.11 m
+Multilateration error 0.89
+[INFO] [1627443349.401637, 460.420000]: attempting to reach position x: -43.522388, y: 172.577362, z: 20.009791 | current position x: -43.522404, y: 172.577349, z: 31.414740
+[INFO] [1627443349.401673, 460.420000]: attempting to reach position x: -43.522478, y: 172.577362, z: 19.979981 | current position x: -43.522494, y: 172.577349, z: 31.383594
+[INFO] [1627443349.402662, 460.420000]: attempting to reach position x: -43.522433, y: 172.577300, z: 20.017755 | current position x: -43.522449, y: 172.577287, z: 31.418654
+[INFO] [1627443349.401710, 460.420000]: attempting to reach position x: -43.522478, y: 172.577238, z: 19.997329 | current position x: -43.522493, y: 172.577224, z: 31.405569
+
+Drone 0 Drone 1 = 7.126537567341242
+Drone 0 Drone 2 = 7.1237669123377305
+Drone 0 Drone 3 = 7.087974224785607
+Drone 0 Drone 4 = 7.058776887826052
+Drone 1 Drone 2 = 10.07860107813061
+Drone 1 Drone 3 = 10.00759536557238
+Drone 1 Drone 4 = 14.185310050307681
+Drone 2 Drone 3 = 14.211620485449608
+Drone 2 Drone 4 = 10.018666134774184
+Drone 3 Drone 4 = 10.05435486151663
+Max error in centre estimate of 0.05 m
+Multilateration error 0.64
+[INFO] [1627443350.392764, 461.404000]: attempting to reach position x: -43.522433, y: 172.577300, z: 20.017755 | current position x: -43.522440, y: 172.577291, z: 31.427669
+[INFO] [1627443350.392826, 461.408000]: attempting to reach position x: -43.522478, y: 172.577238, z: 19.997329 | current position x: -43.522485, y: 172.577228, z: 31.412583
+[INFO] [1627443350.392856, 461.408000]: attempting to reach position x: -43.522388, y: 172.577362, z: 20.009791 | current position x: -43.522394, y: 172.577353, z: 31.420757
+[INFO] [1627443350.392947, 461.408000]: attempting to reach position x: -43.522478, y: 172.577362, z: 19.979981 | current position x: -43.522484, y: 172.577353, z: 31.387610
+
+Drone 0 Drone 1 = 7.147497520629664
+Drone 0 Drone 2 = 7.146508648189939
+Drone 0 Drone 3 = 7.053718262961692
+Drone 0 Drone 4 = 7.073981598278911
+Drone 1 Drone 2 = 10.06243411526598
+Drone 1 Drone 3 = 10.085431413617151
+Drone 1 Drone 4 = 14.220877389122926
+Drone 2 Drone 3 = 14.200226836426097
+Drone 2 Drone 4 = 10.007546645954488
+Drone 3 Drone 4 = 10.038273917514935
+Max error in centre estimate of 0.06 m
+Multilateration error 0.77
+[INFO] [1627443351.283249, 462.280000]: attempting to reach position x: -43.522433, y: 172.577300, z: 20.017755 | current position x: -43.522433, y: 172.577296, z: 31.416682
+[INFO] [1627443351.283456, 462.296000]: attempting to reach position x: -43.522478, y: 172.577362, z: 19.979981 | current position x: -43.522478, y: 172.577359, z: 31.386622
+[INFO] [1627443351.283467, 462.296000]: attempting to reach position x: -43.522388, y: 172.577362, z: 20.009791 | current position x: -43.522388, y: 172.577359, z: 31.413769
+[INFO] [1627443351.283499, 462.296000]: attempting to reach position x: -43.522478, y: 172.577238, z: 19.997329 | current position x: -43.522478, y: 172.577235, z: 31.393595
+
+Drone 0 Drone 1 = 7.050963699423055
+Drone 0 Drone 2 = 7.119377112122692
+Drone 0 Drone 3 = 7.055906258210697
+Drone 0 Drone 4 = 7.072327753757677
+Drone 1 Drone 2 = 9.861317034909364
+Drone 1 Drone 3 = 10.14201575735277
+Drone 1 Drone 4 = 14.12088424823543
+Drone 2 Drone 3 = 14.175273837470147
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 10.005980276897212
+Max error in centre estimate of 0.15 m
+Multilateration error 0.43
+[INFO] [1627443352.385966, 463.392000]: attempting to reach position x: -43.522433, y: 172.577300, z: 20.017755 | current position x: -43.522431, y: 172.577300, z: 31.421686
+[INFO] [1627443352.386246, 463.392000]: attempting to reach position x: -43.522478, y: 172.577362, z: 19.979981 | current position x: -43.522476, y: 172.577362, z: 31.381627
+[INFO] [1627443352.386248, 463.392000]: attempting to reach position x: -43.522388, y: 172.577362, z: 20.009791 | current position x: -43.522386, y: 172.577362, z: 31.421773
+[INFO] [1627443352.386294, 463.392000]: attempting to reach position x: -43.522478, y: 172.577238, z: 19.997329 | current position x: -43.522476, y: 172.577238, z: 31.405600
+
+Drone 0 Drone 1 = 6.879431518271828
+Drone 0 Drone 2 = 7.096622173866652
+Drone 0 Drone 3 = 7.049420983454449
+Drone 0 Drone 4 = 7.037995079905126
+Drone 1 Drone 2 = 9.731905784678235
+Drone 1 Drone 3 = 9.966617640736496
+Drone 1 Drone 4 = 13.916067739922498
+Drone 2 Drone 3 = 14.145964594406376
+Drone 2 Drone 4 = 10.007556389902325
+Drone 3 Drone 4 = 9.981736204600159
+Max error in centre estimate of 0.22 m
+Multilateration error 0.81
+[INFO] [1627443353.294091, 464.292000]: attempting to reach position x: -43.522433, y: 172.577300, z: 20.017755 | current position x: -43.522432, y: 172.577301, z: 31.430685
+[INFO] [1627443353.294169, 464.296000]: attempting to reach position x: -43.522388, y: 172.577362, z: 20.009791 | current position x: -43.522387, y: 172.577363, z: 31.418772
+[INFO] [1627443353.294187, 464.296000]: attempting to reach position x: -43.522478, y: 172.577362, z: 19.979981 | current position x: -43.522476, y: 172.577363, z: 31.394625
+[INFO] [1627443353.294196, 464.296000]: attempting to reach position x: -43.522478, y: 172.577238, z: 19.997329 | current position x: -43.522476, y: 172.577239, z: 31.419599
+
+Drone 0 Drone 1 = 6.799752135008693
+Drone 0 Drone 2 = 7.078684352102214
+Drone 0 Drone 3 = 7.057265481630451
+Drone 0 Drone 4 = 7.045852299441792
+Drone 1 Drone 2 = 9.85551257087835
+Drone 1 Drone 3 = 9.752998264531417
+Drone 1 Drone 4 = 13.845501262236105
+Drone 2 Drone 3 = 14.135946269512324
+Drone 2 Drone 4 = 9.98533370933876
+Drone 3 Drone 4 = 9.981736055692458
+Max error in centre estimate of 0.23 m
+Multilateration error 0.12
+[INFO] [1627443354.305970, 465.304000]: attempting to reach position x: -43.522459, y: 172.577363, z: 19.979981 | current position x: -43.522477, y: 172.577362, z: 31.406624
+[INFO] [1627443354.305973, 465.304000]: attempting to reach position x: -43.522369, y: 172.577363, z: 20.009791 | current position x: -43.522388, y: 172.577362, z: 31.440770
+[INFO] [1627443354.305990, 465.304000]: attempting to reach position x: -43.522459, y: 172.577238, z: 19.997329 | current position x: -43.522477, y: 172.577238, z: 31.434597
+[INFO] [1627443354.305990, 465.292000]: attempting to reach position x: -43.522414, y: 172.577301, z: 20.017755 | current position x: -43.522432, y: 172.577300, z: 31.451684
+
+Drone 0 Drone 1 = 6.906127697419319
+Drone 0 Drone 2 = 6.985000722288593
+Drone 0 Drone 3 = 7.210381119884764
+Drone 0 Drone 4 = 7.1679992512015165
+Drone 1 Drone 2 = 10.096614762683421
+Drone 1 Drone 3 = 9.874583504975826
+Drone 1 Drone 4 = 14.068533993062982
+Drone 2 Drone 3 = 14.193242068013074
+Drone 2 Drone 4 = 10.007546645955037
+Drone 3 Drone 4 = 9.990022242212518
+Max error in centre estimate of 0.18 m
+Multilateration error 0.12
+[INFO] [1627443355.482491, 466.460000]: attempting to reach position x: -43.522414, y: 172.577301, z: 20.017755 | current position x: -43.522424, y: 172.577300, z: 31.465696
+[INFO] [1627443355.482686, 466.472000]: attempting to reach position x: -43.522459, y: 172.577238, z: 19.997329 | current position x: -43.522470, y: 172.577238, z: 31.442609
+[INFO] [1627443355.482686, 466.472000]: attempting to reach position x: -43.522459, y: 172.577363, z: 19.979981 | current position x: -43.522470, y: 172.577362, z: 31.430636
+[INFO] [1627443355.482697, 466.472000]: attempting to reach position x: -43.522369, y: 172.577363, z: 20.009791 | current position x: -43.522380, y: 172.577362, z: 31.453783
+
+Drone 0 Drone 1 = 7.207792332067899
+Drone 0 Drone 2 = 7.02803383571705
+Drone 0 Drone 3 = 7.130544780176936
+Drone 0 Drone 4 = 7.115872841923138
+Drone 1 Drone 2 = 10.30455943472183
+Drone 1 Drone 3 = 9.968284038766852
+Drone 1 Drone 4 = 14.319747820421616
+Drone 2 Drone 3 = 14.158211756997899
+Drone 2 Drone 4 = 9.996453169194885
+Drone 3 Drone 4 = 10.006025624058376
+Max error in centre estimate of 0.26 m
+Multilateration error 0.82
+[INFO] [1627443356.283314, 467.268000]: attempting to reach position x: -43.522444, y: 172.577362, z: 19.979981 | current position x: -43.522462, y: 172.577362, z: 31.402649
+[INFO] [1627443356.283314, 467.268000]: attempting to reach position x: -43.522355, y: 172.577362, z: 20.009791 | current position x: -43.522372, y: 172.577361, z: 31.445795
+[INFO] [1627443356.283332, 467.268000]: attempting to reach position x: -43.522444, y: 172.577238, z: 19.997329 | current position x: -43.522462, y: 172.577238, z: 31.429622
+[INFO] [1627443356.283341, 467.264000]: attempting to reach position x: -43.522400, y: 172.577300, z: 20.017755 | current position x: -43.522417, y: 172.577300, z: 31.442709
+
+Drone 0 Drone 1 = 7.475869211510274
+Drone 0 Drone 2 = 7.049424916353437
+Drone 0 Drone 3 = 7.059417630958012
+Drone 0 Drone 4 = 7.105810841621169
+Drone 1 Drone 2 = 10.34774212318858
+Drone 1 Drone 3 = 10.22497000460519
+Drone 1 Drone 4 = 14.581435405335903
+Drone 2 Drone 3 = 14.108826245048428
+Drone 2 Drone 4 = 9.996453169203033
+Drone 3 Drone 4 = 10.014046577952985
+Max error in centre estimate of 0.34 m
+Multilateration error 0.84
+[INFO] [1627443357.269645, 468.252000]: attempting to reach position x: -43.522400, y: 172.577300, z: 20.017755 | current position x: -43.522408, y: 172.577300, z: 31.440723
+[INFO] [1627443357.269700, 468.252000]: attempting to reach position x: -43.522444, y: 172.577238, z: 19.997329 | current position x: -43.522453, y: 172.577238, z: 31.428637
+[INFO] [1627443357.269716, 468.252000]: attempting to reach position x: -43.522444, y: 172.577362, z: 19.979981 | current position x: -43.522453, y: 172.577362, z: 31.398663
+[INFO] [1627443357.269720, 468.252000]: attempting to reach position x: -43.522355, y: 172.577362, z: 20.009791 | current position x: -43.522363, y: 172.577361, z: 31.438809
+
+Drone 0 Drone 1 = 7.464362166468677
+Drone 0 Drone 2 = 7.0615975919126335
+Drone 0 Drone 3 = 7.062980814029682
+Drone 0 Drone 4 = 7.065120663680625
+Drone 1 Drone 2 = 10.22838028521304
+Drone 1 Drone 3 = 10.299304727762228
+Drone 1 Drone 4 = 14.529376175315543
+Drone 2 Drone 3 = 14.124540273318344
+Drone 2 Drone 4 = 9.99643691194148
+Drone 3 Drone 4 = 10.005935822647682
+Max error in centre estimate of 0.31 m
+Multilateration error 0.84
+[INFO] [1627443358.263328, 469.164000]: attempting to reach position x: -43.522400, y: 172.577300, z: 20.017755 | current position x: -43.522401, y: 172.577300, z: 31.434735
+[INFO] [1627443358.263476, 469.164000]: attempting to reach position x: -43.522355, y: 172.577362, z: 20.009791 | current position x: -43.522356, y: 172.577361, z: 31.418822
+[INFO] [1627443358.263503, 469.164000]: attempting to reach position x: -43.522444, y: 172.577238, z: 19.997329 | current position x: -43.522446, y: 172.577237, z: 31.417649
+[INFO] [1627443358.263523, 469.164000]: attempting to reach position x: -43.522444, y: 172.577362, z: 19.979981 | current position x: -43.522446, y: 172.577362, z: 31.394675
+
+Drone 0 Drone 1 = 7.292030945000106
+Drone 0 Drone 2 = 7.063800626008525
+Drone 0 Drone 3 = 7.053044180083458
+Drone 0 Drone 4 = 7.037997027109698
+Drone 1 Drone 2 = 10.017273250321571
+Drone 1 Drone 3 = 10.229961847819895
+Drone 1 Drone 4 = 14.329023519922227
+Drone 2 Drone 3 = 14.11668189395852
+Drone 2 Drone 4 = 9.985307669048439
+Drone 3 Drone 4 = 9.997873498024632
+Max error in centre estimate of 0.20 m
+Multilateration error 0.61
+[INFO] [1627443359.362741, 470.228000]: attempting to reach position x: -43.522344, y: 172.577375, z: 20.009791 | current position x: -43.522353, y: 172.577362, z: 31.423826
+[INFO] [1627443359.362746, 470.224000]: attempting to reach position x: -43.522389, y: 172.577313, z: 20.017755 | current position x: -43.522398, y: 172.577300, z: 31.441739
+[INFO] [1627443359.362766, 470.228000]: attempting to reach position x: -43.522434, y: 172.577250, z: 19.997329 | current position x: -43.522443, y: 172.577238, z: 31.421654
+[INFO] [1627443359.362810, 470.228000]: attempting to reach position x: -43.522434, y: 172.577375, z: 19.979981 | current position x: -43.522443, y: 172.577362, z: 31.392680
+
+Drone 0 Drone 1 = 6.977768391899044
+Drone 0 Drone 2 = 7.0559109034015215
+Drone 0 Drone 3 = 7.103659272749306
+Drone 0 Drone 4 = 7.051558720624688
+Drone 1 Drone 2 = 9.86083986797995
+Drone 1 Drone 3 = 9.997477369094998
+Drone 1 Drone 4 = 14.029129669936118
+Drone 2 Drone 3 = 14.159533861215277
+Drone 2 Drone 4 = 9.985317433294519
+Drone 3 Drone 4 = 10.022111551739624
+Max error in centre estimate of 0.11 m
+Multilateration error 0.32
+[INFO] [1627443360.281037, 471.136000]: attempting to reach position x: -43.522389, y: 172.577313, z: 20.017755 | current position x: -43.522395, y: 172.577305, z: 31.452745
+[INFO] [1627443360.281056, 471.140000]: attempting to reach position x: -43.522344, y: 172.577375, z: 20.009791 | current position x: -43.522350, y: 172.577366, z: 31.440831
+[INFO] [1627443360.281057, 471.140000]: attempting to reach position x: -43.522434, y: 172.577250, z: 19.997329 | current position x: -43.522440, y: 172.577242, z: 31.429658
+[INFO] [1627443360.281060, 471.140000]: attempting to reach position x: -43.522434, y: 172.577375, z: 19.979981 | current position x: -43.522440, y: 172.577367, z: 31.405685
+
+Drone 0 Drone 1 = 6.893116249585309
+Drone 0 Drone 2 = 7.0615981747043
+Drone 0 Drone 3 = 7.1250769758419725
+Drone 0 Drone 4 = 7.057267917888976
+Drone 1 Drone 2 = 9.86171829478889
+Drone 1 Drone 3 = 9.908780196151522
+Drone 1 Drone 4 = 13.950382569831877
+Drone 2 Drone 3 = 14.186665702812595
+Drone 2 Drone 4 = 9.985317434007356
+Drone 3 Drone 4 = 10.038336424341564
+Max error in centre estimate of 0.15 m
+Multilateration error 0.7
+[INFO] [1627443361.304034, 472.140000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522391, y: 172.577311, z: 31.445754
+[INFO] [1627443361.304272, 472.152000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522345, y: 172.577373, z: 31.433841
+[INFO] [1627443361.304284, 472.152000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522436, y: 172.577249, z: 31.418668
+[INFO] [1627443361.304292, 472.152000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522435, y: 172.577373, z: 31.391695
+
+Drone 0 Drone 1 = 6.987375377144354
+Drone 0 Drone 2 = 6.996791804231102
+Drone 0 Drone 3 = 7.113681573465245
+Drone 0 Drone 4 = 7.12376764478996
+Drone 1 Drone 2 = 9.957576491578982
+Drone 1 Drone 3 = 9.952105974481247
+Drone 1 Drone 4 = 14.1109788418993
+Drone 2 Drone 3 = 14.110289752233095
+Drone 2 Drone 4 = 9.96309478922611
+Drone 3 Drone 4 = 10.038208117326116
+Max error in centre estimate of 0.06 m
+Multilateration error 0.82
+[INFO] [1627443362.374029, 473.212000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522382, y: 172.577313, z: 31.464769
+[INFO] [1627443362.376052, 473.220000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522338, y: 172.577375, z: 31.445853
+[INFO] [1627443362.376077, 473.220000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522427, y: 172.577251, z: 31.436681
+[INFO] [1627443362.376112, 473.220000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522428, y: 172.577375, z: 31.413707
+
+Drone 0 Drone 1 = 7.155241140491239
+Drone 0 Drone 2 = 7.019833847515992
+Drone 0 Drone 3 = 7.1023046543549535
+Drone 0 Drone 4 = 7.150916021539853
+Drone 1 Drone 2 = 10.127501361090234
+Drone 1 Drone 3 = 10.052487000226597
+Drone 1 Drone 4 = 14.30581815088971
+Drone 2 Drone 3 = 14.121739673833346
+Drone 2 Drone 4 = 9.9853076683435
+Drone 3 Drone 4 = 10.038283534672175
+Max error in centre estimate of 0.11 m
+Multilateration error 0.25
+[INFO] [1627443363.472387, 474.312000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522329, y: 172.577374, z: 31.427867
+[INFO] [1627443363.472419, 474.312000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522374, y: 172.577312, z: 31.438782
+[INFO] [1627443363.473341, 474.312000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522419, y: 172.577374, z: 31.401721
+[INFO] [1627443363.474356, 474.312000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522419, y: 172.577249, z: 31.426695
+
+Drone 0 Drone 1 = 7.3299184055525455
+Drone 0 Drone 2 = 7.055146971971932
+Drone 0 Drone 3 = 7.078685267889504
+Drone 0 Drone 4 = 7.094422967214484
+Drone 1 Drone 2 = 10.193583765200326
+Drone 1 Drone 3 = 10.18699973296225
+Drone 1 Drone 4 = 14.42433299207468
+Drone 2 Drone 3 = 14.133812465098968
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.01402192464672
+Max error in centre estimate of 0.22 m
+Multilateration error 0.62
+[INFO] [1627443364.315878, 475.116000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522372, y: 172.577311, z: 31.442785
+[INFO] [1627443364.315919, 475.152000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522417, y: 172.577373, z: 31.405725
+[INFO] [1627443364.315937, 475.152000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522417, y: 172.577249, z: 31.423699
+[INFO] [1627443364.315980, 475.152000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522327, y: 172.577373, z: 31.431871
+
+Drone 0 Drone 1 = 7.175041404862219
+Drone 0 Drone 2 = 7.076543890767776
+Drone 0 Drone 3 = 7.0594198271299735
+Drone 0 Drone 4 = 7.084390667279033
+Drone 1 Drone 2 = 10.102923456294077
+Drone 1 Drone 3 = 10.052486998891963
+Drone 1 Drone 4 = 14.259427166115094
+Drone 2 Drone 3 = 14.135953382334058
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.005940648989476
+Max error in centre estimate of 0.09 m
+Multilateration error 0.3
+[INFO] [1627443365.363444, 476.096000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522417, y: 172.577249, z: 31.422698
+[INFO] [1627443365.363474, 476.096000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522372, y: 172.577311, z: 31.428785
+[INFO] [1627443365.363472, 476.096000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522327, y: 172.577374, z: 31.431871
+[INFO] [1627443365.363470, 476.096000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522417, y: 172.577373, z: 31.405725
+
+Drone 0 Drone 1 = 6.943089275560376
+Drone 0 Drone 2 = 7.082260173365506
+Drone 0 Drone 3 = 7.067288242633389
+Drone 0 Drone 4 = 7.092248810079273
+Drone 1 Drone 2 = 9.950012834333727
+Drone 1 Drone 3 = 9.89655867575689
+Drone 1 Drone 4 = 14.035317497669896
+Drone 2 Drone 3 = 14.149515192638873
+Drone 2 Drone 4 = 10.00754664596272
+Drone 3 Drone 4 = 10.005940566063435
+Max error in centre estimate of 0.09 m
+Multilateration error 0.4
+[INFO] [1627443366.377230, 477.100000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522372, y: 172.577311, z: 31.419784
+[INFO] [1627443366.377293, 477.104000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522327, y: 172.577374, z: 31.416870
+[INFO] [1627443366.377342, 477.104000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522417, y: 172.577374, z: 31.390724
+[INFO] [1627443366.377628, 477.104000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522417, y: 172.577250, z: 31.404698
+
+Drone 0 Drone 1 = 6.8732365274470775
+Drone 0 Drone 2 = 7.084393266823565
+Drone 0 Drone 3 = 7.067288219265048
+Drone 0 Drone 4 = 7.070829470520271
+Drone 1 Drone 2 = 9.91079239110021
+Drone 1 Drone 3 = 9.830107680230478
+Drone 1 Drone 4 = 13.944011564543928
+Drone 2 Drone 3 = 14.15167113898608
+Drone 2 Drone 4 = 9.996427157148437
+Drone 3 Drone 4 = 9.997877721833552
+Max error in centre estimate of 0.16 m
+Multilateration error 0.53
+[INFO] [1627443367.370623, 478.092000]: attempting to reach position x: -43.522328, y: 172.577373, z: 20.009791 | current position x: -43.522328, y: 172.577374, z: 31.400870
+[INFO] [1627443367.370638, 478.092000]: attempting to reach position x: -43.522373, y: 172.577311, z: 20.017755 | current position x: -43.522373, y: 172.577311, z: 31.420784
+[INFO] [1627443367.370669, 478.092000]: attempting to reach position x: -43.522418, y: 172.577249, z: 19.997329 | current position x: -43.522418, y: 172.577249, z: 31.384697
+[INFO] [1627443367.370684, 478.092000]: attempting to reach position x: -43.522418, y: 172.577373, z: 19.979981 | current position x: -43.522417, y: 172.577373, z: 31.383724
+
+Drone 0 Drone 1 = 6.919623054167672
+Drone 0 Drone 2 = 7.049427082066016
+Drone 0 Drone 3 = 7.09224878896813
+Drone 0 Drone 4 = 7.080855249424705
+Drone 1 Drone 2 = 9.925943859568266
+Drone 1 Drone 3 = 9.874507795887787
+Drone 1 Drone 4 = 14.00035316343228
+Drone 2 Drone 3 = 14.141661561595852
+Drone 2 Drone 4 = 9.985304412411743
+Drone 3 Drone 4 = 10.01399711648
+Max error in centre estimate of 0.12 m
+Multilateration error 0.33
+[INFO] [1627443368.277234, 478.988000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522328, y: 172.577373, z: 31.393869
+[INFO] [1627443368.277366, 478.968000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522373, y: 172.577311, z: 31.418784
+[INFO] [1627443368.277422, 478.992000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522418, y: 172.577373, z: 31.367723
+[INFO] [1627443368.277921, 478.992000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522418, y: 172.577249, z: 31.386697
+
+Drone 0 Drone 1 = 7.163368809669959
+Drone 0 Drone 2 = 7.086552085855868
+Drone 0 Drone 3 = 6.998844617468018
+Drone 0 Drone 4 = 7.047314651287601
+Drone 1 Drone 2 = 9.692172444585939
+Drone 1 Drone 3 = 10.345665988895526
+Drone 1 Drone 4 = 14.199634323326578
+Drone 2 Drone 3 = 14.085293504382816
+Drone 2 Drone 4 = 9.974184919278928
+Drone 3 Drone 4 = 9.989907052131993
+Max error in centre estimate of 0.40 m
+Multilateration error 0.54
+[INFO] [1627443369.256040, 479.952000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522378, y: 172.577307, z: 31.417774
+[INFO] [1627443369.256152, 479.960000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522423, y: 172.577245, z: 31.410688
+[INFO] [1627443369.256167, 479.960000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522333, y: 172.577369, z: 31.414860
+[INFO] [1627443369.256221, 479.960000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522423, y: 172.577369, z: 31.380714
+
+Drone 0 Drone 1 = 7.772081257370725
+Drone 0 Drone 2 = 7.088736554445016
+Drone 0 Drone 3 = 7.04158786168478
+Drone 0 Drone 4 = 7.055143425682836
+Drone 1 Drone 2 = 9.309032620068542
+Drone 1 Drone 3 = 11.537450025458597
+Drone 1 Drone 4 = 14.73740557563573
+Drone 2 Drone 3 = 14.13024559054936
+Drone 2 Drone 4 = 9.996427156439541
+Drone 3 Drone 4 = 10.005938113479768
+Max error in centre estimate of 1.38 m
+Multilateration error 0.93
+[INFO] [1627443370.298034, 480.980000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522388, y: 172.577301, z: 31.405756
+[INFO] [1627443370.298172, 481.000000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522433, y: 172.577239, z: 31.385670
+[INFO] [1627443370.298186, 481.000000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522343, y: 172.577363, z: 31.394842
+[INFO] [1627443370.298285, 481.000000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522433, y: 172.577363, z: 31.369696
+
+Drone 0 Drone 1 = 8.028902196039484
+Drone 0 Drone 2 = 7.0751669033810565
+Drone 0 Drone 3 = 7.065121215733144
+Drone 0 Drone 4 = 7.072983309610799
+Drone 1 Drone 2 = 9.150224433320044
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.033258259345402
+Drone 1 Drone 4 = 14.96340503716289
+Drone 2 Drone 3 = 14.140271910811228
+Drone 2 Drone 4 = 10.018666134779616
+Drone 3 Drone 4 = 9.997874575205138
+Max error in centre estimate of 1.80 m
+Multilateration error 0.6
+[INFO] [1627443371.269784, 481.964000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522392, y: 172.577298, z: 31.415750
+[INFO] [1627443371.269946, 481.964000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522436, y: 172.577236, z: 31.377663
+[INFO] [1627443371.269956, 481.964000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522346, y: 172.577360, z: 31.388836
+[INFO] [1627443371.269985, 481.964000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522437, y: 172.577360, z: 31.366690
+
+Drone 0 Drone 1 = 7.9413008669831235
+Drone 0 Drone 2 = 7.065123853980883
+Drone 0 Drone 3 = 7.065121221144028
+Drone 0 Drone 4 = 7.088733674227307
+Drone 1 Drone 2 = 9.106833357500568
+Drone 1 Drone 3 = 11.959353147133527
+Drone 1 Drone 4 = 14.89473560562071
+Drone 2 Drone 3 = 14.130245075125208
+Drone 2 Drone 4 = 10.018662890395547
+Drone 3 Drone 4 = 9.997924042840692
+Max error in centre estimate of 1.77 m
+Multilateration error 0.42
+[INFO] [1627443372.315943, 482.992000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522391, y: 172.577297, z: 31.419750
+[INFO] [1627443372.316053, 483.004000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522436, y: 172.577235, z: 31.381664
+[INFO] [1627443372.316052, 483.004000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522436, y: 172.577359, z: 31.368690
+[INFO] [1627443372.316052, 483.004000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522346, y: 172.577359, z: 31.389836
+
+Drone 0 Drone 1 = 7.874403758848217
+Drone 0 Drone 2 = 7.049426023461214
+Drone 0 Drone 3 = 7.0808541964702405
+Drone 0 Drone 4 = 7.09662192872315
+Drone 1 Drone 2 = 9.130188012354019
+Drone 1 Drone 3 = 11.878194078067516
+Drone 1 Drone 4 = 14.847750742381205
+Drone 2 Drone 3 = 14.130245157204026
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 9.99789324988648
+Max error in centre estimate of 1.70 m
+Multilateration error 0.32
+[INFO] [1627443373.397912, 483.968000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522391, y: 172.577298, z: 31.414751
+[INFO] [1627443373.398040, 483.972000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522436, y: 172.577360, z: 31.372691
+[INFO] [1627443373.398053, 483.972000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522436, y: 172.577236, z: 31.394665
+[INFO] [1627443373.398261, 483.972000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522346, y: 172.577360, z: 31.407838
+
+Drone 0 Drone 1 = 7.645375822829687
+Drone 0 Drone 2 = 7.059421370659039
+Drone 0 Drone 3 = 7.080854214520432
+Drone 0 Drone 4 = 7.059418745639738
+Drone 1 Drone 2 = 9.118188276348178
+Drone 1 Drone 3 = 11.574176026190823
+Drone 1 Drone 4 = 14.60377271855855
+Drone 2 Drone 3 = 14.140272039993564
+Drone 2 Drone 4 = 9.985304413119067
+Drone 3 Drone 4 = 9.989830555625627
+Max error in centre estimate of 1.46 m
+Multilateration error 0.32
+[INFO] [1627443374.322793, 484.884000]: attempting to reach position x: -43.522390, y: 172.577299, z: 20.017755 | current position x: -43.522390, y: 172.577298, z: 31.417752
+[INFO] [1627443374.322808, 484.884000]: attempting to reach position x: -43.522435, y: 172.577237, z: 19.997329 | current position x: -43.522435, y: 172.577236, z: 31.401665
+[INFO] [1627443374.322816, 484.884000]: attempting to reach position x: -43.522346, y: 172.577361, z: 20.009791 | current position x: -43.522345, y: 172.577360, z: 31.407838
+[INFO] [1627443374.322825, 484.884000]: attempting to reach position x: -43.522435, y: 172.577361, z: 19.979981 | current position x: -43.522435, y: 172.577360, z: 31.373692
+
+Drone 0 Drone 1 = 6.76119357689509
+Drone 0 Drone 2 = 7.0708310597034085
+Drone 0 Drone 3 = 7.086548671607596
+Drone 0 Drone 4 = 7.068699496919246
+Drone 1 Drone 2 = 8.948223982955568
+Drone 1 Drone 3 = 10.574379500212913
+Drone 1 Drone 4 = 13.780515507488605
+Drone 2 Drone 3 = 14.15737098338287
+Drone 2 Drone 4 = 9.974188178129165
+Drone 3 Drone 4 = 10.022112479961173
+Max error in centre estimate of 0.95 m
+Multilateration error 0.32
+[INFO] [1627443375.342932, 485.896000]: attempting to reach position x: -43.522363, y: 172.577360, z: 20.009791 | current position x: -43.522346, y: 172.577360, z: 31.421838
+[INFO] [1627443375.342936, 485.896000]: attempting to reach position x: -43.522453, y: 172.577236, z: 19.997329 | current position x: -43.522436, y: 172.577236, z: 31.401665
+[INFO] [1627443375.342931, 485.884000]: attempting to reach position x: -43.522408, y: 172.577298, z: 20.017755 | current position x: -43.522390, y: 172.577298, z: 31.417752
+[INFO] [1627443375.342990, 485.896000]: attempting to reach position x: -43.522453, y: 172.577360, z: 19.979981 | current position x: -43.522435, y: 172.577361, z: 31.394692
+
+Drone 0 Drone 1 = 6.385045718489985
+Drone 0 Drone 2 = 7.1023061507409775
+Drone 0 Drone 3 = 7.008300232952299
+Drone 0 Drone 4 = 7.047313612532636
+Drone 1 Drone 2 = 8.829118678214275
+Drone 1 Drone 3 = 10.08852719800831
+Drone 1 Drone 4 = 13.395442644722596
+Drone 2 Drone 3 = 14.110288658145617
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.014147857535667
+Max error in centre estimate of 0.94 m
+Multilateration error 0.46
+[INFO] [1627443376.287189, 486.800000]: attempting to reach position x: -43.522422, y: 172.577299, z: 20.017755 | current position x: -43.522396, y: 172.577299, z: 31.445742
+[INFO] [1627443376.287303, 486.836000]: attempting to reach position x: -43.522377, y: 172.577361, z: 20.009791 | current position x: -43.522351, y: 172.577361, z: 31.444829
+[INFO] [1627443376.287381, 486.836000]: attempting to reach position x: -43.522467, y: 172.577237, z: 19.997329 | current position x: -43.522440, y: 172.577236, z: 31.419657
+[INFO] [1627443376.287395, 486.836000]: attempting to reach position x: -43.522467, y: 172.577361, z: 19.979981 | current position x: -43.522441, y: 172.577361, z: 31.424683
+
+Drone 0 Drone 1 = 6.884705191905596
+Drone 0 Drone 2 = 7.094423446575148
+Drone 0 Drone 3 = 6.9947591267181854
+Drone 0 Drone 4 = 7.041586598431995
+Drone 1 Drone 2 = 8.856522382498845
+Drone 1 Drone 3 = 10.684163079826078
+Drone 1 Drone 4 = 13.856112159560805
+Drone 2 Drone 3 = 14.088900944327372
+Drone 2 Drone 4 = 9.985307668338336
+Drone 3 Drone 4 = 9.998088235136011
+Max error in centre estimate of 1.09 m
+Multilateration error 1.0
+[INFO] [1627443377.263951, 487.792000]: attempting to reach position x: -43.522436, y: 172.577299, z: 20.017755 | current position x: -43.522410, y: 172.577299, z: 31.437719
+[INFO] [1627443377.264125, 487.808000]: attempting to reach position x: -43.522481, y: 172.577237, z: 19.997329 | current position x: -43.522454, y: 172.577237, z: 31.425634
+[INFO] [1627443377.264165, 487.808000]: attempting to reach position x: -43.522391, y: 172.577361, z: 20.009791 | current position x: -43.522365, y: 172.577361, z: 31.439806
+[INFO] [1627443377.264164, 487.808000]: attempting to reach position x: -43.522481, y: 172.577361, z: 19.979981 | current position x: -43.522455, y: 172.577361, z: 31.423659
+
+Drone 0 Drone 1 = 7.349443772926973
+Drone 0 Drone 2 = 7.12600184035206
+Drone 0 Drone 3 = 6.96177985999552
+Drone 0 Drone 4 = 7.0103315100312855
+Drone 1 Drone 2 = 8.903589885398135
+Drone 1 Drone 3 = 11.183338877822836
+Drone 1 Drone 4 = 14.249308696964919
+Drone 2 Drone 3 = 14.086803655413558
+Drone 2 Drone 4 = 9.985307667630922
+Drone 3 Drone 4 = 10.006228490297405
+Max error in centre estimate of 1.35 m
+Multilateration error 1.1
+[INFO] [1627443378.277641, 488.816000]: attempting to reach position x: -43.522436, y: 172.577299, z: 20.017755 | current position x: -43.522427, y: 172.577300, z: 31.438693
+[INFO] [1627443378.277751, 488.816000]: attempting to reach position x: -43.522391, y: 172.577361, z: 20.009791 | current position x: -43.522382, y: 172.577362, z: 31.436780
+[INFO] [1627443378.277795, 488.816000]: attempting to reach position x: -43.522481, y: 172.577361, z: 19.979981 | current position x: -43.522472, y: 172.577362, z: 31.412633
+[INFO] [1627443378.277795, 488.816000]: attempting to reach position x: -43.522481, y: 172.577237, z: 19.997329 | current position x: -43.522470, y: 172.577238, z: 31.424608
+
+Drone 0 Drone 1 = 7.332759746243088
+Drone 0 Drone 2 = 7.11242422846522
+Drone 0 Drone 3 = 7.002539681759951
+Drone 0 Drone 4 = 7.047311172812287
+Drone 1 Drone 2 = 8.865178582049753
+Drone 1 Drone 3 = 11.252268627713784
+Drone 1 Drone 4 = 14.269375421303856
+Drone 2 Drone 3 = 14.11453321611822
+Drone 2 Drone 4 = 10.018666135482166
+Drone 3 Drone 4 = 10.00607831911145
+Max error in centre estimate of 1.39 m
+Multilateration error 0.85
+[INFO] [1627443379.375984, 489.900000]: attempting to reach position x: -43.522454, y: 172.577300, z: 20.017755 | current position x: -43.522437, y: 172.577300, z: 31.446676
+[INFO] [1627443379.376022, 489.900000]: attempting to reach position x: -43.522499, y: 172.577238, z: 19.997329 | current position x: -43.522482, y: 172.577237, z: 31.430590
+[INFO] [1627443379.376041, 489.900000]: attempting to reach position x: -43.522409, y: 172.577362, z: 20.009791 | current position x: -43.522392, y: 172.577361, z: 31.434763
+[INFO] [1627443379.376052, 489.900000]: attempting to reach position x: -43.522499, y: 172.577362, z: 19.979981 | current position x: -43.522482, y: 172.577362, z: 31.409616
+
+Drone 0 Drone 1 = 7.499421540918155
+Drone 0 Drone 2 = 7.0887333470055625
+Drone 0 Drone 3 = 7.014060062806497
+Drone 0 Drone 4 = 7.070825377188031
+Drone 1 Drone 2 = 8.906543612822551
+Drone 1 Drone 3 = 11.441069386216483
+Drone 1 Drone 4 = 14.450136001971138
+Drone 2 Drone 3 = 14.10245150179794
+Drone 2 Drone 4 = 10.018666135481498
+Drone 3 Drone 4 = 10.022443214648845
+Max error in centre estimate of 1.51 m
+Multilateration error 0.78
+[INFO] [1627443380.275867, 490.784000]: attempting to reach position x: -43.522454, y: 172.577300, z: 20.017755 | current position x: -43.522443, y: 172.577299, z: 31.461666
+[INFO] [1627443380.275931, 490.784000]: attempting to reach position x: -43.522499, y: 172.577362, z: 19.979981 | current position x: -43.522488, y: 172.577361, z: 31.421606
+[INFO] [1627443380.275934, 490.784000]: attempting to reach position x: -43.522499, y: 172.577238, z: 19.997329 | current position x: -43.522487, y: 172.577237, z: 31.461580
+[INFO] [1627443380.275975, 490.784000]: attempting to reach position x: -43.522409, y: 172.577362, z: 20.009791 | current position x: -43.522398, y: 172.577361, z: 31.459752
+
+Drone 0 Drone 1 = 8.23497897738132
+Drone 0 Drone 2 = 7.096621000679792
+Drone 0 Drone 3 = 7.029625281173381
+Drone 0 Drone 4 = 7.047310263781181
+Drone 1 Drone 2 = 9.226922254952994
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.187641806431833
+Drone 1 Drone 4 = 15.125539109253976
+Drone 2 Drone 3 = 14.125958345074812
+Drone 2 Drone 4 = 9.99642715643261
+Drone 3 Drone 4 = 10.022102379846089
+Max error in centre estimate of 1.93 m
+Multilateration error 0.68
+[INFO] [1627443381.321726, 491.716000]: attempting to reach position x: -43.522454, y: 172.577300, z: 20.017755 | current position x: -43.522452, y: 172.577299, z: 31.467651
+[INFO] [1627443381.321775, 491.724000]: attempting to reach position x: -43.522499, y: 172.577238, z: 19.997329 | current position x: -43.522496, y: 172.577237, z: 31.443566
+[INFO] [1627443381.321804, 491.724000]: attempting to reach position x: -43.522409, y: 172.577362, z: 20.009791 | current position x: -43.522407, y: 172.577361, z: 31.448738
+[INFO] [1627443381.321812, 491.724000]: attempting to reach position x: -43.522499, y: 172.577362, z: 19.979981 | current position x: -43.522497, y: 172.577361, z: 31.418592
+
+Drone 0 Drone 1 = 7.882260269867144
+Drone 0 Drone 2 = 7.086547511000308
+Drone 0 Drone 3 = 7.037993694056427
+Drone 0 Drone 4 = 7.0629776153667105
+Drone 1 Drone 2 = 9.193871267488282
+Drone 1 Drone 3 = 11.793060410883925
+Drone 1 Drone 4 = 14.825753946360411
+Drone 2 Drone 3 = 14.124533915494004
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 9.989801251976047
+Max error in centre estimate of 1.62 m
+Multilateration error 0.57
+[INFO] [1627443382.379112, 492.752000]: attempting to reach position x: -43.522473, y: 172.577299, z: 20.017755 | current position x: -43.522455, y: 172.577299, z: 31.471646
+[INFO] [1627443382.379301, 492.772000]: attempting to reach position x: -43.522428, y: 172.577361, z: 20.009791 | current position x: -43.522410, y: 172.577361, z: 31.449732
+[INFO] [1627443382.379426, 492.772000]: attempting to reach position x: -43.522518, y: 172.577361, z: 19.979981 | current position x: -43.522500, y: 172.577361, z: 31.423586
+[INFO] [1627443382.379479, 492.772000]: attempting to reach position x: -43.522518, y: 172.577237, z: 19.997329 | current position x: -43.522500, y: 172.577237, z: 31.440559
+
+Drone 0 Drone 1 = 6.962296834214957
+Drone 0 Drone 2 = 7.179255239761187
+Drone 0 Drone 3 = 6.991035765480128
+Drone 0 Drone 4 = 6.983035819642112
+Drone 1 Drone 2 = 8.91662313502498
+Drone 1 Drone 3 = 10.742772574732642
+Drone 1 Drone 4 = 13.868256559206454
+Drone 2 Drone 3 = 14.1695803836081
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 9.997956147051566
+Max error in centre estimate of 1.04 m
+Multilateration error 0.51
+[INFO] [1627443383.363114, 493.748000]: attempting to reach position x: -43.522428, y: 172.577361, z: 20.009791 | current position x: -43.522416, y: 172.577360, z: 31.466723
+[INFO] [1627443383.363114, 493.748000]: attempting to reach position x: -43.522518, y: 172.577237, z: 19.997329 | current position x: -43.522506, y: 172.577236, z: 31.467550
+[INFO] [1627443383.363156, 493.748000]: attempting to reach position x: -43.522518, y: 172.577361, z: 19.979981 | current position x: -43.522506, y: 172.577361, z: 31.435577
+[INFO] [1627443383.363191, 493.740000]: attempting to reach position x: -43.522473, y: 172.577299, z: 20.017755 | current position x: -43.522461, y: 172.577298, z: 31.484636
+
+Drone 0 Drone 1 = 6.202443510914326
+Drone 0 Drone 2 = 7.1531550108942845
+Drone 0 Drone 3 = 7.0358613997631725
+Drone 0 Drone 4 = 7.025597266046956
+Drone 1 Drone 2 = 8.749154125090643
+Drone 1 Drone 3 = 9.999038690208925
+Drone 1 Drone 4 = 13.188991037699275
+Drone 2 Drone 3 = 14.188837170795903
+Drone 2 Drone 4 = 9.996427157138037
+Drone 3 Drone 4 = 10.022198087622542
+Max error in centre estimate of 1.01 m
+Multilateration error 0.59
+[INFO] [1627443384.418775, 494.800000]: attempting to reach position x: -43.522452, y: 172.577348, z: 20.009791 | current position x: -43.522426, y: 172.577361, z: 31.470707
+[INFO] [1627443384.418808, 494.800000]: attempting to reach position x: -43.522497, y: 172.577286, z: 20.017755 | current position x: -43.522471, y: 172.577298, z: 31.477620
+[INFO] [1627443384.418826, 494.800000]: attempting to reach position x: -43.522542, y: 172.577348, z: 19.979981 | current position x: -43.522516, y: 172.577361, z: 31.434561
+[INFO] [1627443384.418873, 494.800000]: attempting to reach position x: -43.522542, y: 172.577224, z: 19.997329 | current position x: -43.522516, y: 172.577236, z: 31.470534
+
+Drone 0 Drone 1 = 5.35237780651833
+Drone 0 Drone 2 = 7.299231528099932
+Drone 0 Drone 3 = 6.801425454351595
+Drone 0 Drone 4 = 6.978370458457856
+Drone 1 Drone 2 = 8.471490903893388
+Drone 1 Drone 3 = 9.058182276343624
+Drone 1 Drone 4 = 12.295455682634781
+Drone 2 Drone 3 = 14.098839149932848
+Drone 2 Drone 4 = 9.985307667623502
+Drone 3 Drone 4 = 10.00601572062163
+Max error in centre estimate of 1.51 m
+Multilateration error 0.54
+[INFO] [1627443385.470736, 495.848000]: attempting to reach position x: -43.522497, y: 172.577286, z: 20.017755 | current position x: -43.522483, y: 172.577294, z: 31.497600
+[INFO] [1627443385.470859, 495.848000]: attempting to reach position x: -43.522452, y: 172.577348, z: 20.009791 | current position x: -43.522438, y: 172.577356, z: 31.488686
+[INFO] [1627443385.470917, 495.848000]: attempting to reach position x: -43.522542, y: 172.577348, z: 19.979981 | current position x: -43.522528, y: 172.577356, z: 31.457540
+[INFO] [1627443385.470935, 495.848000]: attempting to reach position x: -43.522542, y: 172.577224, z: 19.997329 | current position x: -43.522527, y: 172.577232, z: 31.472515
+
+WARNING: DRONE 0 and DRONE 1 WITHIN 5M OF EACH OTHER
+Drone 0 Drone 1 = 4.775547955957401
+Drone 0 Drone 2 = 7.084386218512542
+Drone 0 Drone 3 = 6.991033866021041
+Drone 0 Drone 4 = 7.0843835704356355
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.912304476008375
+Drone 1 Drone 3 = 9.026601607918712
+WARNING: DRONE 1 and DRONE 4 WITHIN 12M OF EACH OTHER
+Drone 1 Drone 4 = 11.825056517022238
+Drone 2 Drone 3 = 14.07533695005715
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 9.998352603088543
+Max error in centre estimate of 1.97 m
+Multilateration error 0.7
+[INFO] [1627443386.257596, 496.620000]: attempting to reach position x: -43.522519, y: 172.577289, z: 20.017755 | current position x: -43.522493, y: 172.577289, z: 31.482582
+[INFO] [1627443386.257715, 496.624000]: attempting to reach position x: -43.522564, y: 172.577351, z: 19.979981 | current position x: -43.522538, y: 172.577351, z: 31.451522
+[INFO] [1627443386.257714, 496.624000]: attempting to reach position x: -43.522475, y: 172.577351, z: 20.009791 | current position x: -43.522448, y: 172.577351, z: 31.476668
+[INFO] [1627443386.257717, 496.624000]: attempting to reach position x: -43.522564, y: 172.577227, z: 19.997329 | current position x: -43.522537, y: 172.577227, z: 31.462497
+
+WARNING: DRONE 0 and DRONE 1 WITHIN 5M OF EACH OTHER
+Drone 0 Drone 1 = 4.88152173081526
+Drone 0 Drone 2 = 7.133913507500555
+Drone 0 Drone 3 = 6.940532575561262
+Drone 0 Drone 4 = 7.0025355943760115
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.713905371157078
+Drone 1 Drone 3 = 9.223374424120125
+WARNING: DRONE 1 and DRONE 4 WITHIN 12M OF EACH OTHER
+Drone 1 Drone 4 = 11.812945633819583
+Drone 2 Drone 3 = 14.07324224043473
+Drone 2 Drone 4 = 9.9853076676223
+Drone 3 Drone 4 = 9.99824545857017
+Max error in centre estimate of 2.04 m
+Multilateration error 1.0
+[INFO] [1627443387.313352, 497.676000]: attempting to reach position x: -43.522564, y: 172.577227, z: 19.997329 | current position x: -43.522551, y: 172.577224, z: 31.472474
+[INFO] [1627443387.313351, 497.676000]: attempting to reach position x: -43.522475, y: 172.577351, z: 20.009791 | current position x: -43.522462, y: 172.577348, z: 31.490645
+[INFO] [1627443387.313372, 497.676000]: attempting to reach position x: -43.522564, y: 172.577351, z: 19.979981 | current position x: -43.522552, y: 172.577348, z: 31.460499
+[INFO] [1627443387.313380, 497.676000]: attempting to reach position x: -43.522519, y: 172.577289, z: 20.017755 | current position x: -43.522507, y: 172.577286, z: 31.492559
+
+Drone 0 Drone 1 = 5.967058266178671
+Drone 0 Drone 2 = 7.094417079569267
+Drone 0 Drone 3 = 7.002534879135206
+Drone 0 Drone 4 = 7.049415934159149
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.967559822606381
+Drone 1 Drone 3 = 10.28960724783362
+Drone 1 Drone 4 = 12.89939372862181
+Drone 2 Drone 3 = 14.096718477445773
+Drone 2 Drone 4 = 9.99642715713283
+Drone 3 Drone 4 = 9.998070203107922
+Max error in centre estimate of 1.64 m
+Multilateration error 0.71
+[INFO] [1627443388.307989, 498.660000]: attempting to reach position x: -43.522491, y: 172.577337, z: 20.009791 | current position x: -43.522473, y: 172.577350, z: 31.475628
+[INFO] [1627443388.308001, 498.660000]: attempting to reach position x: -43.522535, y: 172.577275, z: 20.017755 | current position x: -43.522518, y: 172.577288, z: 31.476541
+[INFO] [1627443388.308012, 498.660000]: attempting to reach position x: -43.522580, y: 172.577337, z: 19.979981 | current position x: -43.522563, y: 172.577350, z: 31.446481
+[INFO] [1627443388.308031, 498.660000]: attempting to reach position x: -43.522580, y: 172.577213, z: 19.997329 | current position x: -43.522563, y: 172.577226, z: 31.460455
+
+Drone 0 Drone 1 = 6.70283749538913
+Drone 0 Drone 2 = 7.100109354104195
+Drone 0 Drone 3 = 7.0843816299640885
+Drone 0 Drone 4 = 7.045222517108852
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.9900560650902435
+Drone 1 Drone 3 = 11.240401108044233
+Drone 1 Drone 4 = 13.54660476918708
+Drone 2 Drone 3 = 14.184482275808692
+Drone 2 Drone 4 = 9.974184919278928
+Drone 3 Drone 4 = 10.030251456679405
+Max error in centre estimate of 1.86 m
+Multilateration error 0.75
+[INFO] [1627443389.264203, 499.612000]: attempting to reach position x: -43.522491, y: 172.577337, z: 20.009791 | current position x: -43.522481, y: 172.577346, z: 31.496614
+[INFO] [1627443389.264204, 499.612000]: attempting to reach position x: -43.522580, y: 172.577337, z: 19.979981 | current position x: -43.522571, y: 172.577346, z: 31.461468
+[INFO] [1627443389.264217, 499.612000]: attempting to reach position x: -43.522580, y: 172.577213, z: 19.997329 | current position x: -43.522571, y: 172.577222, z: 31.473440
+[INFO] [1627443389.264217, 499.604000]: attempting to reach position x: -43.522535, y: 172.577275, z: 20.017755 | current position x: -43.522526, y: 172.577284, z: 31.484527
+
+Drone 0 Drone 1 = 7.46209612917889
+Drone 0 Drone 2 = 7.102298001868468
+Drone 0 Drone 3 = 7.111505380462069
+Drone 0 Drone 4 = 7.047305400071014
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.6045341245445615
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.421084432754109
+Drone 1 Drone 4 = 14.102650826093958
+Drone 2 Drone 3 = 14.213781449551792
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.038380352171124
+Max error in centre estimate of 2.72 m
+Multilateration error 0.89
+[INFO] [1627443390.283527, 500.604000]: attempting to reach position x: -43.522561, y: 172.577278, z: 20.017755 | current position x: -43.522535, y: 172.577277, z: 31.501512
+[INFO] [1627443390.283628, 500.628000]: attempting to reach position x: -43.522516, y: 172.577340, z: 20.009791 | current position x: -43.522490, y: 172.577339, z: 31.480599
+[INFO] [1627443390.283656, 500.628000]: attempting to reach position x: -43.522606, y: 172.577216, z: 19.997329 | current position x: -43.522580, y: 172.577215, z: 31.471425
+[INFO] [1627443390.283657, 500.628000]: attempting to reach position x: -43.522606, y: 172.577340, z: 19.979981 | current position x: -43.522580, y: 172.577339, z: 31.445452
+
+Drone 0 Drone 1 = 8.5156657451903
+Drone 0 Drone 2 = 7.084383165849354
+Drone 0 Drone 3 = 7.012058146860061
+Drone 0 Drone 4 = 7.035857034333622
+WARNING: DRONE 1 and DRONE 2 WITHIN 8M OF EACH OTHER
+Drone 1 Drone 2 = 7.896555827641043
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.4227340028553
+Drone 1 Drone 4 = 15.017487275551495
+Drone 2 Drone 3 = 14.096186016985937
+Drone 2 Drone 4 = 9.963094789778758
+Drone 3 Drone 4 = 10.014190989778287
+Max error in centre estimate of 3.40 m
+RESET FORMATION
+Multilateration error 1.1
+[INFO] [1627443391.317802, 501.656000]: attempting to reach position x: -43.522538, y: 172.577282, z: 20.017755 | current position x: -43.522547, y: 172.577275, z: 31.521492
+[INFO] [1627443391.317992, 501.656000]: attempting to reach position x: -43.522583, y: 172.577344, z: 19.979981 | current position x: -43.522591, y: 172.577337, z: 31.463433
+[INFO] [1627443391.318011, 501.656000]: attempting to reach position x: -43.522583, y: 172.577220, z: 19.997329 | current position x: -43.522591, y: 172.577213, z: 31.487407
+[INFO] [1627443391.318011, 501.656000]: attempting to reach position x: -43.522493, y: 172.577344, z: 20.009791 | current position x: -43.522502, y: 172.577337, z: 31.501579
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.547111301091583
+Drone 0 Drone 2 = 7.049416487443874
+Drone 0 Drone 3 = 7.02759266261507
+Drone 0 Drone 4 = 7.069469633296155
+Drone 1 Drone 2 = 8.806197609683254
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 14.236475996343744
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.133167009154658
+Drone 2 Drone 3 = 14.076895521024682
+Drone 2 Drone 4 = 9.98531743323002
+Drone 3 Drone 4 = 10.006404930714536
+Max error in centre estimate of 3.76 m
+RESET FORMATION
+Multilateration error 0.44
+[INFO] [1627443392.299154, 502.632000]: attempting to reach position x: -43.522545, y: 172.577283, z: 20.017755 | current position x: -43.522552, y: 172.577278, z: 31.510483
+[INFO] [1627443392.299335, 502.632000]: attempting to reach position x: -43.522500, y: 172.577345, z: 20.009791 | current position x: -43.522507, y: 172.577340, z: 31.506570
+[INFO] [1627443392.299341, 502.632000]: attempting to reach position x: -43.522590, y: 172.577221, z: 19.997329 | current position x: -43.522596, y: 172.577216, z: 31.479398
+[INFO] [1627443392.299345, 502.632000]: attempting to reach position x: -43.522590, y: 172.577345, z: 19.979981 | current position x: -43.522597, y: 172.577339, z: 31.475423
+
+Drone 0 Drone 1 = 8.935557202366779
+Drone 0 Drone 2 = 7.041581108722685
+Drone 0 Drone 3 = 7.028023633282135
+Drone 0 Drone 4 = 7.083041084895896
+Drone 1 Drone 2 = 8.964573982692187
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.348069570823865
+Drone 1 Drone 4 = 15.70205677064816
+Drone 2 Drone 3 = 14.069604568487465
+Drone 2 Drone 4 = 9.985307668325047
+Drone 3 Drone 4 = 9.982020611992489
+Max error in centre estimate of 2.96 m
+RESET FORMATION
+Multilateration error 0.83
+[INFO] [1627443393.440867, 503.744000]: attempting to reach position x: -43.522541, y: 172.577284, z: 20.017755 | current position x: -43.522546, y: 172.577281, z: 31.490495
+[INFO] [1627443393.441403, 503.772000]: attempting to reach position x: -43.522496, y: 172.577346, z: 20.009791 | current position x: -43.522501, y: 172.577342, z: 31.488581
+[INFO] [1627443393.441859, 503.772000]: attempting to reach position x: -43.522586, y: 172.577222, z: 19.997329 | current position x: -43.522590, y: 172.577219, z: 31.467409
+[INFO] [1627443393.442220, 503.772000]: attempting to reach position x: -43.522586, y: 172.577346, z: 19.979981 | current position x: -43.522591, y: 172.577342, z: 31.450435
+
+Drone 0 Drone 1 = 8.244136692581932
+Drone 0 Drone 2 = 7.041581292034549
+Drone 0 Drone 3 = 7.086539687579095
+Drone 0 Drone 4 = 7.090935803399838
+Drone 1 Drone 2 = 8.826478336772771
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.593816724576426
+Drone 1 Drone 4 = 15.105072823270403
+Drone 2 Drone 3 = 14.128080807052983
+Drone 2 Drone 4 = 9.996427156422628
+Drone 3 Drone 4 = 9.99786787815744
+Max error in centre estimate of 2.36 m
+RESET FORMATION
+Multilateration error 0.33
+[INFO] [1627443394.343120, 504.672000]: attempting to reach position x: -43.522539, y: 172.577286, z: 20.017755 | current position x: -43.522543, y: 172.577282, z: 31.488499
+[INFO] [1627443394.343227, 504.672000]: attempting to reach position x: -43.522584, y: 172.577224, z: 19.997329 | current position x: -43.522588, y: 172.577220, z: 31.466413
+[INFO] [1627443394.343243, 504.672000]: attempting to reach position x: -43.522494, y: 172.577348, z: 20.009791 | current position x: -43.522498, y: 172.577344, z: 31.486585
+[INFO] [1627443394.343303, 504.668000]: attempting to reach position x: -43.522584, y: 172.577348, z: 19.979981 | current position x: -43.522588, y: 172.577344, z: 31.447439
+
+Drone 0 Drone 1 = 7.611932836611738
+Drone 0 Drone 2 = 7.057261731146145
+Drone 0 Drone 3 = 7.067278368052451
+Drone 0 Drone 4 = 7.100105774387275
+Drone 1 Drone 2 = 8.80915358106743
+Drone 1 Drone 3 = 11.763899545579383
+Drone 1 Drone 4 = 14.563046766012189
+Drone 2 Drone 3 = 14.124523831995058
+Drone 2 Drone 4 = 10.007556389854948
+Drone 3 Drone 4 = 10.0059310660024
+Max error in centre estimate of 1.73 m
+RESET FORMATION
+Multilateration error 0.59
+[INFO] [1627443395.397866, 505.704000]: attempting to reach position x: -43.522538, y: 172.577287, z: 20.017755 | current position x: -43.522541, y: 172.577284, z: 31.496504
+[INFO] [1627443395.398359, 505.716000]: attempting to reach position x: -43.522493, y: 172.577349, z: 20.009791 | current position x: -43.522496, y: 172.577346, z: 31.491590
+[INFO] [1627443395.398848, 505.716000]: attempting to reach position x: -43.522583, y: 172.577225, z: 19.997329 | current position x: -43.522586, y: 172.577223, z: 31.473417
+[INFO] [1627443395.399560, 505.716000]: attempting to reach position x: -43.522583, y: 172.577349, z: 19.979981 | current position x: -43.522586, y: 172.577347, z: 31.451444
+
+Drone 0 Drone 1 = 7.484441667930178
+Drone 0 Drone 2 = 7.045848679507862
+Drone 0 Drone 3 = 7.072974659912447
+Drone 0 Drone 4 = 7.086539947041346
+Drone 1 Drone 2 = 9.394684961821225
+Drone 1 Drone 3 = 11.116454465245718
+Drone 1 Drone 4 = 14.521410852950705
+Drone 2 Drone 3 = 14.11882267672164
+Drone 2 Drone 4 = 9.996453169072145
+Drone 3 Drone 4 = 10.005912853926024
+Max error in centre estimate of 1.03 m
+Multilateration error 0.29
+[INFO] [1627443396.375159, 506.692000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522539, y: 172.577286, z: 31.512507
+[INFO] [1627443396.375575, 506.688000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522584, y: 172.577348, z: 31.467447
+[INFO] [1627443396.375824, 506.692000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522494, y: 172.577348, z: 31.496593
+[INFO] [1627443396.376521, 506.692000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522584, y: 172.577224, z: 31.484421
+
+Drone 0 Drone 1 = 8.170908279781148
+Drone 0 Drone 2 = 7.0559022292749605
+Drone 0 Drone 3 = 6.96950302134493
+Drone 0 Drone 4 = 7.050217299990316
+Drone 1 Drone 2 = 10.372706925840932
+Drone 1 Drone 3 = 11.046365264494368
+Drone 1 Drone 4 = 15.211554264980892
+Drone 2 Drone 3 = 14.024770397753272
+Drone 2 Drone 4 = 10.007546645942439
+Drone 3 Drone 4 = 9.974869526052258
+Max error in centre estimate of 0.96 m
+Multilateration error 0.93
+[INFO] [1627443397.321304, 507.620000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522548, y: 172.577288, z: 31.568492
+
+[INFO] [1627443397.324489, 507.624000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522592, y: 172.577225, z: 31.545408
+[INFO] [1627443397.324508, 507.624000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522593, y: 172.577349, z: 31.517432
+[INFO] [1627443397.324521, 507.624000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522503, y: 172.577349, z: 31.557579
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.058334475062537
+Drone 0 Drone 2 = 7.075156738294458
+Drone 0 Drone 3 = 6.97921256650659
+Drone 0 Drone 4 = 7.045844513461742
+Drone 1 Drone 2 = 11.327429992080999
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.051646665298401
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.051540643057738
+Drone 2 Drone 3 = 14.053951129073075
+Drone 2 Drone 4 = 9.996427157127624
+Drone 3 Drone 4 = 9.982333412410641
+Max error in centre estimate of 2.59 m
+Multilateration error 1.3
+[INFO] [1627443398.353382, 508.616000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522569, y: 172.577288, z: 31.515458
+[INFO] [1627443398.353541, 508.620000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522613, y: 172.577350, z: 31.464399
+[INFO] [1627443398.353549, 508.620000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522524, y: 172.577350, z: 31.506546
+[INFO] [1627443398.353570, 508.620000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522613, y: 172.577226, z: 31.497374
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.11656161567082
+Drone 0 Drone 2 = 7.107981901412996
+Drone 0 Drone 3 = 7.028021845908336
+Drone 0 Drone 4 = 7.053033610170316
+Drone 1 Drone 2 = 11.803362030686715
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 14.365645028736077
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.060204970887714
+Drone 2 Drone 3 = 14.135929315878439
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.005906648926654
+Max error in centre estimate of 3.57 m
+RESET FORMATION
+Multilateration error 0.67
+[INFO] [1627443399.348496, 509.592000]: attempting to reach position x: -43.522614, y: 172.577223, z: 19.997329 | current position x: -43.522622, y: 172.577225, z: 31.485358
+[INFO] [1627443399.348380, 509.592000]: attempting to reach position x: -43.522524, y: 172.577347, z: 20.009791 | current position x: -43.522533, y: 172.577349, z: 31.504531
+[INFO] [1627443399.349243, 509.592000]: attempting to reach position x: -43.522614, y: 172.577347, z: 19.979981 | current position x: -43.522623, y: 172.577349, z: 31.471384
+[INFO] [1627443399.349680, 509.596000]: attempting to reach position x: -43.522569, y: 172.577285, z: 20.017755 | current position x: -43.522578, y: 172.577287, z: 31.505444
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 11.057266765566867
+Drone 0 Drone 2 = 7.084381235694626
+Drone 0 Drone 3 = 7.080843285232478
+Drone 0 Drone 4 = 7.1001036664873265
+Drone 1 Drone 2 = 11.64978884649174
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 14.475195420746543
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 18.03640104001727
+Drone 2 Drone 3 = 14.165211408388899
+Drone 2 Drone 4 = 10.029782383528364
+Drone 3 Drone 4 = 10.013969335175599
+Max error in centre estimate of 3.61 m
+RESET FORMATION
+Multilateration error 0.62
+[INFO] [1627443400.353736, 510.568000]: attempting to reach position x: -43.522569, y: 172.577283, z: 20.017755 | current position x: -43.522576, y: 172.577285, z: 31.509446
+[INFO] [1627443400.354069, 510.592000]: attempting to reach position x: -43.522614, y: 172.577346, z: 19.979981 | current position x: -43.522621, y: 172.577347, z: 31.471386
+[INFO] [1627443400.354162, 510.592000]: attempting to reach position x: -43.522614, y: 172.577221, z: 19.997329 | current position x: -43.522621, y: 172.577223, z: 31.484359
+[INFO] [1627443400.358395, 510.596000]: attempting to reach position x: -43.522524, y: 172.577346, z: 20.009791 | current position x: -43.522531, y: 172.577347, z: 31.508533
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.474028308069133
+Drone 0 Drone 2 = 7.067279210762846
+Drone 0 Drone 3 = 7.100103976232454
+Drone 0 Drone 4 = 7.080843597218955
+Drone 1 Drone 2 = 11.229898876078893
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.92066013918507
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.44743463060076
+Drone 2 Drone 3 = 14.167383116874163
+Drone 2 Drone 4 = 10.018666135467548
+Drone 3 Drone 4 = 10.013970214910774
+Max error in centre estimate of 3.14 m
+RESET FORMATION
+Multilateration error 0.19
+[INFO] [1627443401.336821, 511.564000]: attempting to reach position x: -43.522565, y: 172.577282, z: 20.017755 | current position x: -43.522571, y: 172.577283, z: 31.519454
+[INFO] [1627443401.337175, 511.568000]: attempting to reach position x: -43.522610, y: 172.577344, z: 19.979981 | current position x: -43.522616, y: 172.577345, z: 31.470394
+[INFO] [1627443401.339313, 511.568000]: attempting to reach position x: -43.522520, y: 172.577344, z: 20.009791 | current position x: -43.522526, y: 172.577345, z: 31.510541
+[INFO] [1627443401.342119, 511.568000]: attempting to reach position x: -43.522610, y: 172.577220, z: 19.997329 | current position x: -43.522616, y: 172.577221, z: 31.491367
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.965010842129072
+Drone 0 Drone 2 = 7.049415604613547
+Drone 0 Drone 3 = 7.078673763284695
+Drone 0 Drone 4 = 7.098837569269393
+Drone 1 Drone 2 = 10.931549429442475
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.393231294343526
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.973683295769078
+Drone 2 Drone 3 = 14.128077976202135
+Drone 2 Drone 4 = 10.018666134760611
+Drone 3 Drone 4 = 9.997938069174044
+Max error in centre estimate of 2.74 m
+RESET FORMATION
+Multilateration error 0.39
+[INFO] [1627443402.424134, 512.644000]: attempting to reach position x: -43.522562, y: 172.577281, z: 20.017755 | current position x: -43.522567, y: 172.577282, z: 31.536460
+[INFO] [1627443402.424426, 512.644000]: attempting to reach position x: -43.522517, y: 172.577343, z: 20.009791 | current position x: -43.522522, y: 172.577344, z: 31.520547
+[INFO] [1627443402.424487, 512.644000]: attempting to reach position x: -43.522607, y: 172.577219, z: 19.997329 | current position x: -43.522612, y: 172.577220, z: 31.494374
+[INFO] [1627443402.424545, 512.644000]: attempting to reach position x: -43.522607, y: 172.577343, z: 19.979981 | current position x: -43.522612, y: 172.577344, z: 31.489400
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.5757377389421
+Drone 0 Drone 2 = 7.0494158009684105
+Drone 0 Drone 3 = 7.055132988060208
+Drone 0 Drone 4 = 7.075154175968765
+Drone 1 Drone 2 = 10.769917536358298
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.914385571307955
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.577732744231184
+Drone 2 Drone 3 = 14.104547647459313
+Drone 2 Drone 4 = 9.985307668324793
+Drone 3 Drone 4 = 9.997938665762666
+Max error in centre estimate of 2.37 m
+RESET FORMATION
+Multilateration error 0.15
+[INFO] [1627443403.360908, 513.556000]: attempting to reach position x: -43.522559, y: 172.577281, z: 20.017755 | current position x: -43.522564, y: 172.577281, z: 31.534465
+[INFO] [1627443403.361067, 513.564000]: attempting to reach position x: -43.522604, y: 172.577219, z: 19.997329 | current position x: -43.522609, y: 172.577219, z: 31.497379
+[INFO] [1627443403.361076, 513.564000]: attempting to reach position x: -43.522604, y: 172.577343, z: 19.979981 | current position x: -43.522609, y: 172.577343, z: 31.491405
+
+[INFO] [1627443403.365798, 513.568000]: attempting to reach position x: -43.522514, y: 172.577343, z: 20.009791 | current position x: -43.522519, y: 172.577343, z: 31.524551
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.250960385878221
+Drone 0 Drone 2 = 7.055135802536367
+Drone 0 Drone 3 = 7.07297336127121
+Drone 0 Drone 4 = 7.088723737808397
+Drone 1 Drone 2 = 10.669194039529787
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.558693684606265
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.284015205245055
+Drone 2 Drone 3 = 14.12807872846278
+Drone 2 Drone 4 = 9.996427157129698
+Drone 3 Drone 4 = 9.997864942857476
+Max error in centre estimate of 2.07 m
+RESET FORMATION
+Multilateration error 0.39
+[INFO] [1627443404.339637, 514.536000]: attempting to reach position x: -43.522557, y: 172.577280, z: 20.017755 | current position x: -43.522561, y: 172.577281, z: 31.533470
+[INFO] [1627443404.339796, 514.540000]: attempting to reach position x: -43.522512, y: 172.577342, z: 20.009791 | current position x: -43.522516, y: 172.577343, z: 31.538556
+[INFO] [1627443404.339809, 514.540000]: attempting to reach position x: -43.522602, y: 172.577342, z: 19.979981 | current position x: -43.522606, y: 172.577343, z: 31.500410
+[INFO] [1627443404.340445, 514.540000]: attempting to reach position x: -43.522602, y: 172.577218, z: 19.997329 | current position x: -43.522606, y: 172.577219, z: 31.509384
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.026124496068212
+Drone 0 Drone 2 = 7.078676931871668
+Drone 0 Drone 3 = 7.088723892626482
+Drone 0 Drone 4 = 7.070818523199195
+Drone 1 Drone 2 = 10.61160179191565
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.292395177088311
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.05189768107093
+Drone 2 Drone 3 = 14.1673846279391
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 10.005959031098824
+Max error in centre estimate of 1.84 m
+RESET FORMATION
+Multilateration error 0.22
+[INFO] [1627443405.337271, 515.508000]: attempting to reach position x: -43.522555, y: 172.577280, z: 20.017755 | current position x: -43.522558, y: 172.577280, z: 31.534474
+[INFO] [1627443405.338277, 515.524000]: attempting to reach position x: -43.522600, y: 172.577342, z: 19.979981 | current position x: -43.522603, y: 172.577342, z: 31.496414
+[INFO] [1627443405.339422, 515.532000]: attempting to reach position x: -43.522510, y: 172.577342, z: 20.009791 | current position x: -43.522513, y: 172.577342, z: 31.530561
+[INFO] [1627443405.339685, 515.528000]: attempting to reach position x: -43.522600, y: 172.577218, z: 19.997329 | current position x: -43.522604, y: 172.577218, z: 31.511387
+
+Drone 0 Drone 1 = 8.898252613051495
+Drone 0 Drone 2 = 7.053713698988115
+Drone 0 Drone 3 = 7.100104845227462
+Drone 0 Drone 4 = 7.061585877787715
+Drone 1 Drone 2 = 10.577378195635605
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.114806106200268
+Drone 1 Drone 4 = 15.924936458246606
+Drone 2 Drone 3 = 14.153818524732332
+Drone 2 Drone 4 = 9.99642390554456
+Drone 3 Drone 4 = 9.997865688598695
+Max error in centre estimate of 1.70 m
+RESET FORMATION
+Multilateration error 0.1
+[INFO] [1627443406.360346, 516.232000]: attempting to reach position x: -43.522553, y: 172.577279, z: 20.017755 | current position x: -43.522557, y: 172.577280, z: 31.537477
+[INFO] [1627443406.360626, 516.232000]: attempting to reach position x: -43.522598, y: 172.577217, z: 19.997329 | current position x: -43.522602, y: 172.577218, z: 31.526390
+[INFO] [1627443406.360640, 516.232000]: attempting to reach position x: -43.522508, y: 172.577341, z: 20.009791 | current position x: -43.522512, y: 172.577342, z: 31.525563
+[INFO] [1627443406.360718, 516.232000]: attempting to reach position x: -43.522598, y: 172.577341, z: 19.979981 | current position x: -43.522602, y: 172.577342, z: 31.497417
+
+Drone 0 Drone 1 = 8.708967815113587
+Drone 0 Drone 2 = 7.071690073060198
+Drone 0 Drone 3 = 7.076530449636087
+Drone 0 Drone 4 = 7.040145478480302
+Drone 1 Drone 2 = 10.464274575224366
+Drone 1 Drone 3 = 11.890685614687726
+Drone 1 Drone 4 = 15.717553490245818
+Drone 2 Drone 3 = 14.148124619135293
+Drone 2 Drone 4 = 10.007543397970053
+Drone 3 Drone 4 = 9.989784726417431
+Max error in centre estimate of 1.52 m
+RESET FORMATION
+Multilateration error 0.26
+[INFO] [1627443407.339520, 517.168000]: attempting to reach position x: -43.522552, y: 172.577279, z: 20.017755 | current position x: -43.522554, y: 172.577280, z: 31.531480
+[INFO] [1627443407.339590, 517.168000]: attempting to reach position x: -43.522507, y: 172.577341, z: 20.009791 | current position x: -43.522509, y: 172.577342, z: 31.528567
+[INFO] [1627443407.339626, 517.168000]: attempting to reach position x: -43.522596, y: 172.577217, z: 19.997329 | current position x: -43.522599, y: 172.577218, z: 31.502394
+[INFO] [1627443407.339647, 517.168000]: attempting to reach position x: -43.522596, y: 172.577341, z: 19.979981 | current position x: -43.522599, y: 172.577342, z: 31.493421
+
+Drone 0 Drone 1 = 8.510220093561713
+Drone 0 Drone 2 = 7.083043358744004
+Drone 0 Drone 3 = 7.065111751756492
+Drone 0 Drone 4 = 7.051549533938944
+Drone 1 Drone 2 = 10.368531033630372
+Drone 1 Drone 3 = 11.70020683122743
+Drone 1 Drone 4 = 15.532656041988968
+Drone 2 Drone 3 = 14.148124863215592
+Drone 2 Drone 4 = 10.007543398677377
+Drone 3 Drone 4 = 9.989785072097641
+Max error in centre estimate of 1.37 m
+Multilateration error 0.49
+[INFO] [1627443408.304367, 518.124000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522508, y: 172.577341, z: 31.517570
+[INFO] [1627443408.304367, 518.124000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522553, y: 172.577280, z: 31.517483
+[INFO] [1627443408.304398, 518.124000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522598, y: 172.577217, z: 31.489397
+[INFO] [1627443408.304463, 518.124000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522597, y: 172.577341, z: 31.484424
+
+Drone 0 Drone 1 = 8.905403493238534
+Drone 0 Drone 2 = 7.006286480096584
+Drone 0 Drone 3 = 7.088724014833335
+Drone 0 Drone 4 = 7.133907854814805
+Drone 1 Drone 2 = 10.604556166726734
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.147667363891388
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.004275369016565
+Drone 2 Drone 3 = 14.094610704837056
+Drone 2 Drone 4 = 9.974188178114417
+Drone 3 Drone 4 = 10.006058166089664
+Max error in centre estimate of 1.76 m
+Multilateration error 0.082
+[INFO] [1627443409.323286, 519.136000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522559, y: 172.577281, z: 31.529474
+[INFO] [1627443409.323568, 519.140000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522604, y: 172.577220, z: 31.506387
+[INFO] [1627443409.323580, 519.140000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522515, y: 172.577344, z: 31.529559
+[INFO] [1627443409.323678, 519.140000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522605, y: 172.577344, z: 31.492412
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.267010223388883
+Drone 0 Drone 2 = 7.027594296193243
+Drone 0 Drone 3 = 7.0751538774077565
+Drone 0 Drone 4 = 7.150904618158692
+Drone 1 Drone 2 = 11.34309911376958
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.552737441252033
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.343479140656438
+Drone 2 Drone 3 = 14.102436367812794
+Drone 2 Drone 4 = 9.996427157127105
+Drone 3 Drone 4 = 10.022249187507175
+Max error in centre estimate of 2.91 m
+Multilateration error 0.83
+[INFO] [1627443410.328115, 520.124000]: attempting to reach position x: -43.522575, y: 172.577286, z: 20.017755 | current position x: -43.522571, y: 172.577285, z: 31.490454
+[INFO] [1627443410.328139, 520.124000]: attempting to reach position x: -43.522620, y: 172.577224, z: 19.997329 | current position x: -43.522616, y: 172.577224, z: 31.467368
+[INFO] [1627443410.328141, 520.124000]: attempting to reach position x: -43.522530, y: 172.577348, z: 20.009791 | current position x: -43.522527, y: 172.577348, z: 31.474540
+[INFO] [1627443410.328158, 520.124000]: attempting to reach position x: -43.522620, y: 172.577348, z: 19.979981 | current position x: -43.522617, y: 172.577348, z: 31.445393
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.946267173769938
+Drone 0 Drone 2 = 7.055134922967938
+Drone 0 Drone 3 = 7.0729724886873235
+Drone 0 Drone 4 = 7.107979292454174
+Drone 1 Drone 2 = 11.69575670342947
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 14.260556972153665
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.95429629674291
+Drone 2 Drone 3 = 14.128076976316146
+Drone 2 Drone 4 = 10.00754664594071
+Drone 3 Drone 4 = 10.014018839501327
+Max error in centre estimate of 3.47 m
+RESET FORMATION
+Multilateration error 0.42
+[INFO] [1627443411.313709, 521.092000]: attempting to reach position x: -43.522569, y: 172.577284, z: 20.017755 | current position x: -43.522577, y: 172.577287, z: 31.460446
+[INFO] [1627443411.313987, 521.100000]: attempting to reach position x: -43.522524, y: 172.577346, z: 20.009791 | current position x: -43.522532, y: 172.577349, z: 31.447532
+[INFO] [1627443411.313991, 521.100000]: attempting to reach position x: -43.522614, y: 172.577346, z: 19.979981 | current position x: -43.522622, y: 172.577349, z: 31.418385
+[INFO] [1627443411.314004, 521.100000]: attempting to reach position x: -43.522614, y: 172.577222, z: 19.997329 | current position x: -43.522622, y: 172.577225, z: 31.453359
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.80483611890496
+Drone 0 Drone 2 = 7.086540457703424
+Drone 0 Drone 3 = 7.0716862561439005
+Drone 0 Drone 4 = 7.076529235061457
+Drone 1 Drone 2 = 11.557019255976092
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 14.167883856824961
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.776768289428656
+Drone 2 Drone 3 = 14.158193387083298
+Drone 2 Drone 4 = 10.007546645939176
+Drone 3 Drone 4 = 9.989830789923126
+Max error in centre estimate of 3.36 m
+RESET FORMATION
+Multilateration error 0.3
+[INFO] [1627443412.382926, 522.168000]: attempting to reach position x: -43.522568, y: 172.577283, z: 20.017755 | current position x: -43.522575, y: 172.577285, z: 31.443449
+[INFO] [1627443412.383083, 522.168000]: attempting to reach position x: -43.522523, y: 172.577345, z: 20.009791 | current position x: -43.522529, y: 172.577347, z: 31.427535
+[INFO] [1627443412.383098, 522.168000]: attempting to reach position x: -43.522613, y: 172.577345, z: 19.979981 | current position x: -43.522619, y: 172.577347, z: 31.413389
+[INFO] [1627443412.383103, 522.168000]: attempting to reach position x: -43.522613, y: 172.577221, z: 19.997329 | current position x: -43.522620, y: 172.577223, z: 31.425362
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 10.287156324883055
+Drone 0 Drone 2 = 7.086540725493934
+Drone 0 Drone 3 = 7.053710256671961
+Drone 0 Drone 4 = 7.074411452713757
+Drone 1 Drone 2 = 11.24429616074997
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.60448939355926
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 17.271087600759206
+Drone 2 Drone 3 = 14.14025091132353
+Drone 2 Drone 4 = 9.996436911160858
+Drone 3 Drone 4 = 10.005907610882199
+Max error in centre estimate of 2.92 m
+RESET FORMATION
+Multilateration error 0.47
+[INFO] [1627443413.318756, 523.096000]: attempting to reach position x: -43.522609, y: 172.577220, z: 19.997329 | current position x: -43.522615, y: 172.577221, z: 31.416369
+[INFO] [1627443413.318822, 523.088000]: attempting to reach position x: -43.522564, y: 172.577282, z: 20.017755 | current position x: -43.522570, y: 172.577283, z: 31.432455
+[INFO] [1627443413.319040, 523.096000]: attempting to reach position x: -43.522609, y: 172.577344, z: 19.979981 | current position x: -43.522615, y: 172.577345, z: 31.393395
+[INFO] [1627443413.320723, 523.096000]: attempting to reach position x: -43.522519, y: 172.577344, z: 20.009791 | current position x: -43.522525, y: 172.577345, z: 31.425542
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.863846369520756
+Drone 0 Drone 2 = 7.084381812387265
+Drone 0 Drone 3 = 7.061585277511025
+Drone 0 Drone 4 = 7.07867379850735
+Drone 1 Drone 2 = 11.016508613974802
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 13.177228493808284
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.868623390405965
+Drone 2 Drone 3 = 14.14594867708557
+Drone 2 Drone 4 = 10.007546645940069
+Drone 3 Drone 4 = 9.989776492937485
+Max error in centre estimate of 2.57 m
+RESET FORMATION
+Multilateration error 0.13
+[INFO] [1627443414.324197, 524.088000]: attempting to reach position x: -43.522562, y: 172.577281, z: 20.017755 | current position x: -43.522567, y: 172.577282, z: 31.423461
+[INFO] [1627443414.324210, 524.100000]: attempting to reach position x: -43.522517, y: 172.577343, z: 20.009791 | current position x: -43.522522, y: 172.577344, z: 31.424547
+[INFO] [1627443414.324229, 524.100000]: attempting to reach position x: -43.522606, y: 172.577219, z: 19.997329 | current position x: -43.522612, y: 172.577220, z: 31.398375
+[INFO] [1627443414.324305, 524.100000]: attempting to reach position x: -43.522606, y: 172.577343, z: 19.979981 | current position x: -43.522612, y: 172.577344, z: 31.394401
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.484441666782114
+Drone 0 Drone 2 = 7.041580121441923
+Drone 0 Drone 3 = 7.110184183940016
+Drone 0 Drone 4 = 7.096611833083706
+Drone 1 Drone 2 = 10.843990863117273
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.796261829407515
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.525678387240124
+Drone 2 Drone 3 = 14.15164869409236
+Drone 2 Drone 4 = 9.996423904837236
+Drone 3 Drone 4 = 10.00590877186194
+Max error in centre estimate of 2.25 m
+RESET FORMATION
+Multilateration error 0.29
+[INFO] [1627443415.395962, 525.164000]: attempting to reach position x: -43.522559, y: 172.577280, z: 20.017755 | current position x: -43.522563, y: 172.577281, z: 31.413467
+[INFO] [1627443415.396478, 525.164000]: attempting to reach position x: -43.522514, y: 172.577342, z: 20.009791 | current position x: -43.522518, y: 172.577343, z: 31.418553
+[INFO] [1627443415.396503, 525.164000]: attempting to reach position x: -43.522604, y: 172.577218, z: 19.997329 | current position x: -43.522608, y: 172.577219, z: 31.391380
+[INFO] [1627443415.398226, 525.164000]: attempting to reach position x: -43.522604, y: 172.577342, z: 19.979981 | current position x: -43.522608, y: 172.577343, z: 31.381406
+
+WARNING: DRONE 0 and DRONE 1 FURTHER THAN 9M OF EACH OTHER
+Drone 0 Drone 1 = 9.198736951653814
+Drone 0 Drone 2 = 7.067279840260204
+Drone 0 Drone 3 = 7.067277212766299
+Drone 0 Drone 4 = 7.080844227043525
+Drone 1 Drone 2 = 10.69544044562422
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.439214772946015
+WARNING: DRONE 1 and DRONE 4 FURTHER THAN 16M OF EACH OTHER
+Drone 1 Drone 4 = 16.232849558098206
+Drone 2 Drone 3 = 14.134557053026802
+Drone 2 Drone 4 = 10.018666134761386
+Drone 3 Drone 4 = 9.98978371633638
+Max error in centre estimate of 1.97 m
+RESET FORMATION
+Multilateration error 0.44
+[INFO] [1627443416.302941, 526.072000]: attempting to reach position x: -43.522557, y: 172.577279, z: 20.017755 | current position x: -43.522561, y: 172.577280, z: 31.399471
+[INFO] [1627443416.303076, 526.072000]: attempting to reach position x: -43.522512, y: 172.577341, z: 20.009791 | current position x: -43.522515, y: 172.577342, z: 31.399557
+[INFO] [1627443416.303096, 526.072000]: attempting to reach position x: -43.522602, y: 172.577217, z: 19.997329 | current position x: -43.522605, y: 172.577218, z: 31.392384
+[INFO] [1627443416.303098, 526.072000]: attempting to reach position x: -43.522602, y: 172.577341, z: 19.979981 | current position x: -43.522606, y: 172.577342, z: 31.363410
+
+Drone 0 Drone 1 = 8.796268472223208
+Drone 0 Drone 2 = 6.973381316281761
+Drone 0 Drone 3 = 7.159136088145694
+Drone 0 Drone 4 = 7.191936958574842
+Drone 1 Drone 2 = 10.615618497365473
+WARNING: DRONE 1 and DRONE 3 FURTHER THAN 12M OF EACH OTHER
+Drone 1 Drone 3 = 12.115836339864074
+Drone 1 Drone 4 = 15.96396075102704
+Drone 2 Drone 3 = 14.130225528124564
+Drone 2 Drone 4 = 10.007572629670971
+Drone 3 Drone 4 = 9.973677244409966
+Max error in centre estimate of 1.69 m
+RESET FORMATION
+Multilateration error 0.16
+[INFO] [1627443417.984222, 527.720000]: attempting to reach position x: -43.522554, y: 172.577279, z: 20.017755 | current position x: -43.522557, y: 172.577280, z: 31.393477
+[INFO] [1627443417.984445, 527.732000]: attempting to reach position x: -43.522509, y: 172.577341, z: 20.009791 | current position x: -43.522512, y: 172.577342, z: 31.383563
+[INFO] [1627443417.984598, 527.732000]: attempting to reach position x: -43.522599, y: 172.577341, z: 19.979981 | current position x: -43.522602, y: 172.577342, z: 31.357417
+[INFO] [1627443417.984656, 527.732000]: attempting to reach position x: -43.522599, y: 172.577217, z: 19.997329 | current position x: -43.522601, y: 172.577218, z: 31.383391
+
+ERROR: Timeout occurred. Times since last update:
+Rx 1: 3.147 s
+Rx 2: 0.681 s
+Rx 3: 0.682 s
+Rx 4: 0.681 s
+
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+Timeout occurred. No updates from Tx in 3 s.
+Exiting...
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ 
+]0;rowan@rowan-linux: ~/drone-swarm-fyp/src/LastYear[01;32mrowan@rowan-linux[00m:[01;34m~/drone-swarm-fyp/src/LastYear[00m$ exit
+exit
+
+Script done on 2021-07-28 15:37:22+12:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,59 @@
+// Author: Rowan Sinclair
+// Date: Jul 19 2021
+// Description: This file contains all the flight paramaters for running the drones in a simulation or in the field. JSON does not support comments by 
+// default. When viewing in vscode switch the file type in the bottom right to jsonc. The file is read using the json5 spec which does support comments.
+{
+    "COMMON": {
+        // The target pos PC broadcasts GPS positions which are used to simulate the harmonic radar
+        "TARGET_POS_IP_ADDRESS": "localhost", // The IP address of the target transmitter
+        "TARGET_POS_PORT": 5553,
+        // The controller PC is used to set the states of the drones and tell them when to start tracking
+        "CONTROLLER_IP_ADDRESS": "localhost", // The IP address of the controller PC
+        "CONTROLLER_PORT": 5554,
+        "CONTROLLER_RX_PORT": 5559, // Port for rx->controller state info
+
+        "RECEIVE_PORT": 5551,// The port to connect to on the rx ip address
+        "SEND_PORT": 5552,// The port to connect to on the tx ip address
+
+        "SIM_ALTITUDE": 10,
+        "DRONE_DISTANCE": 10,
+        "Z_STD_DRONE": 0.01,
+        "Z_STD_RANGE": 0.1,
+
+        "TARGET_POS_TIMEOUT": 10, // Timeout period for receiving target coords from the server.
+        "RX_TIMEOUT": 10, // Timeout period for receiving an update from all rxs.
+        "CONTROLLER_TIMEOUT": 10, // Timeout period for receiving an update from the controller.
+
+        "UPDATE_PEROID": 1 // The peroid which the controller sends updates to the drones
+    },
+    "0": {
+        "ID": "TX", // ID of the drone
+        "IP_ADDRESS": "localhost", // IP Address for RX drones to connect to,
+        "TIMEOUT_S": 3, // Time to wait [s] when recieving from RXs and GPS server
+        "DEF_ALTITUDE": 15
+    },
+    "1": {
+        "ID": "RX1", // Unique ID of the drone
+        "IP_ADDRESS": "localhost", // IP address for the tx drone to connect to set to localhost for simulation
+        "TIMEOUT_S": 3, // Time to wait [s] when recieving from TX and GPS server
+        "DEF_ALTITUDE": 10
+    },
+    "2": {
+        "ID": "RX2", // Unique ID of the drone
+        "IP_ADDRESS": "localhost", // IP address for the tx drone to connect to set to localhost for simulation
+        "TIMEOUT_S": 3, // Time to wait [s] when recieving from TX and GPS server
+        "DEF_ALTITUDE": 10
+    },
+    "3": {
+        "ID": "RX3", // Unique ID of the drone
+        "IP_ADDRESS": "localhost", // IP address for the tx drone to connect to set to localhost for simulation
+        "TIMEOUT_S": 3, // Time to wait [s] when recieving from TX and GPS server
+        "DEF_ALTITUDE": 10
+    },
+    "4": {
+        "ID": "RX4", // Unique ID of the drone
+        "IP_ADDRESS": "localhost", //"localhost" // IP address for the tx drone to connect to set to localhost for simulation,
+        "TIMEOUT_S": 3, // Time to wait [s] when recieving from TX and GPS server
+        "DEF_ALTITUDE": 10
+    }
+  }

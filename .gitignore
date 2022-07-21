@@ -1,0 +1,12 @@
+.DS_Store
+.vscode
+src/.DS_Store
+src/Multilateration/__pycache__/
+src/Multilaterationv2/__pycache__/
+src/MaintenanceOfSwarm/__pycache__/
+src/3D/__pycache__/
+src/3D/logs/
+src/3D_controller/__pycache__/
+src/3D_controller/logs/
+src/InformationLogging/__pycache__/
+src/Multilateration/book_plots.py
